@@ -1,0 +1,19 @@
+[
+  {
+    "UserRole": "Editor",
+    "UserAccount": [
+      "MPHO\\colqurob",
+      "MPHO\\Kannashe",
+      "MPHO\\selvapiy",
+      "MPHO\\ZXiao",
+      "MPHO\\leebong"
+    ]
+  },
+  {
+    "UserRole": "Viewer",
+    "UserAccount": [
+      "MPHO\\missship",
+      "MPHO\\MShipping"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>Web_Material_Calculator</RootNamespace>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="log4net" Version="2.0.14" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.15" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="System.Text.Json" Version="5.0.2" />
+		<PackageReference Include="X.PagedList.Mvc.Core" Version="8.1.0" />
+		<PackageReference Include="X.PagedList.Web.Common" Version="8.0.7" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PowerPlant.Dtos\PowerPlant.Dtos.csproj" />
+		<ProjectReference Include="..\PowerPlant.Models\PowerPlant.Models.csproj" />
+		<ProjectReference Include="..\PowerPlant.Service\PowerPlant.Service.csproj" />
+	</ItemGroup>
+
+</Project>

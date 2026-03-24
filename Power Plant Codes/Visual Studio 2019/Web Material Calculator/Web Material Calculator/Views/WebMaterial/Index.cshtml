@@ -1,0 +1,186 @@
+﻿@using Microsoft.AspNetCore.Mvc.Razor;
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
+@using X.PagedList.Web.Common;
+
+<!-- import the stylesheet for default styling -->
+<link href="~/css/PagedList.css" rel="stylesheet" type="text/css" />
+
+@{
+    @model Web_Material_Calculator.Models.ViewModel.WebMaterialIndexModel
+    ViewData["Title"] = $"Index {User.Identity.Name}";      // TODO research User.Identity
+}
+
+@if (!string.IsNullOrEmpty(Model.AlertMessage))
+{
+    <div class="alert alert-primary">
+        @Model.AlertMessage
+    </div>
+}
+
+<!-- Search Form -->
+<form asp-controller="WebMaterial" asp-action="Index" method="get">
+    <div class="input-group-prepend float-right">
+        <button class="btn btn-outline-secondary dropdown-toggle mr-5" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Main Plant</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Main Plant</a>
+            @*<a class="dropdown-item" href="#">Separated link</a>*@
+        </div>
+        <input class="mr-3 ml-3" type="text" name="SearchString" value="@ViewBag.SearchString">
+        <input class="btn btn-info mr-3" type="submit" value="Search" />
+        <a class="btn btn-outline-secondary" asp-action="Index">Reset</a>
+    </div>
+    <hr />
+</form>
+
+<!-- Display Table -->
+<table class="table table-striped table-sm">
+    <thead align="center">
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-orderBy="@FormatOrderByString(ViewBag.OrderBy, nameof(Model.EditedWebMaterialDto.ItemNumber))" asp-route-searchString="@ViewBag.SearchString">
+                    @Html.DisplayNameFor(model => Model.EditedWebMaterialDto.ItemNumber)
+                </a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-orderBy="@FormatOrderByString(ViewBag.OrderBy, nameof(Model.EditedWebMaterialDto.ItemDescription))" asp-route-searchString="@ViewBag.SearchString">
+                    @Html.DisplayNameFor(model => Model.EditedWebMaterialDto.ItemDescription)
+                </a>
+            </th>
+            <th> @Html.DisplayNameFor(model => Model.EditedWebMaterialDto.RollDiameter) </th>
+            <th> @Html.DisplayNameFor(model => Model.EditedWebMaterialDto.Length) </th>
+            <th> @Html.DisplayNameFor(model => Model.EditedWebMaterialDto.Imps) </th>
+            <th> Actions </th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        @foreach (PowerPlant.Dtos.WebMaterialDto webMaterialDto in Model.WebMaterialDtos)
+        {
+            <tr>
+                @* Hightlight the selected item *@
+                @if (webMaterialDto.Rrn == ViewBag.SelectedRrn)
+                {
+                    <td style="font-weight:bolder"> @Html.DisplayFor(modelItem => webMaterialDto.ItemNumber) </td>
+                    <td style="font-weight:bolder"> @Html.DisplayFor(modelItem => webMaterialDto.ItemDescription) </td>
+                }
+                else
+                {
+                    <td> @Html.DisplayFor(modelItem => webMaterialDto.ItemNumber) </td>
+                    <td> @Html.DisplayFor(modelItem => webMaterialDto.ItemDescription) </td>
+                }
+
+                <td> @Html.DisplayFor(modelItem => webMaterialDto.RollDiameter) </td>
+                <td> @Html.DisplayFor(modelItem => webMaterialDto.Length) </td>
+                <td> @Html.DisplayFor(modelItem => webMaterialDto.Imps) </td>
+                <td>
+                    <a asp-action="Details" asp-route-rrn="@webMaterialDto.Rrn">Details</a> |
+                    @*@if (ViewBag.Role == "Editor")*@ @*TODO take out this*@
+                    @if (ViewBag.Role == "Unauthorized")
+                    {
+                        <a asp-action="Index"
+                           asp-route-searchString="@ViewBag.SearchString"
+                           asp-route-orderBy="@ViewBag.OrderBy"
+                           asp-route-pageNumber="@ViewBag.PageNumber"
+                           asp-route-selectedRrn="@webMaterialDto.Rrn"> Edit |</a>
+                        <a asp-action="Delete" asp-route-rrn="@webMaterialDto.Rrn">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Paging Control -->
+<div class="text-right">
+    @Html.PagedListPager(
+    (IPagedList)Model.WebMaterialDtos,
+    (pageNumber) => Url.Action("Index", new { searchString = ViewBag.SearchString, orderBy = ViewBag.OrderBy, pageNumber = pageNumber }),
+    new PagedListRenderOptions
+    {
+    PageClasses = new string[] { "page-link" },
+    UlElementClasses = new string[] { "pagination" },
+    LiElementClasses = new string[] { "page-item" },
+    DisplayItemSliceAndTotal = true,
+    }
+    )
+</div>
+<hr />
+
+<!-- Show Create/Edit form div -->
+@* TODO @if (ViewBag.Role == "Editor")*@
+@if (ViewBag.Role == "Unauthorized")
+{
+    <div class="row">
+        <div class="col-md-10">
+            <form asp-action="Create">
+                @*<form>*@
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="EditedWebMaterialDto.Rrn" />
+                <table>
+                    <tr>
+                        <td><label asp-for="EditedWebMaterialDto.ItemNumber" class="control-label"></label></td>
+                        <td><input asp-for="EditedWebMaterialDto.ItemNumber" class="form-control" /></td>
+                        <td><span asp-validation-for="EditedWebMaterialDto.ItemNumber" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="EditedWebMaterialDto.RollDiameter" class="control-label"></label></td>
+                        <td><input asp-for="EditedWebMaterialDto.RollDiameter" class="form-control" /></td>
+                        <td><span asp-validation-for="EditedWebMaterialDto.RollDiameter" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="EditedWebMaterialDto.CoreDiameter" class="control-label"></label></td>
+                        <td><input asp-for="EditedWebMaterialDto.CoreDiameter" class="form-control" /></td>
+                        <td><span asp-validation-for="EditedWebMaterialDto.CoreDiameter" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="EditedWebMaterialDto.Length" class="control-label"></label></td>
+                        <td><input asp-for="EditedWebMaterialDto.Length" class="form-control" /></td>
+                        <td><span asp-validation-for="EditedWebMaterialDto.Length" class="text-danger"></span></td>
+                    </tr>
+                    <tr>
+                        <td><label asp-for="EditedWebMaterialDto.Imps" class="control-label"></label></td>
+                        <td><input asp-for="EditedWebMaterialDto.Imps" class="form-control" /></td>
+                        <td><span asp-validation-for="EditedWebMaterialDto.Imps" class="text-danger"></span></td>
+                    </tr>
+                </table>
+                <hr />
+                <div class="form-group offset-1">
+                    @if (base.ViewBag.SelectedRrn > 0)
+                    {
+                        <input type="submit" value="Save" class="btn btn-primary" asp-action="Edit" />
+                    }
+                    else
+                    {
+                        <input type="submit" value="Create" class="btn btn-primary" asp-action="Create" />
+                    }
+                    | <a asp-action="Index" class="btn btn-danger"
+                     asp-route-searchString="@ViewBag.SearchString"
+                     asp-route-orderBy="@ViewBag.OrderBy"
+                     asp-route-pageNumber="@ViewBag.PageNumber">Cancel</a>
+                    <br />
+                </div>
+            </form>
+        </div>
+    </div>
+}
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+@functions
+{
+    private string FormatOrderByString(string? orderBy, string propertyName)
+    {
+        //if (string.IsNullOrEmpty(orderBy)) orderBy = $"{propertyName},{orderBy}";
+        if (string.IsNullOrEmpty(orderBy) || !orderBy.Contains(propertyName)) orderBy = $"{propertyName},{orderBy}";
+        else if (orderBy.Contains($"{propertyName} desc"))
+            orderBy = $"{propertyName},{orderBy.Replace($"{propertyName} desc", "")}";
+        else if (orderBy.Contains(propertyName))
+            orderBy = $"{propertyName} desc,{orderBy.Replace(propertyName, "")}";
+        return orderBy.Replace(",,", ",").TrimEnd(',');
+    }
+}

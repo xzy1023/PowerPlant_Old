@@ -1,0 +1,169 @@
+﻿@{
+    @model PowerPlant.Dtos.WebMaterialLookupDto
+    ViewData["Title"] = $"Details";
+    PowerPlant.Dtos.WebMaterialDto webMaterialDto = ViewBag.WebMaterialDto as PowerPlant.Dtos.WebMaterialDto;
+}
+
+<h3>Details</h3>
+
+<form asp-controller="WebMaterial" asp-action="Details" method="get">
+    Remining Roll Diameter (mm)
+    <input class="mr-3 ml-5" type="text" name="calculatedRollDiameter" value="@ViewBag.CalculatedRollDiameter" />
+    <input hidden="hidden" type="text" name="rrn" value="@ViewBag.Rrn" />
+    <input class="btn btn-info mr-3" type="submit" value="Calculate" />
+</form>
+
+@*<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ItemNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ItemNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ItemDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ItemDescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CoreDiameter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CoreDiameter)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.RollDiameter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.RollDiameter)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Length)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Length)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Thickness)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Thickness)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Imps)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Imps)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Implength)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Implength)
+        </dd>
+    </dl>
+</div>*@
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.ItemNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.ItemNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.ItemDescription)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.ItemDescription)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.CoreDiameter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.CoreDiameter)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.RollDiameter)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.RollDiameter)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.Length)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.Length)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.Thickness)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.Thickness)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.Imps)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.Imps)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => webMaterialDto.Implength)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => webMaterialDto.Implength)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Index">Back to Web Material List</a>
+</div>
+
+<!-- Display Table -->
+<table class="table table-striped table-sm" style="table-layout:fixed">
+    <thead align="center">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Percentage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RollDiameter)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Length)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imps)
+            </th>
+        </tr>
+    </thead>
+    <tbody align="center">
+        @foreach (PowerPlant.Dtos.WebMaterialLookupDto webMaterialLookupDto in ViewBag.WebMaterialLookupDtos)
+        {
+            @if (ViewBag.CalculatedRollDiameter == webMaterialLookupDto.RollDiameter)
+            {
+                <tr style="font-weight:bolder">
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Percentage) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.RollDiameter) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Length) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Imps) </td>
+                </tr>
+            }
+            else
+            {
+                <tr>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Percentage) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.RollDiameter) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Length) </td>
+                    <td> @Html.DisplayFor(model => webMaterialLookupDto.Imps) </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

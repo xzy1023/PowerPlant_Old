@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="X.PagedList" Version="8.1.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\PowerPlant.Dtos\PowerPlant.Dtos.csproj" />
+		<ProjectReference Include="..\PowerPlant.Models\PowerPlant.Models.csproj" />
+		<ProjectReference Include="..\PowerPlant.Tools\PowerPlant.Tools.csproj" />
+	</ItemGroup>
+
+</Project>
