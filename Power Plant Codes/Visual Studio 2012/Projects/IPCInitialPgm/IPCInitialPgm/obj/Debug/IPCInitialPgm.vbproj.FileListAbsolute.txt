@@ -1,0 +1,34 @@
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe.config
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.exe
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.xml
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.pdb
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.pdb
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.xml
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmCfgIPC.resources
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmInitialPgm.resources
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.Resources.resources
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.ucHeading.resources
+U:\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmCfgIPC.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmInitialPgm.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmShutDown.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.35 IPC configuration Pgm\IPCInitialPgm\IPCInitialPgm\bin\Debug\IPCInitialPgm.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.35 IPC configuration Pgm\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.35 IPC configuration Pgm\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.35 IPC configuration Pgm\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Debug\IPCInitialPgm.frmCfgIPCViewer.resources

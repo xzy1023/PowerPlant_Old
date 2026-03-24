@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\Publish\</_PublishTargetUrl>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <History>True|2024-11-11T16:13:45.4047974Z;False|2024-11-11T11:05:20.4532452-05:00;False|2024-11-11T10:59:31.5025867-05:00;False|2024-11-11T10:59:10.1491563-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/DefaultTheme/Default.css">
+      <publishTime>12/18/2017 15:02:54</publishTime>
+    </File>
+    <File Include="App_Themes/DefaultTheme/Default.skin">
+      <publishTime>06/03/2014 17:38:45</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/05/2013 23:52:42</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.pdb">
+      <publishTime>10/05/2013 23:52:42</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>09/26/2013 16:48:00</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>11/11/2024 11:13:43</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>11/11/2024 11:13:43</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>09/26/2013 16:48:00</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/ItemLabelOverride.dll">
+      <publishTime>11/11/2024 11:13:39</publishTime>
+    </File>
+    <File Include="bin/ItemLabelOverride.pdb">
+      <publishTime>11/11/2024 11:13:39</publishTime>
+    </File>
+    <File Include="bin/ItemLabelOverride.xml">
+      <publishTime>11/11/2024 11:13:39</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/11/2024 10:08:15</publishTime>
+    </File>
+    <File Include="dsControl.xsc">
+      <publishTime>06/18/2014 12:37:47</publishTime>
+    </File>
+    <File Include="dsControl.xss">
+      <publishTime>06/18/2014 12:37:47</publishTime>
+    </File>
+    <File Include="dsFacility.xsc">
+      <publishTime>06/05/2014 16:20:00</publishTime>
+    </File>
+    <File Include="dsFacility.xss">
+      <publishTime>06/05/2014 16:20:00</publishTime>
+    </File>
+    <File Include="dsItemFromERP.xsc">
+      <publishTime>02/17/2019 23:49:39</publishTime>
+    </File>
+    <File Include="dsItemFromERP.xss">
+      <publishTime>02/17/2019 23:49:39</publishTime>
+    </File>
+    <File Include="dsItemFromERPwithOvr.xsc">
+      <publishTime>05/20/2014 18:30:50</publishTime>
+    </File>
+    <File Include="dsItemFromERPwithOvr.xss">
+      <publishTime>05/20/2014 18:30:50</publishTime>
+    </File>
+    <File Include="dsItemFromOvr.xsc">
+      <publishTime>11/27/2018 10:46:33</publishTime>
+    </File>
+    <File Include="dsItemFromOvr.xss">
+      <publishTime>11/27/2018 10:46:33</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/18/2014 12:28:51</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>11/11/2024 11:13:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/11/2024 11:13:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

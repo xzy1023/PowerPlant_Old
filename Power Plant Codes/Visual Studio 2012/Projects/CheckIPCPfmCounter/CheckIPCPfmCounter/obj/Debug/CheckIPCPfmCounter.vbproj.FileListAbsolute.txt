@@ -1,0 +1,13 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\bin\Debug\CheckIPCPfmCounter.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\bin\Debug\CheckIPCPfmCounter.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\bin\Debug\CheckIPCPfmCounter.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\bin\Debug\CheckIPCPfmCounter.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.pdb
+\\mphopp02\e$\Power Plant Resources\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\bin\Debug\CheckIPCPfmCounter.exe.config
+\\mphopp02\e$\Power Plant Resources\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.exe
+\\mphopp02\e$\Power Plant Resources\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.xml
+\\mphopp02\e$\Power Plant Resources\Visual Studio 2012\Projects\CheckIPCPfmCounter\CheckIPCPfmCounter\obj\Debug\CheckIPCPfmCounter.pdb

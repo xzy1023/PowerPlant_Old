@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsQATDef" targetNamespace="http://tempuri.org/dsQATDef.xsd" xmlns:mstns="http://tempuri.org/dsQATDef.xsd" xmlns="http://tempuri.org/dsQATDef.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PowerPlantAXSP_DevCnn" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PowerPlantAXSP_DevCnn (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.InvokePPForm.My.MySettings.GlobalReference.Default.PowerPlantAXSP_DevCnn" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="dtQATDefTableAdapter" GeneratorDataComponentClassName="dtQATDefTableAdapter" Name="dtQATDef" UserDataComponentName="dtQATDefTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PowerPlantAXSP_DevCnn (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        '' AS WorkFlowType
+UNION
+SELECT        QATEntryPoint AS WorkFlowType
+FROM            tblQATDefinition
+WHERE        (Active = 1)
+GROUP BY QATEntryPoint</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="WorkFlowType" DataSetColumn="WorkFlowType" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsQATDef" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsQATDef" msprop:Generator_UserDSName="dsQATDef">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtQATDef" msprop:Generator_TableClassName="dtQATDefDataTable" msprop:Generator_TableVarName="tabledtQATDef" msprop:Generator_TablePropName="dtQATDef" msprop:Generator_RowDeletingName="dtQATDefRowDeleting" msprop:Generator_RowChangingName="dtQATDefRowChanging" msprop:Generator_RowEvHandlerName="dtQATDefRowChangeEventHandler" msprop:Generator_RowDeletedName="dtQATDefRowDeleted" msprop:Generator_UserTableName="dtQATDef" msprop:Generator_RowChangedName="dtQATDefRowChanged" msprop:Generator_RowEvArgName="dtQATDefRowChangeEvent" msprop:Generator_RowClassName="dtQATDefRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WorkFlowType" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnWorkFlowType" msprop:Generator_ColumnPropNameInRow="WorkFlowType" msprop:Generator_ColumnPropNameInTable="WorkFlowTypeColumn" msprop:Generator_UserColumnName="WorkFlowType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

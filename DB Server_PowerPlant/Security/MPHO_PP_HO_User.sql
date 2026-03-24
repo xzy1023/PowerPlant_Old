@@ -1,0 +1,5 @@
+CREATE USER [MPHO\PP_HO_User];
+
+
+GO
+

@@ -1,0 +1,4042 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PowerPlant
+</name>
+</assembly>
+<members>
+<member name="T:PowerPlant.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.BackSpace">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.BackSpace_Small">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.BackSpace1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.Delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.loading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.mp_logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.mp_logo_l">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.mp_logo_r">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:PowerPlant.My.Resources.Resources.Tick1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTesters">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTesters.tblQATTesterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTesters.tblQATTesterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTesters.tblQATTesterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTestersTableAdapters.tblQATTesterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATTesters,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATTesters,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATTesters,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATTesters)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTestersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCode">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCode.CPPsp_QATExceptionCode_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCode.CPPsp_QATExceptionCode_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCode.CPPsp_QATExceptionCode_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCodeTableAdapters.CPPsp_QATExceptionCode_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATExceptionCode,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATExceptionCode,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATExceptionCode,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATExceptionCode)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATExceptionCodeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelData">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelData.PPsp_DynamicLabelData_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelData.PPsp_DynamicLabelData_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelData.PPsp_DynamicLabelData_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelDataTableAdapters.PPsp_DynamicLabelData_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsDynamicLabelData,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsDynamicLabelData,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsDynamicLabelData,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsDynamicLabelData)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsDynamicLabelDataTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResult.CPPsp_QATCameraResult_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResult.CPPsp_QATCameraResult_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResult.CPPsp_QATCameraResult_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResultTableAdapters.CPPsp_QATCameraResult_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATCameraResult,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATCameraResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATCameraResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATCameraResult)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCameraResultTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResult.CPPsp_QATCartonBoxResult_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResult.CPPsp_QATCartonBoxResult_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResult.CPPsp_QATCartonBoxResult_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResultTableAdapters.CPPsp_QATCartonBoxResult_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATCartonBoxResult,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATCartonBoxResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATCartonBoxResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATCartonBoxResult)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCartonBoxResultTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResult.CPPsp_QATCaseVisualResult_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResult.CPPsp_QATCaseVisualResult_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResult.CPPsp_QATCaseVisualResult_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResultTableAdapters.CPPsp_QATCaseVisualResult_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATCaseVisualResult,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATCaseVisualResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATCaseVisualResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATCaseVisualResult)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATCaseVisualResultTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverride">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverride.CPPsp_QATOverride_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverride.CPPsp_QATOverride_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverride.CPPsp_QATOverride_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverrideTableAdapters.CPPsp_QATOverride_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATOverride,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATOverride,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATOverride,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATOverride)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATOverrideTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResult.CPPsp_QATPalletTypeResult_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResult.CPPsp_QATPalletTypeResult_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResult.CPPsp_QATPalletTypeResult_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.CPPsp_QATPalletTypeResult_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATSelectPalletTypeResult,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATSelectPalletTypeResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATSelectPalletTypeResult,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATSelectPalletTypeResult)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSelectPalletTypeResultTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpec">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpec.CPPsp_QATSpec_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpec.CPPsp_QATSpec_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpec.CPPsp_QATSpec_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpecTableAdapters.CPPsp_QATSpec_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATSpec,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATSpec,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATSpec,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATSpec)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATSpecTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatus">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatus.tblQATStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatus.tblQATStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatus.tblQATStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatusTableAdapters.tblQATStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATStatus,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATStatus,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATStatus,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATStatus)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATStatusTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConn">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConn.CPPsp_QATTCPConn_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConn.CPPsp_QATTCPConn_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConn.CPPsp_QATTCPConn_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConnTableAdapters.CPPsp_QATTCPConn_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATTCPConn,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATTCPConn,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATTCPConn,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATTCPConn)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTCPConnTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWeightResult">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWeightResultTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlow">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlow.CPPsp_QATWorkFlow_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlow.CPPsp_QATWorkFlow_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlow.CPPsp_QATWorkFlow_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConn">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConn.CPPsp_QATSerialConn_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConn.CPPsp_QATSerialConn_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConn.CPPsp_QATSerialConn_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConnTableAdapters.CPPsp_QATSerialConn_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsSerialConn,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsSerialConn,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsSerialConn,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsSerialConn)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsSerialConnTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTask">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTask.CPPsp_QATTask_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTask.CPPsp_QATTask_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTask.CPPsp_QATTask_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTaskTableAdapters.CPPsp_QATTask_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATTask,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATTask,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATTask,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATTask)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATTaskTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlowTableAdapters.CPPsp_QATWorkFlow_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsQATWorkFlow,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsQATWorkFlow,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsQATWorkFlow,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsQATWorkFlow)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsQATWorkFlowTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsBillOfMaterials">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsBillOfMaterials.CPPsp_BillOfMaterialsIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsBillOfMaterials.CPPsp_BillOfMaterialsIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsBillOfMaterials.CPPsp_BillOfMaterialsIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControl.CPPsp_IPCControl_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControl.CPPsp_IPCControl_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControl.CPPsp_IPCControl_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControlTableAdapters.CPPsp_IPCControl_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsIPCControl,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsIPCControl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsIPCControl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsIPCControl)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsIPCControlTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsIsDeviceConnected">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIsDeviceConnectedTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemNotes">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemNotes.CPPsp_ItemNotesIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemNotes.CPPsp_ItemNotesIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemNotes.CPPsp_ItemNotesIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_Sel_1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_Sel_1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobs.PPsp_LabelPrintJobs_Sel_1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobsTableAdapters.PPsp_LabelPrintJobs_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobsTableAdapters.PPsp_LabelPrintJobs_Sel_1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsLabelPrintJobs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsLabelPrintJobs,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsLabelPrintJobs,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsLabelPrintJobs)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsLabelPrintJobsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocation">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocation.CPPsp_OutputLocation_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocation.CPPsp_OutputLocation_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocation.CPPsp_OutputLocation_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocationTableAdapters.CPPsp_OutputLocation_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsOutputLocation,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsOutputLocation,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsOutputLocation,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsOutputLocation)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsOutputLocationTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletToProbat">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletToProbatTableAdapters.qtaPalletToProbat">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipment">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipment.dtProbatEquipmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipment.dtProbatEquipmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipment.dtProbatEquipmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipmentTableAdapters.daProbatEquipment">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsProbatEquipment,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsProbatEquipment,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsProbatEquipment,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsProbatEquipment)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsProbatEquipmentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHst">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHst.CPPsp_SessionControlHstIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHst.CPPsp_SessionControlHstIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHst.CPPsp_SessionControlHstIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHstTableAdapters.CPPsp_SessionControlHstIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsSessionControlHst,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsSessionControlHst,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsSessionControlHst,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsSessionControlHst)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlHstTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInbound">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInbound.PPsp_UnitCountInbound_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInbound.PPsp_UnitCountInbound_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInbound.PPsp_UnitCountInbound_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInboundTableAdapters.PPsp_UnitCountInbound_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsUnitCountInbound,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsUnitCountInbound,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsUnitCountInbound,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsUnitCountInbound)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountInboundTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBound">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBound.tblUnitCountOutboundDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBound.tblUnitCountOutboundRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBound.tblUnitCountOutboundRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBoundTableAdapters.tblUnitCountOutboundTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBoundTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.dsUnitCountOutBound,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.dsUnitCountOutBound,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.dsUnitCountOutBound,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.dsUnitCountOutBound)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.dsUnitCountOutBoundTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:PowerPlant.dsDownLoadTableList">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDownLoadTableList.CPPsp_DownLoadTableList_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDownLoadTableList.CPPsp_DownLoadTableList_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDownLoadTableList.CPPsp_DownLoadTableList_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsDownLoadTableListTableAdapters.CPPsp_DownLoadTableList_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIsDataReadyForRefresh">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsIsDataReadyForRefreshTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPrinterDevice">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPrinterDevice.tblPkgLinePrinterDeviceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPrinterDevice.tblPkgLinePrinterDeviceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPrinterDevice.tblPkgLinePrinterDeviceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsPrinterDeviceTableAdapters.taPrinterDevice">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletsOnServer">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletsOnServer.PPsp_Pallet_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletsOnServer.PPsp_Pallet_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletsOnServer.PPsp_Pallet_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletsOnServerTableAdapters.PPsp_Pallet_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShopOrder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShopOrder.CPPsp_ShopOrderIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShopOrder.CPPsp_ShopOrderIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShopOrder.CPPsp_ShopOrderIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsToBeClosedShopOrder">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsToBeClosedShopOrder.dtToBeClosedShopOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsToBeClosedShopOrder.dtToBeClosedShopOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsToBeClosedShopOrder.dtToBeClosedShopOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsToBeClosedShopOrderTableAdapters.daToBeClosedShopOrder">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsControlTable">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsControlTable.PPsp_Control_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsControlTable.PPsp_Control_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsControlTable.PPsp_Control_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsControlTableTableAdapters.PPsp_Control_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsStrMchEffRate">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsStrMchEffRateTableAdapters.QueriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDclWghtTolerance">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDclWghtTolerance.tblDeclaredWeightoleranceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDclWghtTolerance.tblDeclaredWeightoleranceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsDclWghtTolerance.tblDeclaredWeightoleranceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsDclWghtToleranceTableAdapters.tblDeclaredWeightoleranceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOverFill">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOverFill.tblOverFillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOverFill.tblOverFillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOverFill.tblOverFillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsOverFillTableAdapters.tblOverFillTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShift">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShift.CPPsp_ShiftIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShift.CPPsp_ShiftIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShift.CPPsp_ShiftIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsComponentScrap">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComponentScrap.CPPsp_EditComponentScrapDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComponentScrap.CPPsp_EditComponentScrapRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComponentScrap.CPPsp_EditComponentScrapRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsComponentScrapTableAdapters.CPPsp_EditComponentScrapTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComputerConfig">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComputerConfig.CPPsp_ComputerConfigIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComputerConfig.CPPsp_ComputerConfigIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComputerConfig.CPPsp_ComputerConfigIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsPallet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPallet.CPPsp_PalletIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPallet.CPPsp_PalletIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPallet.CPPsp_PalletIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletTableAdapters.CPPsp_PalletIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletHst">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletHst.CPPsp_PalletHstIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletHst.CPPsp_PalletHstIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletHst.CPPsp_PalletHstIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessCtlHstSrv">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessCtlHstSrv.tblSessCtlHstSrvDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessCtlHstSrv.tblSessCtlHstSrvRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessCtlHstSrv.tblSessCtlHstSrvRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessCtlHstSrvTableAdapters.tblSessCtlHstSrvTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControl.CPPsp_SessionControlIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControl.CPPsp_SessionControlIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControl.CPPsp_SessionControlIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsSessionControlTableAdapters.CPPsp_SessionControlIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShopOrderTableAdapters.CPPsp_ShopOrderIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsBillOfMaterialsTableAdapters.CPPsp_BillOfMaterialsIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsComputerConfigTableAdapters.CPPsp_ComputerConfigIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsEquipment">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsEquipment.CPPsp_EquipmentIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsEquipment.CPPsp_EquipmentIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsEquipment.CPPsp_EquipmentIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsEquipmentTableAdapters.CPPsp_EquipmentIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemMaster">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemMaster.CPPsp_ItemMasterIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemMaster.CPPsp_ItemMasterIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemMaster.CPPsp_ItemMasterIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemMasterTableAdapters.CPPsp_ItemMasterIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsItemNotesTableAdapters.CPPsp_ItemNotesIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOperationStaffing">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOperationStaffing.CPPsp_OperationStaffingIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOperationStaffing.CPPsp_OperationStaffingIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsOperationStaffing.CPPsp_OperationStaffingIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsOperationStaffingTableAdapters.CPPsp_OperationStaffingIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPalletHstTableAdapters.CPPsp_PalletHstIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPlantStaffing">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPlantStaffing.CPPsp_PlantStaffingIODataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPlantStaffing.CPPsp_PlantStaffingIORow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.dsPlantStaffing.CPPsp_PlantStaffingIORowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.dsPlantStaffingTableAdapters.CPPsp_PlantStaffingIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.dsShiftTableAdapters.CPPsp_ShiftIOTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblQATCameraResult">
+<summary>
+There are no comments for PowerPlantLocalModels.tblQATCameraResult in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblQATCameraResult.CreatetblQATCameraResult(System.Int32,System.DateTime,System.String,System.String,System.String,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATCameraResult object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="lightDensityResult">Initial value of LightDensityResult.</param>
+<param name="minWidthReuslt">Initial value of MinWidthReuslt.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.LightDensityResult">
+<summary>
+There are no comments for property LightDensityResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.MinWidthReuslt">
+<summary>
+There are no comments for property MinWidthReuslt in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATCameraResult.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblQATLidPeelResultDetail">
+<summary>
+There are no comments for PowerPlantLocalModels.tblQATLidPeelResultDetail in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblQATLidPeelResultDetail.CreatetblQATLidPeelResultDetail(System.Int32,System.DateTime,System.Byte,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATLidPeelResultDetail object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testTime">Initial value of TestTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.LaneNo">
+<summary>
+There are no comments for property LaneNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.SampleNo">
+<summary>
+There are no comments for property SampleNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultDetail.TestTime">
+<summary>
+There are no comments for property TestTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblQATLidPeelResultHeader">
+<summary>
+There are no comments for PowerPlantLocalModels.tblQATLidPeelResultHeader in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblQATLidPeelResultHeader.CreatetblQATLidPeelResultHeader(System.Int32,System.DateTime,System.String,System.String,System.String,System.Byte,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATLidPeelResultHeader object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.OverrideID">
+<summary>
+There are no comments for property OverrideID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATLidPeelResultHeader.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblQATShakeShineResultDetail">
+<summary>
+There are no comments for PowerPlantLocalModels.tblQATShakeShineResultDetail in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblQATShakeShineResultDetail.CreatetblQATShakeShineResultDetail(System.Int32,System.DateTime,System.Byte,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATShakeShineResultDetail object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testTime">Initial value of TestTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.LaneNo">
+<summary>
+There are no comments for property LaneNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.SampleNo">
+<summary>
+There are no comments for property SampleNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultDetail.TestTime">
+<summary>
+There are no comments for property TestTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblQATShakeShineResultHeader">
+<summary>
+There are no comments for PowerPlantLocalModels.tblQATShakeShineResultHeader in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblQATShakeShineResultHeader.CreatetblQATShakeShineResultHeader(System.Int32,System.DateTime,System.String,System.String,System.String,System.Byte,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATShakeShineResultHeader object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.OverrideID">
+<summary>
+There are no comments for property OverrideID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblQATShakeShineResultHeader.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.PowerPlantLocalEntities">
+<summary>
+There are no comments for PowerPlantLocalEntities in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.#ctor">
+<summary>
+Initializes a new PowerPlantLocalEntities object using the connection string found in the 'PowerPlantLocalEntities' section of the application configuration file.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.#ctor(System.String)">
+<summary>
+Initialize a new PowerPlantLocalEntities object.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+<summary>
+Initialize a new PowerPlantLocalEntities object.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblQATCameraResult">
+<summary>
+There are no comments for tblQATCameraResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblQATLidPeelResultDetail">
+<summary>
+There are no comments for tblQATLidPeelResultDetail in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblQATLidPeelResultHeader">
+<summary>
+There are no comments for tblQATLidPeelResultHeader in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblQATShakeShineResultDetail">
+<summary>
+There are no comments for tblQATShakeShineResultDetail in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblQATShakeShineResultHeader">
+<summary>
+There are no comments for tblQATShakeShineResultHeader in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblPalletExt">
+<summary>
+There are no comments for tblPalletExt in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblPlantStaff">
+<summary>
+There are no comments for tblPlantStaff in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.PowerPlantLocalEntities.tblComputerConfig">
+<summary>
+There are no comments for tblComputerConfig in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblQATCameraResult(PowerPlant.LocalModels.tblQATCameraResult)">
+<summary>
+There are no comments for tblQATCameraResult in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblQATLidPeelResultDetail(PowerPlant.LocalModels.tblQATLidPeelResultDetail)">
+<summary>
+There are no comments for tblQATLidPeelResultDetail in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblQATLidPeelResultHeader(PowerPlant.LocalModels.tblQATLidPeelResultHeader)">
+<summary>
+There are no comments for tblQATLidPeelResultHeader in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblQATShakeShineResultDetail(PowerPlant.LocalModels.tblQATShakeShineResultDetail)">
+<summary>
+There are no comments for tblQATShakeShineResultDetail in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblQATShakeShineResultHeader(PowerPlant.LocalModels.tblQATShakeShineResultHeader)">
+<summary>
+There are no comments for tblQATShakeShineResultHeader in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblPalletExt(PowerPlant.LocalModels.tblPalletExt)">
+<summary>
+There are no comments for tblPalletExt in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblPlantStaff(PowerPlant.LocalModels.tblPlantStaff)">
+<summary>
+There are no comments for tblPlantStaff in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.LocalModels.PowerPlantLocalEntities.AddTotblComputerConfig(PowerPlant.LocalModels.tblComputerConfig)">
+<summary>
+There are no comments for tblComputerConfig in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblPalletExt">
+<summary>
+There are no comments for PowerPlantLocalModels.tblPalletExt in the schema.
+</summary>
+<KeyProperties>
+CreationDateTime
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblPalletExt.CreatetblPalletExt(System.DateTime)">
+<summary>
+Create a new tblPalletExt object.
+</summary>
+<param name="creationDateTime">Initial value of CreationDateTime.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPalletExt.Creator">
+<summary>
+There are no comments for property Creator in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPalletExt.CreationDateTime">
+<summary>
+There are no comments for property CreationDateTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblPlantStaff">
+<summary>
+There are no comments for PowerPlantLocalModels.tblPlantStaff in the schema.
+</summary>
+<KeyProperties>
+Facility
+WorkGroup
+StaffID
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblPlantStaff.CreatetblPlantStaff(System.Boolean,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean,System.String,System.Int32)">
+<summary>
+Create a new tblPlantStaff object.
+</summary>
+<param name="activeRecord">Initial value of ActiveRecord.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="workGroup">Initial value of WorkGroup.</param>
+<param name="staffID">Initial value of StaffID.</param>
+<param name="firstName">Initial value of FirstName.</param>
+<param name="lastName">Initial value of LastName.</param>
+<param name="staffClass">Initial value of StaffClass.</param>
+<param name="resetPassword">Initial value of ResetPassword.</param>
+<param name="workSubGroup">Initial value of WorkSubGroup.</param>
+<param name="printAccessLevel">Initial value of PrintAccessLevel.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.ActiveRecord">
+<summary>
+There are no comments for property ActiveRecord in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.WorkGroup">
+<summary>
+There are no comments for property WorkGroup in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.StaffID">
+<summary>
+There are no comments for property StaffID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.FirstName">
+<summary>
+There are no comments for property FirstName in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.LastName">
+<summary>
+There are no comments for property LastName in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.StaffClass">
+<summary>
+There are no comments for property StaffClass in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.Password">
+<summary>
+There are no comments for property Password in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.ResetPassword">
+<summary>
+There are no comments for property ResetPassword in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.DateLastChange">
+<summary>
+There are no comments for property DateLastChange in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.WorkSubGroup">
+<summary>
+There are no comments for property WorkSubGroup in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblPlantStaff.PrintAccessLevel">
+<summary>
+There are no comments for property PrintAccessLevel in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.LocalModels.tblComputerConfig">
+<summary>
+There are no comments for PowerPlantLocalModels.tblComputerConfig in the schema.
+</summary>
+<KeyProperties>
+ComputerName
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.LocalModels.tblComputerConfig.CreatetblComputerConfig(System.Boolean,System.String,System.Boolean,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Int32,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+<summary>
+Create a new tblComputerConfig object.
+</summary>
+<param name="recordStatus">Initial value of RecordStatus.</param>
+<param name="computerName">Initial value of ComputerName.</param>
+<param name="attachedPLC">Initial value of AttachedPLC.</param>
+<param name="pkgLineType">Initial value of PkgLineType.</param>
+<param name="palletStation">Initial value of PalletStation.</param>
+<param name="printPalletLabel">Initial value of PrintPalletLabel.</param>
+<param name="enableOutputLocation">Initial value of EnableOutputLocation.</param>
+<param name="enable2SOIn1Line">Initial value of Enable2SOIn1Line.</param>
+<param name="enableOvrExpDate">Initial value of EnableOvrExpDate.</param>
+<param name="enableDownLoad">Initial value of EnableDownLoad.</param>
+<param name="probatEnabled">Initial value of ProbatEnabled.</param>
+<param name="saveTareWgt">Initial value of SaveTareWgt.</param>
+<param name="readyForDownLoad">Initial value of ReadyForDownLoad.</param>
+<param name="noOfLabels">Initial value of NoOfLabels.</param>
+<param name="workShiftType">Initial value of WorkShiftType.</param>
+<param name="showEfficiency">Initial value of ShowEfficiency.</param>
+<param name="createPallet">Initial value of CreatePallet.</param>
+<param name="virtualIPC">Initial value of VirtualIPC.</param>
+<param name="enableCaseLabelMidnightRefresh">Initial value of EnableCaseLabelMidnightRefresh.</param>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.RecordStatus">
+<summary>
+There are no comments for property RecordStatus in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ComputerName">
+<summary>
+There are no comments for property ComputerName in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.Description">
+<summary>
+There are no comments for property Description in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.AttachedPLC">
+<summary>
+There are no comments for property AttachedPLC in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.PkgLineType">
+<summary>
+There are no comments for property PkgLineType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.PalletStation">
+<summary>
+There are no comments for property PalletStation in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.PrintPalletLabel">
+<summary>
+There are no comments for property PrintPalletLabel in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ScaleBrand">
+<summary>
+There are no comments for property ScaleBrand in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.Model">
+<summary>
+There are no comments for property Model in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.RunMode">
+<summary>
+There are no comments for property RunMode in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.CommPort">
+<summary>
+There are no comments for property CommPort in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.SamplingType">
+<summary>
+There are no comments for property SamplingType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.SampleBlockTimeInterval">
+<summary>
+There are no comments for property SampleBlockTimeInterval in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.NoOfSamplesInABlock">
+<summary>
+There are no comments for property NoOfSamplesInABlock in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.SamplingTime">
+<summary>
+There are no comments for property SamplingTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.NoOfDials">
+<summary>
+There are no comments for property NoOfDials in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.Dial1DecPlace">
+<summary>
+There are no comments for property Dial1DecPlace in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.QATWorkFlowInitiation">
+<summary>
+There are no comments for property QATWorkFlowInitiation in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.InterfaceType">
+<summary>
+There are no comments for property InterfaceType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.EnableOutputLocation">
+<summary>
+There are no comments for property EnableOutputLocation in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.AutoCountUnit">
+<summary>
+There are no comments for property AutoCountUnit in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.Enable2SOIn1Line">
+<summary>
+There are no comments for property Enable2SOIn1Line in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.EnableOvrExpDate">
+<summary>
+There are no comments for property EnableOvrExpDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.EnableDownLoad">
+<summary>
+There are no comments for property EnableDownLoad in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ProbatEnabled">
+<summary>
+There are no comments for property ProbatEnabled in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ProcessType">
+<summary>
+There are no comments for property ProcessType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.SaveTareWgt">
+<summary>
+There are no comments for property SaveTareWgt in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ReadyForDownLoad">
+<summary>
+There are no comments for property ReadyForDownLoad in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.NoOfLabels">
+<summary>
+There are no comments for property NoOfLabels in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.IndusoftPgmName">
+<summary>
+There are no comments for property IndusoftPgmName in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.WorkShiftType">
+<summary>
+There are no comments for property WorkShiftType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.ShowEfficiency">
+<summary>
+There are no comments for property ShowEfficiency in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.CreatePallet">
+<summary>
+There are no comments for property CreatePallet in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.VirtualIPC">
+<summary>
+There are no comments for property VirtualIPC in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.LocalModels.tblComputerConfig.EnableCaseLabelMidnightRefresh">
+<summary>
+There are no comments for property EnableCaseLabelMidnightRefresh in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATCameraResult">
+<summary>
+There are no comments for ServerModels.tblQATCameraResult in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATCameraResult.CreatetblQATCameraResult(System.Int32,System.DateTime,System.String,System.String,System.String,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.Boolean,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATCameraResult object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="lightDensityResult">Initial value of LightDensityResult.</param>
+<param name="minWidthReuslt">Initial value of MinWidthReuslt.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.LightDensityResult">
+<summary>
+There are no comments for property LightDensityResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.MinWidthReuslt">
+<summary>
+There are no comments for property MinWidthReuslt in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATCameraResult.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.PowerPlantEntities">
+<summary>
+There are no comments for PowerPlantEntities in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.#ctor">
+<summary>
+Initializes a new PowerPlantEntities object using the connection string found in the 'PowerPlantEntities' section of the application configuration file.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.#ctor(System.String)">
+<summary>
+Initialize a new PowerPlantEntities object.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+<summary>
+Initialize a new PowerPlantEntities object.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATCameraResult">
+<summary>
+There are no comments for tblQATCameraResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATLidPeelResultDetail">
+<summary>
+There are no comments for tblQATLidPeelResultDetail in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATLidPeelResultHeader">
+<summary>
+There are no comments for tblQATLidPeelResultHeader in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATShakeShineResultDetail">
+<summary>
+There are no comments for tblQATShakeShineResultDetail in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATShakeShineResultHeader">
+<summary>
+There are no comments for tblQATShakeShineResultHeader in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblPalletExt">
+<summary>
+There are no comments for tblPalletExt in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblPalletHst">
+<summary>
+There are no comments for tblPalletHst in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblEquipment">
+<summary>
+There are no comments for tblEquipment in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblEquipment_ScrapRejectPoint">
+<summary>
+There are no comments for tblEquipment_ScrapRejectPoint in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblScrapRejectPoint">
+<summary>
+There are no comments for tblScrapRejectPoint in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblScrapRejectPointLog">
+<summary>
+There are no comments for tblScrapRejectPointLog in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATRejectResultDetail">
+<summary>
+There are no comments for tblQATRejectResultDetail in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.PowerPlantEntities.tblQATRejectResultHeader">
+<summary>
+There are no comments for tblQATRejectResultHeader in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATCameraResult(PowerPlant.ServerModels.tblQATCameraResult)">
+<summary>
+There are no comments for tblQATCameraResult in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATLidPeelResultDetail(PowerPlant.ServerModels.tblQATLidPeelResultDetail)">
+<summary>
+There are no comments for tblQATLidPeelResultDetail in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATLidPeelResultHeader(PowerPlant.ServerModels.tblQATLidPeelResultHeader)">
+<summary>
+There are no comments for tblQATLidPeelResultHeader in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATShakeShineResultDetail(PowerPlant.ServerModels.tblQATShakeShineResultDetail)">
+<summary>
+There are no comments for tblQATShakeShineResultDetail in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATShakeShineResultHeader(PowerPlant.ServerModels.tblQATShakeShineResultHeader)">
+<summary>
+There are no comments for tblQATShakeShineResultHeader in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblPalletExt(PowerPlant.ServerModels.tblPalletExt)">
+<summary>
+There are no comments for tblPalletExt in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblPalletHst(PowerPlant.ServerModels.tblPalletHst)">
+<summary>
+There are no comments for tblPalletHst in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblEquipment(PowerPlant.ServerModels.tblEquipment)">
+<summary>
+There are no comments for tblEquipment in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblEquipment_ScrapRejectPoint(PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint)">
+<summary>
+There are no comments for tblEquipment_ScrapRejectPoint in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblScrapRejectPoint(PowerPlant.ServerModels.tblScrapRejectPoint)">
+<summary>
+There are no comments for tblScrapRejectPoint in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblScrapRejectPointLog(PowerPlant.ServerModels.tblScrapRejectPointLog)">
+<summary>
+There are no comments for tblScrapRejectPointLog in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATRejectResultDetail(PowerPlant.ServerModels.tblQATRejectResultDetail)">
+<summary>
+There are no comments for tblQATRejectResultDetail in the schema.
+</summary>
+</member>
+<member name="M:PowerPlant.ServerModels.PowerPlantEntities.AddTotblQATRejectResultHeader(PowerPlant.ServerModels.tblQATRejectResultHeader)">
+<summary>
+There are no comments for tblQATRejectResultHeader in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATLidPeelResultDetail">
+<summary>
+There are no comments for ServerModels.tblQATLidPeelResultDetail in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATLidPeelResultDetail.CreatetblQATLidPeelResultDetail(System.Int32,System.DateTime,System.Byte,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATLidPeelResultDetail object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testTime">Initial value of TestTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.LaneNo">
+<summary>
+There are no comments for property LaneNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.SampleNo">
+<summary>
+There are no comments for property SampleNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultDetail.TestTime">
+<summary>
+There are no comments for property TestTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATLidPeelResultHeader">
+<summary>
+There are no comments for ServerModels.tblQATLidPeelResultHeader in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATLidPeelResultHeader.CreatetblQATLidPeelResultHeader(System.Int32,System.DateTime,System.String,System.String,System.String,System.Byte,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATLidPeelResultHeader object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.OverrideID">
+<summary>
+There are no comments for property OverrideID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATLidPeelResultHeader.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATShakeShineResultDetail">
+<summary>
+There are no comments for ServerModels.tblQATShakeShineResultDetail in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATShakeShineResultDetail.CreatetblQATShakeShineResultDetail(System.Int32,System.DateTime,System.Byte,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATShakeShineResultDetail object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testTime">Initial value of TestTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.LaneNo">
+<summary>
+There are no comments for property LaneNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.SampleNo">
+<summary>
+There are no comments for property SampleNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultDetail.TestTime">
+<summary>
+There are no comments for property TestTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATShakeShineResultHeader">
+<summary>
+There are no comments for ServerModels.tblQATShakeShineResultHeader in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATShakeShineResultHeader.CreatetblQATShakeShineResultHeader(System.Int32,System.DateTime,System.String,System.String,System.String,System.Byte,System.Int32,System.DateTime,System.DateTime,System.Boolean,System.DateTime)">
+<summary>
+Create a new tblQATShakeShineResultHeader object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testResult">Initial value of TestResult.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.OverrideID">
+<summary>
+There are no comments for property OverrideID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATShakeShineResultHeader.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblPalletExt">
+<summary>
+There are no comments for ServerModels.tblPalletExt in the schema.
+</summary>
+<KeyProperties>
+PalletID
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblPalletExt.CreatetblPalletExt(System.Int32)">
+<summary>
+Create a new tblPalletExt object.
+</summary>
+<param name="palletID">Initial value of PalletID.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletExt.PalletID">
+<summary>
+There are no comments for property PalletID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletExt.Creator">
+<summary>
+There are no comments for property Creator in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblPalletHst">
+<summary>
+There are no comments for ServerModels.tblPalletHst in the schema.
+</summary>
+<KeyProperties>
+Facility
+PalletID
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblPalletHst.CreatetblPalletHst(System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.DateTime,System.String,System.String,System.Int16,System.DateTime)">
+<summary>
+Create a new tblPalletHst object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="palletID">Initial value of PalletID.</param>
+<param name="qtyPerPallet">Initial value of QtyPerPallet.</param>
+<param name="quantity">Initial value of Quantity.</param>
+<param name="itemNumber">Initial value of ItemNumber.</param>
+<param name="defaultPkgLine">Initial value of DefaultPkgLine.</param>
+<param name="operator">Initial value of Operator.</param>
+<param name="creationDate">Initial value of CreationDate.</param>
+<param name="creationTime">Initial value of CreationTime.</param>
+<param name="orderComplete">Initial value of OrderComplete.</param>
+<param name="lotID">Initial value of LotID.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="startTime">Initial value of StartTime.</param>
+<param name="productionDate">Initial value of ProductionDate.</param>
+<param name="expiryDate">Initial value of ExpiryDate.</param>
+<param name="printStatus">Initial value of PrintStatus.</param>
+<param name="creationDateTime">Initial value of CreationDateTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.PalletID">
+<summary>
+There are no comments for property PalletID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.QtyPerPallet">
+<summary>
+There are no comments for property QtyPerPallet in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.Quantity">
+<summary>
+There are no comments for property Quantity in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ItemNumber">
+<summary>
+There are no comments for property ItemNumber in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.DefaultPkgLine">
+<summary>
+There are no comments for property DefaultPkgLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.Operator">
+<summary>
+There are no comments for property Operator in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.CreationDate">
+<summary>
+There are no comments for property CreationDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.CreationTime">
+<summary>
+There are no comments for property CreationTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.OrderComplete">
+<summary>
+There are no comments for property OrderComplete in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.LotID">
+<summary>
+There are no comments for property LotID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.StartTime">
+<summary>
+There are no comments for property StartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ProductionDate">
+<summary>
+There are no comments for property ProductionDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ExpiryDate">
+<summary>
+There are no comments for property ExpiryDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.PrintStatus">
+<summary>
+There are no comments for property PrintStatus in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.CreationDateTime">
+<summary>
+There are no comments for property CreationDateTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ShiftProductionDate">
+<summary>
+There are no comments for property ShiftProductionDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.ShiftNo">
+<summary>
+There are no comments for property ShiftNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.LastUpdate">
+<summary>
+There are no comments for property LastUpdate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.OutputLocation">
+<summary>
+There are no comments for property OutputLocation in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblPalletHst.DestinationShopOrder">
+<summary>
+There are no comments for property DestinationShopOrder in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblEquipment">
+<summary>
+There are no comments for ServerModels.tblEquipment in the schema.
+</summary>
+<KeyProperties>
+facility
+EquipmentID
+Type
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblEquipment.CreatetblEquipment(System.Boolean,System.String,System.String,System.String,System.String,System.Boolean)">
+<summary>
+Create a new tblEquipment object.
+</summary>
+<param name="active">Initial value of Active.</param>
+<param name="facility">Initial value of facility.</param>
+<param name="equipmentID">Initial value of EquipmentID.</param>
+<param name="type">Initial value of Type.</param>
+<param name="description">Initial value of Description.</param>
+<param name="enableDownTimeDuration">Initial value of EnableDownTimeDuration.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.Active">
+<summary>
+There are no comments for property Active in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.facility">
+<summary>
+There are no comments for property facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.EquipmentID">
+<summary>
+There are no comments for property EquipmentID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.Type">
+<summary>
+There are no comments for property Type in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.SubType">
+<summary>
+There are no comments for property SubType in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.Description">
+<summary>
+There are no comments for property Description in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.GroupID">
+<summary>
+There are no comments for property GroupID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.ProbatID">
+<summary>
+There are no comments for property ProbatID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.IPCSharedGroup">
+<summary>
+There are no comments for property IPCSharedGroup in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.WorkCenter">
+<summary>
+There are no comments for property WorkCenter in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment.EnableDownTimeDuration">
+<summary>
+There are no comments for property EnableDownTimeDuration in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint">
+<summary>
+There are no comments for ServerModels.tblEquipment_ScrapRejectPoint in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint.CreatetblEquipment_ScrapRejectPoint(System.Int32,System.String,System.Int32,System.Boolean)">
+<summary>
+Create a new tblEquipment_ScrapRejectPoint object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="equipmentID">Initial value of EquipmentID.</param>
+<param name="rejectPointID">Initial value of RejectPointID.</param>
+<param name="visibleInIPC">Initial value of VisibleInIPC.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint.EquipmentID">
+<summary>
+There are no comments for property EquipmentID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint.RejectPointID">
+<summary>
+There are no comments for property RejectPointID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblEquipment_ScrapRejectPoint.VisibleInIPC">
+<summary>
+There are no comments for property VisibleInIPC in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblScrapRejectPoint">
+<summary>
+There are no comments for ServerModels.tblScrapRejectPoint in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblScrapRejectPoint.CreatetblScrapRejectPoint(System.Int32,System.String)">
+<summary>
+Create a new tblScrapRejectPoint object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="rejectPoint">Initial value of RejectPoint.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPoint.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPoint.RejectPoint">
+<summary>
+There are no comments for property RejectPoint in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPoint.Comments">
+<summary>
+There are no comments for property Comments in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblScrapRejectPointLog">
+<summary>
+There are no comments for ServerModels.tblScrapRejectPointLog in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblScrapRejectPointLog.CreatetblScrapRejectPointLog(System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.DateTime,System.DateTime)">
+<summary>
+Create a new tblScrapRejectPointLog object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="shift">Initial value of Shift.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="itemNumber">Initial value of ItemNumber.</param>
+<param name="equipment">Initial value of Equipment.</param>
+<param name="operator">Initial value of Operator.</param>
+<param name="rejectPointID">Initial value of RejectPointID.</param>
+<param name="qty">Initial value of Qty.</param>
+<param name="productionDate">Initial value of ProductionDate.</param>
+<param name="modifiedDateTime">Initial value of ModifiedDateTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.Shift">
+<summary>
+There are no comments for property Shift in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.ItemNumber">
+<summary>
+There are no comments for property ItemNumber in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.Equipment">
+<summary>
+There are no comments for property Equipment in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.Operator">
+<summary>
+There are no comments for property Operator in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.RejectPointID">
+<summary>
+There are no comments for property RejectPointID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.Qty">
+<summary>
+There are no comments for property Qty in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.ProductionDate">
+<summary>
+There are no comments for property ProductionDate in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblScrapRejectPointLog.ModifiedDateTime">
+<summary>
+There are no comments for property ModifiedDateTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATRejectResultDetail">
+<summary>
+There are no comments for ServerModels.tblQATRejectResultDetail in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATRejectResultDetail.CreatetblQATRejectResultDetail(System.Int32,System.DateTime,System.Byte,System.DateTime)">
+<summary>
+Create a new tblQATRejectResultDetail object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="testTime">Initial value of TestTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultDetail.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultDetail.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultDetail.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultDetail.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultDetail.TestTime">
+<summary>
+There are no comments for property TestTime in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.ServerModels.tblQATRejectResultHeader">
+<summary>
+There are no comments for ServerModels.tblQATRejectResultHeader in the schema.
+</summary>
+<KeyProperties>
+RRN
+</KeyProperties>
+</member>
+<member name="M:PowerPlant.ServerModels.tblQATRejectResultHeader.CreatetblQATRejectResultHeader(System.Int32,System.DateTime,System.String,System.String,System.String,System.Int32,System.Int32,System.DateTime,System.DateTime,System.DateTime)">
+<summary>
+Create a new tblQATRejectResultHeader object.
+</summary>
+<param name="rRN">Initial value of RRN.</param>
+<param name="batchID">Initial value of BatchID.</param>
+<param name="facility">Initial value of Facility.</param>
+<param name="interfaceID">Initial value of InterfaceID.</param>
+<param name="packagingLine">Initial value of PackagingLine.</param>
+<param name="retestNo">Initial value of RetestNo.</param>
+<param name="shopOrder">Initial value of ShopOrder.</param>
+<param name="sOStartTime">Initial value of SOStartTime.</param>
+<param name="testEndTime">Initial value of TestEndTime.</param>
+<param name="testStartTime">Initial value of TestStartTime.</param>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.RRN">
+<summary>
+There are no comments for property RRN in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.BatchID">
+<summary>
+There are no comments for property BatchID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.ConfirmedBy">
+<summary>
+There are no comments for property ConfirmedBy in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.Facility">
+<summary>
+There are no comments for property Facility in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.InterfaceID">
+<summary>
+There are no comments for property InterfaceID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.PackagingLine">
+<summary>
+There are no comments for property PackagingLine in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.QAConfirmed">
+<summary>
+There are no comments for property QAConfirmed in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.RetestNo">
+<summary>
+There are no comments for property RetestNo in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.ShopOrder">
+<summary>
+There are no comments for property ShopOrder in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.SOStartTime">
+<summary>
+There are no comments for property SOStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.TestEndTime">
+<summary>
+There are no comments for property TestEndTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.TestResult">
+<summary>
+There are no comments for property TestResult in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.TestStartTime">
+<summary>
+There are no comments for property TestStartTime in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.TesterID">
+<summary>
+There are no comments for property TesterID in the schema.
+</summary>
+</member>
+<member name="P:PowerPlant.ServerModels.tblQATRejectResultHeader.QATEntryPoint">
+<summary>
+There are no comments for property QATEntryPoint in the schema.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustment">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustment.PPsp_Pallet_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustment.PPsp_Pallet_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustment.PPsp_Pallet_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustmentTableAdapters.PPsp_Pallet_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlant.PalletWithAdjustment,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlant.PalletWithAdjustment,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlant.PalletWithAdjustment,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.UpdateAll(PowerPlant.PalletWithAdjustment)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:PowerPlant.PalletWithAdjustmentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDeployProjects" targetNamespace="http://tempuri.org/dsDeployProjects.xsd" xmlns:mstns="http://tempuri.org/dsDeployProjects.xsd" xmlns="http://tempuri.org/dsDeployProjects.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="strConn" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="strConn (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.PowerPlantIPCDeployment.MySettings.GlobalReference.Default.strConn" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblDeploymentsTableAdapter" GeneratorDataComponentClassName="tblDeploymentsTableAdapter" Name="tblDeployments" UserDataComponentName="tblDeploymentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="strConn (MySettings)" DbObjectName="PowerPlant_Deployment.dbo.tblDeployments" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        Description, DeploymentID
+FROM            tblDeployments
+WHERE        (Active = 1)
+ORDER BY DeploymentID DESC</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="DeploymentID" DataSetColumn="DeploymentID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDeployProjects" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsDeployProjects" msprop:Generator_UserDSName="dsDeployProjects">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblDeployments" msprop:Generator_TableClassName="tblDeploymentsDataTable" msprop:Generator_TableVarName="tabletblDeployments" msprop:Generator_RowChangedName="tblDeploymentsRowChanged" msprop:Generator_TablePropName="tblDeployments" msprop:Generator_RowDeletingName="tblDeploymentsRowDeleting" msprop:Generator_RowChangingName="tblDeploymentsRowChanging" msprop:Generator_RowEvHandlerName="tblDeploymentsRowChangeEventHandler" msprop:Generator_RowDeletedName="tblDeploymentsRowDeleted" msprop:Generator_RowClassName="tblDeploymentsRow" msprop:Generator_UserTableName="tblDeployments" msprop:Generator_RowEvArgName="tblDeploymentsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DeploymentID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnDeploymentID" msprop:Generator_ColumnPropNameInRow="DeploymentID" msprop:Generator_ColumnPropNameInTable="DeploymentIDColumn" msprop:Generator_UserColumnName="DeploymentID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblDeployments" />
+      <xs:field xpath="mstns:DeploymentID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,7 @@
+﻿5/20/2016 4:27:43 PM - There will be total 1 tables will be exported
+5/20/2016 4:27:44 PM - Table: tblComputerConfig
+5/20/2016 4:27:47 PM - Exporting downloaded tables from mphopp01, powerplant_UA to IPCs started.
+5/20/2016 4:27:48 PM - Start exporting data to IPC - MPKCKC1ND
+5/20/2016 4:27:54 PM - Exporting table tblComputerConfig to IPC - MPKCKC1ND
+5/20/2016 4:28:14 PM - End exporting data to IPC - MPKCKC1ND
+5/20/2016 4:28:15 PM - Exporting downloaded tables from mphopp01, powerplant_UA to IPCs completed.

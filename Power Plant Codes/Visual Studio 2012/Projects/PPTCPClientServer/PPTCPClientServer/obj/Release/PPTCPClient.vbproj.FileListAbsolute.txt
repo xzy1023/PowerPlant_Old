@@ -1,0 +1,8 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Release\PPTCPClient.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Release\PPTCPClient.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Release\PPTCPClient.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Release\PPTCPClient.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Release\PPTCPClient.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Release\PPTCPClient.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Release\PPTCPClient.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Release\PPTCPClient.pdb

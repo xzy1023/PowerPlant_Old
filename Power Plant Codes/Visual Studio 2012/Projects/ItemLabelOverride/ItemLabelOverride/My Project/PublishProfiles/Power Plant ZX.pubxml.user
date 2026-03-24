@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\zxiao\OneDrive - Mother Parkers Tea and Coffee\Sources\Precompiled\Item Label Override\</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/DefaultTheme/Default.css">
+      <publishTime>12/18/2017 15:02:54</publishTime>
+    </File>
+    <File Include="App_Themes/DefaultTheme/Default.skin">
+      <publishTime>06/03/2014 17:38:45</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/05/2013 23:52:42</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>09/26/2013 16:48:00</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>06/30/2021 09:43:22</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>06/30/2021 09:43:22</publishTime>
+    </File>
+    <File Include="bin/App_Theme_DefaultTheme.dll">
+      <publishTime>06/30/2021 09:41:50</publishTime>
+    </File>
+    <File Include="bin/App_Web_twgelpq6.dll">
+      <publishTime>06/30/2021 09:41:49</publishTime>
+    </File>
+    <File Include="bin/default.aspx.cdcab7d2.compiled">
+      <publishTime>06/30/2021 09:41:50</publishTime>
+    </File>
+    <File Include="bin/ItemLabelOverride.dll">
+      <publishTime>06/30/2021 09:41:42</publishTime>
+    </File>
+    <File Include="bin/ItemLabelOverride.xml">
+      <publishTime>06/30/2021 09:41:42</publishTime>
+    </File>
+    <File Include="bin/Theme_DefaultTheme.compiled">
+      <publishTime>06/30/2021 09:41:50</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/01/2019 13:46:25</publishTime>
+    </File>
+    <File Include="dsControl.xsc">
+      <publishTime>06/18/2014 12:37:47</publishTime>
+    </File>
+    <File Include="dsControl.xss">
+      <publishTime>06/18/2014 12:37:47</publishTime>
+    </File>
+    <File Include="dsFacility.xsc">
+      <publishTime>06/05/2014 16:20:00</publishTime>
+    </File>
+    <File Include="dsFacility.xss">
+      <publishTime>06/05/2014 16:20:00</publishTime>
+    </File>
+    <File Include="dsItemFromERP.xsc">
+      <publishTime>02/17/2019 23:49:39</publishTime>
+    </File>
+    <File Include="dsItemFromERP.xss">
+      <publishTime>02/17/2019 23:49:39</publishTime>
+    </File>
+    <File Include="dsItemFromOvr.xsc">
+      <publishTime>11/27/2018 10:46:33</publishTime>
+    </File>
+    <File Include="dsItemFromOvr.xss">
+      <publishTime>11/27/2018 10:46:33</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>06/30/2021 09:43:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>05/16/2014 14:22:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/30/2021 09:43:19</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

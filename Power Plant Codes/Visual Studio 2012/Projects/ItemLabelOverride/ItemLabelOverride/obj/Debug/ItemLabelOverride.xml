@@ -1,0 +1,1253 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ItemLabelOverride
+</name>
+</assembly>
+<members>
+<member name="T:ItemLabelOverride.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:ItemLabelOverride.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:ItemLabelOverride.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:ItemLabelOverride.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:ItemLabelOverride.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:ItemLabelOverride.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="T:ItemLabelOverride.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ItemLabelOverride.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ItemLabelOverride.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:ItemLabelOverride._Default._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ToolkitScriptManager1">
+<summary>
+ToolkitScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlFacility">
+<summary>
+ddlFacility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._dsFacility">
+<summary>
+dsFacility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtItemNumber">
+<summary>
+txtItemNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rfvItemNumber">
+<summary>
+rfvItemNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vcItemNumber">
+<summary>
+vcItemNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._btnAdd">
+<summary>
+btnAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._btnChange">
+<summary>
+btnChange control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._btnDelete">
+<summary>
+btnDelete control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._btnDefault">
+<summary>
+btnDefault control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._btnAccept">
+<summary>
+btnAccept control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._UpdatePanel1">
+<summary>
+UpdatePanel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblErrMsg">
+<summary>
+lblErrMsg control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._Panel1">
+<summary>
+Panel1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._Tab1">
+<summary>
+Tab1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._Tab2">
+<summary>
+Tab2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._Tab3">
+<summary>
+Tab3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._Tab4">
+<summary>
+Tab4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._MainView">
+<summary>
+MainView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._View1">
+<summary>
+View1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblAction">
+<summary>
+lblAction control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlFacilityDtl">
+<summary>
+ddlFacilityDtl control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblFacility">
+<summary>
+lblFacility control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblOvrItemDesc1">
+<summary>
+rblOvrItemDesc1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrDesc1">
+<summary>
+txtOvrDesc1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblDesc1">
+<summary>
+lblDesc1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrDesc2">
+<summary>
+txtOvrDesc2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrDesc3">
+<summary>
+txtOvrDesc3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblOvrPackSize">
+<summary>
+rblOvrPackSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrPackSize">
+<summary>
+txtOvrPackSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblPackSize">
+<summary>
+lblPackSize control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblOvrNetWgt">
+<summary>
+rblOvrNetWgt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrNetWeight">
+<summary>
+txtOvrNetWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rvOvrNetWeight">
+<summary>
+rvOvrNetWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vceOvrNetWeight">
+<summary>
+vceOvrNetWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblNetWeight">
+<summary>
+lblNetWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblOvrNetWgtUOM">
+<summary>
+rblOvrNetWgtUOM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlOvrNetWgtUOM">
+<summary>
+ddlOvrNetWgtUOM control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblUseSCCasUPC">
+<summary>
+rblUseSCCasUPC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblOvrUPC">
+<summary>
+lblOvrUPC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblUPC">
+<summary>
+lblUPC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblSCC">
+<summary>
+lblSCC control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._View2">
+<summary>
+View2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblBagLengthRequired">
+<summary>
+rblBagLengthRequired control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtBagLength">
+<summary>
+txtBagLength control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._meeBagLength">
+<summary>
+meeBagLength control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtOvrItem">
+<summary>
+txtOvrItem control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblPrtSOLot">
+<summary>
+rblPrtSOLot control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblPrintCaseLabel">
+<summary>
+rblPrintCaseLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlDateToPrtOnLabel">
+<summary>
+ddlDateToPrtOnLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtProductionDateDesc">
+<summary>
+txtProductionDateDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtExpiryDateDesc">
+<summary>
+txtExpiryDateDesc control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtProductionDateDescOnBox">
+<summary>
+txtProductionDateDescOnBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtExpiryDateDescOnBox">
+<summary>
+txtExpiryDateDescOnBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtAdditionalText1">
+<summary>
+txtAdditionalText1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtAdditionalText2">
+<summary>
+txtAdditionalText2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblSlipSheet">
+<summary>
+rblSlipSheet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlPalletCode">
+<summary>
+ddlPalletCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlCaseLabelApplicator">
+<summary>
+ddlCaseLabelApplicator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._rblInsertBrewerFilter">
+<summary>
+rblInsertBrewerFilter control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._View3">
+<summary>
+View3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlPkgDateFmtCode">
+<summary>
+ddlPkgDateFmtCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._ddlCaseDateFmtCode">
+<summary>
+ddlCaseDateFmtCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtCaseLabelFmt1">
+<summary>
+txtCaseLabelFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvCaseLabelFmt1">
+<summary>
+cvCaseLabelFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vceCaseLabelFmt1">
+<summary>
+vceCaseLabelFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtCaseLabelFmt2">
+<summary>
+txtCaseLabelFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvCaseLabelFmt2">
+<summary>
+cvCaseLabelFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vceCaseLabelFmt2">
+<summary>
+vceCaseLabelFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtCaseLabelFmt3">
+<summary>
+txtCaseLabelFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvCaseLabelFmt3">
+<summary>
+cvCaseLabelFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vceCaseLabelFmt3">
+<summary>
+vceCaseLabelFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtPackageCoderFmt1">
+<summary>
+txtPackageCoderFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvPackageCoderFmt1">
+<summary>
+cvPackageCoderFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vcePackageCoderFmt1">
+<summary>
+vcePackageCoderFmt1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtPackageCoderFmt2">
+<summary>
+txtPackageCoderFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvPackageCoderFmt2">
+<summary>
+cvPackageCoderFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vcePackageCoderFmt2">
+<summary>
+vcePackageCoderFmt2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtPackageCoderFmt3">
+<summary>
+txtPackageCoderFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvPackageCoderFmt3">
+<summary>
+cvPackageCoderFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vcePackageCoderFmt3">
+<summary>
+vcePackageCoderFmt3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtFilterCoderFormat">
+<summary>
+txtFilterCoderFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._cvFilterCoderFormat">
+<summary>
+cvFilterCoderFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._vceFilterCoderFormat">
+<summary>
+vceFilterCoderFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._View4">
+<summary>
+View4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile1">
+<summary>
+txtDomicile1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile2">
+<summary>
+txtDomicile2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile3">
+<summary>
+txtDomicile3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile4">
+<summary>
+txtDomicile4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile5">
+<summary>
+txtDomicile5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._txtDomicile6">
+<summary>
+txtDomicile6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblItemMajorClass">
+<summary>
+lblItemMajorClass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblItemType">
+<summary>
+lblItemType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblLabelWeight">
+<summary>
+lblLabelWeight control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblSaleableUnitPerCase">
+<summary>
+lblSaleableUnitPerCase control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblPkgPerSaleableUnit">
+<summary>
+lblPkgPerSaleableUnit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblDim">
+<summary>
+lblDim control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblProdShelfLifeDays">
+<summary>
+lblProdShelfLifeDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblShipShelfLifeDays">
+<summary>
+lblShipShelfLifeDays control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblQtyPerPallet">
+<summary>
+lblQtyPerPallet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblTieXTier">
+<summary>
+lblTieXTier control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._lblItemNumber">
+<summary>
+lblItemNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:ItemLabelOverride._Default._dsCaseDateFmtCode">
+<summary>
+dsCaseDateFmtCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:ItemLabelOverride.dsControl">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControl.PPsp_Control_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControl.PPsp_Control_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControl.PPsp_Control_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControlTableAdapters.PPsp_Control_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.UpdateUpdatedRows(ItemLabelOverride.dsControl,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.UpdateInsertedRows(ItemLabelOverride.dsControl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.UpdateDeletedRows(ItemLabelOverride.dsControl,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.UpdateAll(ItemLabelOverride.dsControl)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsControlTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacility">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacility.PPsp_Facility_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacility.PPsp_Facility_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacility.PPsp_Facility_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacilityTableAdapters.PPsp_Facility_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.UpdateUpdatedRows(ItemLabelOverride.dsFacility,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.UpdateInsertedRows(ItemLabelOverride.dsFacility,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.UpdateDeletedRows(ItemLabelOverride.dsFacility,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.UpdateAll(ItemLabelOverride.dsFacility)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsFacilityTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERP">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERP.PPsp_ItemMasterFrmERP_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERP.PPsp_ItemMasterFrmERP_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERP.PPsp_ItemMasterFrmERP_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERPTableAdapters.PPsp_ItemMasterFrmERP_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.UpdateUpdatedRows(ItemLabelOverride.dsItemFromERP,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.UpdateInsertedRows(ItemLabelOverride.dsItemFromERP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.UpdateDeletedRows(ItemLabelOverride.dsItemFromERP,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.UpdateAll(ItemLabelOverride.dsItemFromERP)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromERPTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvr">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvr.PPsp_ItemLabelOverride_SelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvr.PPsp_ItemLabelOverride_SelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvr.PPsp_ItemLabelOverride_SelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvrTableAdapters.PPsp_ItemLabelOverride_SelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.UpdateUpdatedRows(ItemLabelOverride.dsItemFromOvr,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.UpdateInsertedRows(ItemLabelOverride.dsItemFromOvr,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.UpdateDeletedRows(ItemLabelOverride.dsItemFromOvr,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.UpdateAll(ItemLabelOverride.dsItemFromOvr)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ItemLabelOverride.dsItemFromOvrTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

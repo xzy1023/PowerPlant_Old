@@ -1,0 +1,140 @@
+E:\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.exe.config
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.exe
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.xml
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.pdb
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\ResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmDownTime.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.Resources.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.ucHeading.resources
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.exe
+E:\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.pdb
+E:\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.xml
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.exe.config
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.exe
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.xml
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.pdb
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.exe
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.pdb
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\bin\Debug\DownTime.xml
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\ResolveAssemblyReference.cache
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmDownTime.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.Resources.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\DownTime.ucHeading.resources
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\GenerateResource-ResGen.read.1.tlog
+U:\Home\Visual Studio 2010\Projects\DownTime\DownTime\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\bin\Debug\DownTime.exe.config
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\bin\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\bin\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\bin\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Visual Studio 2012\Projects\For BPCS\DownTime\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+C:\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.exe.config
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime\DownTime\bin\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\bin\Debug\DownTime.exe.config
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\bin\Debug\DownTime.exe
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\bin\Debug\DownTime.pdb
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\bin\Debug\DownTime.xml
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Visual Studio 2012\Projects\DownTime v0.1\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+\\mphopp02\olsov\From Alan\DownTime v0.1 Completed DurationByShift V2\DownTime\bin\Debug\DownTime.exe.config
+\\mphopp02\olsov\From Alan\DownTime v0.1 Completed DurationByShift V2\DownTime\obj\Debug\DownTime.exe
+\\mphopp02\olsov\From Alan\DownTime v0.1 Completed DurationByShift V2\DownTime\obj\Debug\DownTime.xml
+\\mphopp02\olsov\From Alan\DownTime v0.1 Completed DurationByShift V2\DownTime\obj\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.2 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\bin\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.3 Completed EnableDownTimeDuration V1\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\bin\Debug\DownTime.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\bin\Debug\DownTime.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\bin\Debug\DownTime.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\bin\Debug\DownTime.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.frmAlphaNumKB.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.frmComment.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.frmDownTime.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.frmNumKeyPad.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.frmViewDTLog.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\DownTime v0.4 Completed EnableDownTimeDuration\DownTime\obj\Debug\DownTime.vbproj.GenerateResource.Cache

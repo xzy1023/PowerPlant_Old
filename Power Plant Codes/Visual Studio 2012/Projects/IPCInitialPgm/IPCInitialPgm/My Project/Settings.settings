@@ -1,0 +1,72 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="strDotNetPgm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"C:\PowerPlant\PowerPlant\PowerPlant.exe"</Value>
+    </Setting>
+    <Setting Name="strInduSoftAppPgm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PowerPlant\Indusoft\PowerPlant.APP</Value>
+    </Setting>
+    <Setting Name="gstrServerCnnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=mphopp02;Initial Catalog=PowerPlantAXSP_Dev;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=mphopp02;Initial Catalog=PowerPlantAXSP_Dev;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="gstrLocalCnnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.\SQLEXPRESS;Initial Catalog=LocalPowerPlant;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\SQLEXPRESS;Initial Catalog=LocalPowerPlant;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="gstrDLDestination" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PowerPlant\Downloads\Indusoft.zip</Value>
+    </Setting>
+    <Setting Name="gstrDLSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HTTP://MPSPPP01/Power Plant Downloads New/</Value>
+    </Setting>
+    <Setting Name="strInduSoftStartUpPgm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files (x86)\InduSoft Web Studio v7.1\Bin\runstartup.exe</Value>
+    </Setting>
+    <Setting Name="gstrStagingCnnString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.\SQLEXPRESS;Initial Catalog=ImportData;Integrated Security=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\SQLEXPRESS;Initial Catalog=ImportData;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="gblnRefreshDB" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="gblnChgDftProfile" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="gblnCheckConfiguration" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="gstrNoIWSDftAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="gstrIWSDftAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="gstrPalletStationAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="gstrIPCViewerAccount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="gstrIPCViewerDLDestination" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\PowerPlant\Downloads\IPC.zip</Value>
+    </Setting>
+    <Setting Name="strIPCViewerPgm" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\IPC\IPC.bat</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

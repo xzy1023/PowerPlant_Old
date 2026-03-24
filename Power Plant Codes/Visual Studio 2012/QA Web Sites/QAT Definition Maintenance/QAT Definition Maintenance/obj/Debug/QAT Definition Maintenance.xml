@@ -1,0 +1,596 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QATDefinitionMaintenance
+</name>
+</assembly>
+<members>
+<member name="T:QAT_Definition_Maintenance.dsQATInProcFreqType.tblQATInProcFreqTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqType.tblQATInProcFreqTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqType.tblQATInProcFreqTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqType">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.tblQATInProcFreqTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.UpdateUpdatedRows(QAT_Definition_Maintenance.dsQATInProcFreqType,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.UpdateInsertedRows(QAT_Definition_Maintenance.dsQATInProcFreqType,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.UpdateDeletedRows(QAT_Definition_Maintenance.dsQATInProcFreqType,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.UpdateAll(QAT_Definition_Maintenance.dsQATInProcFreqType)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATInProcFreqTypeTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="F:QAT_Definition_Maintenance._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.SearchLabel">
+	<summary>
+SearchLabel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.btnSearch">
+	<summary>
+btnSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.gvForm">
+	<summary>
+gvForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblActive5">
+	<summary>
+lblActive5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.chkActive1">
+	<summary>
+chkActive1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblFacility5">
+	<summary>
+lblFacility5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlFacility">
+	<summary>
+ddlFacility control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblFacility1">
+	<summary>
+lblFacility1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblQATDefnDescription5">
+	<summary>
+lblQATDefnDescription5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.txtQATDefnDescription1">
+	<summary>
+txtQATDefnDescription1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblAlert5">
+	<summary>
+lblAlert5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.chkAlert1">
+	<summary>
+chkAlert1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblAllowOverride5">
+	<summary>
+lblAllowOverride5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.chkAllowOverride1">
+	<summary>
+chkAllowOverride1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblEntryPointDesc5">
+	<summary>
+lblEntryPointDesc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlEntryPointDesc">
+	<summary>
+ddlEntryPointDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblEntryPointDesc1">
+	<summary>
+lblEntryPointDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblInProcFreqType5">
+	<summary>
+lblInProcFreqType5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlInProcFreqType">
+	<summary>
+ddlInProcFreqType control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblInProcFreqType1">
+	<summary>
+lblInProcFreqType1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblInProcNoOfFreq5">
+	<summary>
+lblInProcNoOfFreq5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.txtInProcNoOfFreq1">
+	<summary>
+txtInProcNoOfFreq1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.RequiredFieldValidator2">
+	<summary>
+RequiredFieldValidator2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.RegularExpressionValidator4">
+	<summary>
+RegularExpressionValidator4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoOfLanes5">
+	<summary>
+lblNoOfLanes5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlNoOfLanes">
+	<summary>
+ddlNoOfLanes control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoOfLanes1">
+	<summary>
+lblNoOfLanes1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoOfSamples5">
+	<summary>
+lblNoOfSamples5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlNoOfSamples">
+	<summary>
+ddlNoOfSamples control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoOfSamples1">
+	<summary>
+lblNoOfSamples1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblExpiryCount5">
+	<summary>
+lblExpiryCount5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.txtExpiryCount1">
+	<summary>
+txtExpiryCount1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.RequiredFieldValidator3">
+	<summary>
+RequiredFieldValidator3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.RegularExpressionValidator1">
+	<summary>
+RegularExpressionValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblTestSpecDesc5">
+	<summary>
+lblTestSpecDesc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlTestSpecDesc">
+	<summary>
+ddlTestSpecDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblTestSpecDesc1">
+	<summary>
+lblTestSpecDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblTestCategory5">
+	<summary>
+lblTestCategory5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlTestCategory">
+	<summary>
+ddlTestCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblTestCategory1">
+	<summary>
+lblTestCategory1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblTestFormTitle5">
+	<summary>
+lblTestFormTitle5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.txtTestFormTitle1">
+	<summary>
+txtTestFormTitle1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoteDesc5">
+	<summary>
+lblNoteDesc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.ddlNoteDesc">
+	<summary>
+ddlNoteDesc control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblNoteDesc1">
+	<summary>
+lblNoteDesc1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblCopyRecord5">
+	<summary>
+lblCopyRecord5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.chkCopyRecord1">
+	<summary>
+chkCopyRecord1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblQATDefnID9">
+	<summary>
+lblQATDefnID9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Definition_Maintenance._Default.lblErrMsg">
+	<summary>
+lblErrMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPoint.tblQATEntryPointDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPoint.tblQATEntryPointRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPoint.tblQATEntryPointRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPoint">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.tblQATEntryPointTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.UpdateUpdatedRows(QAT_Definition_Maintenance.dsQATEntryPoint,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.UpdateInsertedRows(QAT_Definition_Maintenance.dsQATEntryPoint,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.UpdateDeletedRows(QAT_Definition_Maintenance.dsQATEntryPoint,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.UpdateAll(QAT_Definition_Maintenance.dsQATEntryPoint)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:QAT_Definition_Maintenance.dsQATEntryPointTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:QAT_Definition_Maintenance.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:QAT_Definition_Maintenance.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:QAT_Definition_Maintenance.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:QAT_Definition_Maintenance.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:QAT_Definition_Maintenance.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:QAT_Definition_Maintenance.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

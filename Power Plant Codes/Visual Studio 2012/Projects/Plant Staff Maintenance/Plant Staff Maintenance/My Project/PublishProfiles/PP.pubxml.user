@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\PrecompiledWeb\Plant Staff Maintenance</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/PP/Default.css">
+      <publishTime>09/01/2020 13:27:11</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/bg_tile.gif">
+      <publishTime>10/14/2005 20:51:06</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/collapse.gif">
+      <publishTime>02/13/2009 18:34:30</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/company_logo.jpg">
+      <publishTime>03/09/2012 18:14:56</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/Copy of company_logo.jpg">
+      <publishTime>02/07/2006 18:49:42</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/expand.gif">
+      <publishTime>02/13/2009 18:34:30</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/go.png">
+      <publishTime>08/29/2008 15:26:02</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/header_bg.png">
+      <publishTime>10/14/2005 20:58:24</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/main_bg.png">
+      <publishTime>10/10/2005 21:05:26</publishTime>
+    </File>
+    <File Include="bin/Plant Staff Maintenance.dll">
+      <publishTime>02/03/2021 09:49:10</publishTime>
+    </File>
+    <File Include="bin/Plant Staff Maintenance.xml">
+      <publishTime>02/03/2021 09:49:10</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>09/01/2020 13:18:29</publishTime>
+    </File>
+    <File Include="FileNotFound.html">
+      <publishTime>10/11/2018 10:50:30</publishTime>
+    </File>
+    <File Include="GenericErrorPage.html">
+      <publishTime>10/11/2018 10:51:39</publishTime>
+    </File>
+    <File Include="NoAccess.html">
+      <publishTime>10/11/2018 10:51:39</publishTime>
+    </File>
+    <File Include="Program Change Log.docx">
+      <publishTime>09/03/2020 14:49:04</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/03/2021 09:50:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

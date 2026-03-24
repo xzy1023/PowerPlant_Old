@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="strFilePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\mphopp02\ImageTemplate\</Value>
+    </Setting>
+    <Setting Name="FilstrePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\mphopp02\ImageTemplate\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,32 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="strRecipient" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PP IT Support</Value>
+    </Setting>
+    <Setting Name="PPCnnStr" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=mpajpp01;Initial Catalog=PowerPlant_UA;Persist Security Info=True;User ID=ppuser;Password=ppuser#1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=mpajpp01;Initial Catalog=PowerPlant_UA;Persist Security Info=True;User ID=ppuser;Password=ppuser#1</Value>
+    </Setting>
+    <Setting Name="intCoLOSPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1912</Value>
+    </Setting>
+    <Setting Name="strLogFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\LabelPrintingLog_@today@.txt</Value>
+    </Setting>
+    <Setting Name="intLogRetentionDays" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">365</Value>
+    </Setting>
+    <Setting Name="strLogFileDir" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c:\PowerPlant\Label Printing Log</Value>
+    </Setting>
+    <Setting Name="strCLILogIn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Login|CLIUser|cliuser1</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

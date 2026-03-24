@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PowerPlant_Resource\\Power Plant Resources\\Visual Studio 2012\\Projects\\ItemLabelOverride\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C11A7152-ED73-4F0F-9D63-48044C0E271A}|ItemLabelOverride\\ItemLabelOverride.vbproj|d:\\powerplant_resource\\power plant resources\\visual studio 2012\\projects\\itemlabeloverride\\itemlabeloverride\\default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{C11A7152-ED73-4F0F-9D63-48044C0E271A}|ItemLabelOverride\\ItemLabelOverride.vbproj|solutionrelative:itemlabeloverride\\default.aspx.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C11A7152-ED73-4F0F-9D63-48044C0E271A}|ItemLabelOverride\\ItemLabelOverride.vbproj|d:\\powerplant_resource\\power plant resources\\visual studio 2012\\projects\\itemlabeloverride\\itemlabeloverride\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C11A7152-ED73-4F0F-9D63-48044C0E271A}|ItemLabelOverride\\ItemLabelOverride.vbproj|solutionrelative:itemlabeloverride\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.aspx.vb",
+              "DocumentMoniker": "D:\\PowerPlant_Resource\\Power Plant Resources\\Visual Studio 2012\\Projects\\ItemLabelOverride\\ItemLabelOverride\\Default.aspx.vb",
+              "RelativeDocumentMoniker": "ItemLabelOverride\\Default.aspx.vb",
+              "ToolTip": "D:\\PowerPlant_Resource\\Power Plant Resources\\Visual Studio 2012\\Projects\\ItemLabelOverride\\ItemLabelOverride\\Default.aspx.vb*",
+              "RelativeToolTip": "ItemLabelOverride\\Default.aspx.vb*",
+              "ViewState": "AgIAAIwAAAAAAAAAAAD4v5MAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-03-17T13:46:48.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "D:\\PowerPlant_Resource\\Power Plant Resources\\Visual Studio 2012\\Projects\\ItemLabelOverride\\ItemLabelOverride\\Default.aspx",
+              "RelativeDocumentMoniker": "ItemLabelOverride\\Default.aspx",
+              "ToolTip": "D:\\PowerPlant_Resource\\Power Plant Resources\\Visual Studio 2012\\Projects\\ItemLabelOverride\\ItemLabelOverride\\Default.aspx",
+              "RelativeToolTip": "ItemLabelOverride\\Default.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-17T13:44:53.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>IPCVIEW</title>
+
+<HTA:APPLICATION 
+     ID="objHTAHelpomatic"
+     APPLICATIONNAME="IPCVIEW"
+     SCROLL="no"
+     SINGLEINSTANCE="yes"
+     WINDOWSTATE="maximize"
+     Caption="No"
+     Border="None"
+>
+</head>
+
+<SCRIPT Language="VBScript">
+
+Sub CB
+    VNC_Kill
+    ResetButtonBGColour
+    CBBG
+    CALI
+    CBFG
+End Sub
+
+Sub LO
+
+    LOGOUT
+End Sub
+
+Sub VNC_Kill 
+        Set objShell = CreateObject("Wscript.Shell")
+        objShell.Run "C:\\IPC\\kill.exe -k VNCVIEWER.EXE", 0, true
+        Set ObjShell = nothing
+End Sub
+
+Sub CBBG
+        Set objShell = CreateObject("Wscript.Shell")
+	objShell.Run "C:\IPC\CMDOW.EXE " & chr(34) & "IPCVIEW" & chr(34) & " /SIZ 0 0 /MOV 0 0"	
+    Set ObjShell = nothing
+End Sub
+
+Sub CALI
+        Set objShell = CreateObject("Wscript.Shell")
+        objShell.Run "C:\\PROGRA~2\\TouchKit\\xAuto4PtsCal.exe" ,0 ,True
+        Set ObjShell = nothing
+End Sub
+
+Sub CBFG
+    Set objShell = CreateObject("Wscript.Shell")
+	objShell.Run "C:\IPC\CMDOW.EXE " & chr(34) & "IPCVIEW" & chr(34) & " /SIZ 804 57 /MOV -2 -7 /TOP"
+    Set ObjShell = nothing
+End Sub
+
+Sub LOGOUT
+	intAnswer = Msgbox("Confirm Logoff", vbYesNo  + vbSystemModal, "Question")
+ 	If intAnswer = vbYes Then
+        VNC_Kill
+		SET ObjShell = CreateObject("Wscript.Shell")  
+		ObjShell.exec("shutdown.exe -L -F")  
+        Set ObjShell = nothing
+ 	End If
+End Sub
+
+Sub ResetButtonBGColour
+    Dim strOffFocusColor
+    strOffFocusColor = "FFFFEE"
+    btn1.style.backgroundColor = strOffFocusColor
+    btn2.style.backgroundColor = strOffFocusColor
+    btn3.style.backgroundColor = strOffFocusColor
+End Sub
+
+Sub VNC(strLineNo)
+
+    Dim strOnFocusColor
+    strOnFocusColor = "CCFFAA" 
+    ResetButtonBGColour
+    VNC_Kill
+
+	select case strLineNo
+	case "3975-01"
+		btn1.style.backgroundColor = strOnFocusColor
+	case "3975-02"
+		btn2.style.backgroundColor =strOnFocusColor
+    	case "3975-03"
+		btn3.style.backgroundColor = strOnFocusColor
+	end select
+
+    Set objShell = CreateObject("Wscript.Shell")
+    objShell.Run "C:\\IPC\\NirCMD.exe exec max C:\\IPC\\VNCVIEWER.EXE -optionsfile=""C:\\IPC\\" & strLineNo & ".vnc"""
+	Set ObjShell = nothing
+	
+End Sub
+
+
+Sub RestartCaseCountMonitor
+    Dim intAnswer, strComputer, strService, wmi, ret 
+    intAnswer = Msgbox("Are you sure to restart the Case Counter Monitor?", vbYesNo  + vbSystemModal, "Confirmation")
+ 	If intAnswer = vbYes Then
+        strComputer = "MPSPPP01" 
+        strService = "Win32_Service.Name='CaseCountMonitor'"
+        Set wmi = GetObject("winmgmts:\\" & strComputer & "\root\CIMV2") 
+        Set ret = wmi.ExecMethod(strService, "StopService")
+        Set ret = wmi.ExecMethod(strService, "StartService")
+        if ret.ReturnValue = 0 then
+            Msgbox("Case Counter Monitor restart successfully.")
+        else
+            Msgbox("Case Counter Monitor restart failure. If it is still failure after few trial, please contact supervisor.")
+        end if
+	    Set wmi = nothing
+    End If
+End Sub
+
+</SCRIPT>
+
+<body>
+    <input type="button" value="3975-01" Name="btn1" onClick="VNC('3975-01')" 
+        style="background-color: #FFFFEE; height: 32px;"> &nbsp;
+    <input type="button" value="3975-02" Name="btn2" onClick="VNC('3975-02')" 
+        style="background-color: #FFFFEE; height: 32px;"> &nbsp;
+    <input type="button" value="3975-03" Name="btn3" onClick="VNC('3975-03')" 
+        style="background-color: #FFFFEE; height: 32px;"> &nbsp;
+     &nbsp;
+    <input type="button" value="RS" onClick="RestartCaseCountMonitor"  style="height: 32px;" > &nbsp;
+    <input type="button" value="Calibrate" onClick="CB"  style="height: 32px;" > &nbsp;
+    <input type="button" value="LogOff"    onClick="LO"  style="height: 32px;" >
+</body>
+</html>

@@ -1,0 +1,14 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Release\IPCInitialPgm.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Release\IPCInitialPgm.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Release\IPCInitialPgm.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\bin\Release\IPCInitialPgm.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.frmCfgIPC.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.frmInitialPgm.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.ucHeading.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.frmShutDown.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\IPCInitialPgm\IPCInitialPgm\obj\Release\IPCInitialPgm.frmCfgIPCViewer.resources

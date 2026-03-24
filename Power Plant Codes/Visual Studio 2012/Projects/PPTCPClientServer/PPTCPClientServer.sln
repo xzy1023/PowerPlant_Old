@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PPTCPClient", "PPTCPClientServer\PPTCPClient.vbproj", "{22202EC9-27F7-4A9C-80C4-1240B9ECD9C6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PPTCPServer", "PPTCPServer\PPTCPServer.vbproj", "{59500A87-46E1-4F9B-AE82-4198B5727842}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22202EC9-27F7-4A9C-80C4-1240B9ECD9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22202EC9-27F7-4A9C-80C4-1240B9ECD9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22202EC9-27F7-4A9C-80C4-1240B9ECD9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22202EC9-27F7-4A9C-80C4-1240B9ECD9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59500A87-46E1-4F9B-AE82-4198B5727842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59500A87-46E1-4F9B-AE82-4198B5727842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59500A87-46E1-4F9B-AE82-4198B5727842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59500A87-46E1-4F9B-AE82-4198B5727842}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

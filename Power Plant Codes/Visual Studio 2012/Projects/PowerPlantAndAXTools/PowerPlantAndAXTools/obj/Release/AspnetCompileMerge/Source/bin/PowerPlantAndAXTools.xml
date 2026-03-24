@@ -1,0 +1,224 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PowerPlantAndAXTools
+</name>
+</assembly>
+<members>
+<member name="T:PowerPlantAndAXTools.dsChangeLine">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsChangeLineTableAdapters.QueriesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControl.PPsp_Control_SelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControl.PPsp_Control_SelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControl.PPsp_Control_SelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControl">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControlTableAdapters.PPsp_Control_SelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.UpdateUpdatedRows(PowerPlantAndAXTools.dsControl,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.UpdateInsertedRows(PowerPlantAndAXTools.dsControl,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.UpdateDeletedRows(PowerPlantAndAXTools.dsControl,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.UpdateAll(PowerPlantAndAXTools.dsControl)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:PowerPlantAndAXTools.dsControlTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:PowerPlantAndAXTools.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:PowerPlantAndAXTools.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:PowerPlantAndAXTools.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:PowerPlantAndAXTools.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:PowerPlantAndAXTools.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:PowerPlantAndAXTools.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.ToolkitScriptManager1">
+	<summary>
+ToolkitScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.TabContainer1">
+	<summary>
+TabContainer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.TabPanel1">
+	<summary>
+TabPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.Label4">
+	<summary>
+Label4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.ddlLine">
+	<summary>
+ddlLine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.lblDefaultIPC">
+	<summary>
+lblDefaultIPC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.ddlComputerName">
+	<summary>
+ddlComputerName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.btnLineAccept">
+	<summary>
+btnLineAccept control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.dsEquipment">
+	<summary>
+dsEquipment control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.dsComputerConfig">
+	<summary>
+dsComputerConfig control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.TabPanel2">
+	<summary>
+TabPanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.gvPallet">
+	<summary>
+gvPallet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.lblErrMsg2">
+	<summary>
+lblErrMsg2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:PowerPlantAndAXTools._Default.dsPallet">
+	<summary>
+dsPallet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

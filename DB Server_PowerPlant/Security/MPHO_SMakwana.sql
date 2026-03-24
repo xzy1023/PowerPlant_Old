@@ -1,0 +1,5 @@
+CREATE USER [MPHO\SMakwana];
+
+
+GO
+

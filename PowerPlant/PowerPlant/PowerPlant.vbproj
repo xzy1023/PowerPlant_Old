@@ -1,0 +1,1556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F0432E1D-B268-454A-B886-C42BD2345E37}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PowerPlant.modStartup</StartupObject>
+    <RootNamespace>PowerPlant</RootNamespace>
+    <AssemblyName>PowerPlant</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <ManifestCertificateThumbprint>13985889F524DEBD6092912FE748F4FC6083B445</ManifestCertificateThumbprint>
+    <ManifestKeyFile>PowerPlant_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\zxiao\Desktop\PP\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PowerPlant.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PowerPlant.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Windows\Microsoft.NET\Framework64\v2.0.50727\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessINIFile.vb" />
+    <Compile Include="clsCaseCount.vb" />
+    <Compile Include="clsMidnightScheduler.vb" />
+    <Compile Include="clsCheckWeigher.vb" />
+    <Compile Include="clsCoLOSCLI.vb" />
+    <Compile Include="clsExpiryDate.vb" />
+    <Compile Include="clsPrinterDevice.vb" />
+    <Compile Include="clsSessionControl.vb" />
+    <Compile Include="clsShift.vb" />
+    <Compile Include="clsTCPClient.vb" />
+    <Compile Include="clsXMLInterface.vb" />
+    <Compile Include="clsWeightSpec.vb" />
+    <Compile Include="clsWin32Helper.vb" />
+    <Compile Include="frmLogScrapsRejectPoint.Designer.vb">
+      <DependentUpon>frmLogScrapsRejectPoint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogScrapsRejectPoint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATRejectResult.Designer.vb">
+      <DependentUpon>frmQATRejectResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATRejectResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATLidPeel.Designer.vb">
+      <DependentUpon>frmQATLidPeel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATLidPeel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATShakeShine.Designer.vb">
+      <DependentUpon>frmQATShakeShine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATShakeShine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATTester.Designer.vb">
+      <DependentUpon>frmQATTester.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATTester.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsQATTesters.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATTesters.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATStartUpChecks.Designer.vb">
+      <DependentUpon>frmQATStartUpChecks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATStartUpChecks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsQATExceptionCode.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATExceptionCode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.vb">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsQATCartonBoxResult.vb">
+      <DependentUpon>dsQATCartonBoxResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCartonDateCoder.Designer.vb">
+      <DependentUpon>frmQATCartonDateCoder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCartonDateCoder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsDynamicLabelData.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDynamicLabelData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCaseDateCoder.Designer.vb">
+      <DependentUpon>frmQATCaseDateCoder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCaseDateCoder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cryptography.vb" />
+    <Compile Include="dsIPCControl.vb">
+      <DependentUpon>dsIPCControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPallet.vb">
+      <DependentUpon>dsPallet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATCameraResult.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATCameraResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATCartonBoxResult.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATCartonBoxResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATCaseVisualResult.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATCaseVisualResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATOverride.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATOverride.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATSelectPalletTypeResult.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATSelectPalletTypeResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATSerialConn.vb">
+      <DependentUpon>dsQATSerialConn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATSpec.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATSpec.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATStatus.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATTCPConn.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATTCPConn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATWeightResult.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATWeightResult.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATWorkFlow.vb">
+      <DependentUpon>dsQATWorkFlow.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATSerialConn.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATSerialConn.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCartonBoxVisualCheck.Designer.vb">
+      <DependentUpon>frmQATCartonBoxVisualCheck.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCartonBoxVisualCheck.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATSeletePalletType.Designer.vb">
+      <DependentUpon>frmQATSeletePalletType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATSeletePalletType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATOxygen.Designer.vb">
+      <DependentUpon>frmQATOxygen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATOxygen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsQATTask.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATTask.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsQATWorkFlow.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsQATWorkFlow.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCaseVisualVerification.Designer.vb">
+      <DependentUpon>frmQATCaseVisualVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCaseVisualVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegularKeyPad.Designer.vb">
+      <DependentUpon>frmRegularKeyPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegularKeyPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATCheckWeigherValidation.Designer.vb">
+      <DependentUpon>frmQATCheckWeigherValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCheckWeigherValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATCamerasVerification.Designer.vb">
+      <DependentUpon>frmQATCamerasVerification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATCamerasVerification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATPressure.Designer.vb">
+      <DependentUpon>frmQATPressure.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATPressure.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsComponentScrap.vb">
+      <DependentUpon>dsComponentScrap.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATMaterialValidation.Designer.vb">
+      <DependentUpon>frmQATMaterialValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATMaterialValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATOverrideLogOn.Designer.vb">
+      <DependentUpon>frmQATOverrideLogOn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATOverrideLogOn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATWorkflow.Designer.vb">
+      <DependentUpon>frmQATWorkflow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATWorkflow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATLineClearance.Designer.vb">
+      <DependentUpon>frmQATLineClearance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATLineClearance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATPackageDateCoder.Designer.vb">
+      <DependentUpon>frmQATPackageDateCoder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATPackageDateCoder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQATSmallestUnitWeight.Designer.vb">
+      <DependentUpon>frmQATSmallestUnitWeight.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmQATSmallestUnitWeight.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsUnitCountOutbound.vb">
+      <DependentUpon>dsUnitCountOutbound.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmStandard.Designer.vb">
+      <DependentUpon>frmStandard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStandard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.vb">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsBillOfMaterials.vb">
+      <DependentUpon>dsBillOfMaterials.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIPCControl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIPCControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIsDataReadyForRefresh.vb">
+      <DependentUpon>dsIsDataReadyForRefresh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIsDeviceConnected.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIsDeviceConnected.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsItemNotes.vb">
+      <DependentUpon>dsItemNotes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLabelPrintJobs.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLabelPrintJobs.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOutputLocation.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOutputLocation.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPalletToProbat.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPalletToProbat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsProbatEquipment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsProbatEquipment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessionControlHst.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUnitCountInbound.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUnitCountInbound.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUnitCountOutbound1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUnitCountOutbound.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpiryDate.Designer.vb">
+      <DependentUpon>frmExpiryDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmExpiryDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsDownLoadTableList.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDownLoadTableList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsIsDataReadyForRefresh.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsIsDataReadyForRefresh.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPrinterDevice.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPrinterDevice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckConnection.Designer.vb">
+      <DependentUpon>frmCheckConnection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCheckConnection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLabelPrintQueue.Designer.vb">
+      <DependentUpon>frmLabelPrintQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLabelPrintQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShutDown.Designer.vb">
+      <DependentUpon>frmShutDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShutDown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCalculator.Designer.vb">
+      <DependentUpon>frmCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsPalletsOnServer.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPalletsOnServer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShopOrder.vb">
+      <DependentUpon>dsShopOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToBeClosedShopOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsToBeClosedShopOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsToBeClosedShopOrder.vb">
+      <DependentUpon>dsToBeClosedShopOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmPalletInquiry.Designer.vb">
+      <DependentUpon>frmPalletInquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPalletInquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrtCaseLabelWithSO.Designer.vb">
+      <DependentUpon>frmPrtCaseLabelWithSO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrtCaseLabelWithSO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShopOrderSchedule.Designer.vb">
+      <DependentUpon>frmShopOrderSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShopOrderSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsgBox.Designer.vb">
+      <DependentUpon>frmMsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsgBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsControlTable.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsControlTable.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStrMchEffRate.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStrMchEffRate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcessMonitor.Designer.vb">
+      <DependentUpon>frmProcessMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcessMonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsDclWghtTolerance.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDclWghtTolerance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOverFill.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOverFill.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShift.vb">
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.Designer.vb">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMainMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogOn_NoPLC.Designer.vb">
+      <DependentUpon>frmLogOn_NoPLC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogOn_NoPLC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsComponentScrap.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComponentScrap.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsComputerConfig.vb">
+      <DependentUpon>dsComputerConfig.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPallet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPallet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPalletHst.vb">
+      <DependentUpon>dsPalletHst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessCtlHstSrv.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessCtlHstSrv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessionControl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShopOrder.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShopOrder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmInquiry.Designer.vb">
+      <DependentUpon>frmInquiry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInquiry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogScraps.Designer.vb">
+      <DependentUpon>frmLogScraps.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogScraps.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRePrtPalletLabels.Designer.vb">
+      <DependentUpon>frmRePrtPalletLabels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRePrtPalletLabels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShopOrderNotes.Designer.vb">
+      <DependentUpon>frmShopOrderNotes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShopOrderNotes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsBillOfMaterials.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBillOfMaterials.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsComputerConfig.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComputerConfig.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEquipment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsItemMaster.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsItemMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsItemNotes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsItemNotes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOperationStaffing.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOperationStaffing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPalletHst.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPalletHst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPlantStaffing.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlantStaffing.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessionControl.vb">
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShift.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlphaNumKB.Designer.vb">
+      <DependentUpon>frmAlphaNumKB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlphaNumKB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillOfMaterials.Designer.vb">
+      <DependentUpon>frmBillOfMaterials.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBillOfMaterials.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreatePallet_PS.Designer.vb">
+      <DependentUpon>frmCreatePallet_PS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreatePallet_PS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCreatePallet.Designer.vb">
+      <DependentUpon>frmCreatePallet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCreatePallet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumKeyPad.Designer.vb">
+      <DependentUpon>frmNumKeyPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNumKeyPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrtPalletLabels.Designer.vb">
+      <DependentUpon>frmPrtPalletLabels.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrtPalletLabels.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrtCaseLabelNoSO.Designer.vb">
+      <DependentUpon>frmPrtCaseLabelNoSO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrtCaseLabelNoSO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrtLabelsAndControl.Designer.vb">
+      <DependentUpon>frmPrtLabelsAndControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrtLabelsAndControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogOn.Designer.vb">
+      <DependentUpon>frmLogOn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogOn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStopShopOrder.Designer.vb">
+      <DependentUpon>frmStopShopOrder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStopShopOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartShopOrder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStartShopOrder.Designer.vb">
+      <DependentUpon>frmStartShopOrder.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models\PowerPlantLocalModels.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerPlantLocalModels.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PowerPlantModels.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerPlantModels.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="modStartup.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="dsPalletWithAdjustment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPalletWithAdjustment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceContext.vb" />
+    <Compile Include="SharedFunctions.vb" />
+    <Compile Include="SQLHelper.vb" />
+    <Compile Include="ucHeading.Designer.vb">
+      <DependentUpon>ucHeading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucHeading.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmLogScrapsRejectPoint.resx">
+      <DependentUpon>frmLogScrapsRejectPoint.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATRejectResult.resx">
+      <DependentUpon>frmQATRejectResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATLidPeel.resx">
+      <DependentUpon>frmQATLidPeel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATShakeShine.resx">
+      <DependentUpon>frmQATShakeShine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATTester.resx">
+      <DependentUpon>frmQATTester.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATStartUpChecks.resx">
+      <DependentUpon>frmQATStartUpChecks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCartonDateCoder.resx">
+      <DependentUpon>frmQATCartonDateCoder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCaseDateCoder.resx">
+      <DependentUpon>frmQATCaseDateCoder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCartonBoxVisualCheck.resx">
+      <DependentUpon>frmQATCartonBoxVisualCheck.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATSeletePalletType.resx">
+      <DependentUpon>frmQATSeletePalletType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATOxygen.resx">
+      <DependentUpon>frmQATOxygen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCaseVisualVerification.resx">
+      <DependentUpon>frmQATCaseVisualVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegularKeyPad.resx">
+      <DependentUpon>frmRegularKeyPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCheckWeigherValidation.resx">
+      <DependentUpon>frmQATCheckWeigherValidation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATCamerasVerification.resx">
+      <DependentUpon>frmQATCamerasVerification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATPressure.resx">
+      <DependentUpon>frmQATPressure.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATMaterialValidation.resx">
+      <DependentUpon>frmQATMaterialValidation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATOverrideLogOn.resx">
+      <DependentUpon>frmQATOverrideLogOn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATWorkflow.resx">
+      <DependentUpon>frmQATWorkflow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATLineClearance.resx">
+      <DependentUpon>frmQATLineClearance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATPackageDateCoder.resx">
+      <DependentUpon>frmQATPackageDateCoder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQATSmallestUnitWeight.resx">
+      <DependentUpon>frmQATSmallestUnitWeight.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStandard.resx">
+      <DependentUpon>frmStandard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExpiryDate.resx">
+      <DependentUpon>frmExpiryDate.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckConnection.resx">
+      <DependentUpon>frmCheckConnection.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLabelPrintQueue.resx">
+      <DependentUpon>frmLabelPrintQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShutDown.resx">
+      <DependentUpon>frmShutDown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCalculator.resx">
+      <DependentUpon>frmCalculator.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPalletInquiry.resx">
+      <DependentUpon>frmPalletInquiry.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrtCaseLabelWithSO.resx">
+      <DependentUpon>frmPrtCaseLabelWithSO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShopOrderSchedule.resx">
+      <DependentUpon>frmShopOrderSchedule.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsgBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMsgBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessMonitor.resx">
+      <DependentUpon>frmProcessMonitor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainMenu.resx">
+      <DependentUpon>frmMainMenu.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOn_NoPLC.resx">
+      <DependentUpon>frmLogOn_NoPLC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInquiry.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInquiry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogScraps.resx">
+      <DependentUpon>frmLogScraps.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRePrtPalletLabels.resx">
+      <DependentUpon>frmRePrtPalletLabels.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShopOrderNotes.resx">
+      <DependentUpon>frmShopOrderNotes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlphaNumKB.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAlphaNumKB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillOfMaterials.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBillOfMaterials.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreatePallet_PS.resx">
+      <DependentUpon>frmCreatePallet_PS.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCreatePallet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCreatePallet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumKeyPad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNumKeyPad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrtPalletLabels.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrtPalletLabels.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrtCaseLabelNoSO.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrtCaseLabelNoSO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrtLabelsAndControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrtLabelsAndControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogOn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStopShopOrder.resx">
+      <DependentUpon>frmStopShopOrder.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStartShopOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStartShopOrder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeading.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ucHeading.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsDynamicLabelData.xsc">
+      <DependentUpon>dsDynamicLabelData.xsd</DependentUpon>
+    </None>
+    <None Include="dsDynamicLabelData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDynamicLabelData.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsDynamicLabelData.xss">
+      <DependentUpon>dsDynamicLabelData.xsd</DependentUpon>
+    </None>
+    <None Include="dsIPCControl.xsc">
+      <DependentUpon>dsIPCControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsIPCControl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIPCControl.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIPCControl.xss">
+      <DependentUpon>dsIPCControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsIsDeviceConnected.xsc">
+      <DependentUpon>dsIsDeviceConnected.xsd</DependentUpon>
+    </None>
+    <None Include="dsIsDeviceConnected.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIsDeviceConnected.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIsDeviceConnected.xss">
+      <DependentUpon>dsIsDeviceConnected.xsd</DependentUpon>
+    </None>
+    <None Include="dsLabelPrintJobs.xsc">
+      <DependentUpon>dsLabelPrintJobs.xsd</DependentUpon>
+    </None>
+    <None Include="dsLabelPrintJobs.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLabelPrintJobs.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsLabelPrintJobs.xss">
+      <DependentUpon>dsLabelPrintJobs.xsd</DependentUpon>
+    </None>
+    <None Include="dsOutputLocation.xsc">
+      <DependentUpon>dsOutputLocation.xsd</DependentUpon>
+    </None>
+    <None Include="dsOutputLocation.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOutputLocation.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOutputLocation.xss">
+      <DependentUpon>dsOutputLocation.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletToProbat.xsc">
+      <DependentUpon>dsPalletToProbat.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletToProbat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPalletToProbat.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPalletToProbat.xss">
+      <DependentUpon>dsPalletToProbat.xsd</DependentUpon>
+    </None>
+    <None Include="dsProbatEquipment.xsc">
+      <DependentUpon>dsProbatEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsProbatEquipment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsProbatEquipment.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsProbatEquipment.xss">
+      <DependentUpon>dsProbatEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCameraResult.xsc">
+      <DependentUpon>dsQATCameraResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCameraResult.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATCameraResult.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATCameraResult.xss">
+      <DependentUpon>dsQATCameraResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCartonBoxResult.xsc">
+      <DependentUpon>dsQATCartonBoxResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCartonBoxResult.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATCartonBoxResult.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATCartonBoxResult.xss">
+      <DependentUpon>dsQATCartonBoxResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCaseVisualResult.xsc">
+      <DependentUpon>dsQATCaseVisualResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATCaseVisualResult.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATCaseVisualResult.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATCaseVisualResult.xss">
+      <DependentUpon>dsQATCaseVisualResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATExceptionCode.xsc">
+      <DependentUpon>dsQATExceptionCode.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATExceptionCode.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATExceptionCode.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATExceptionCode.xss">
+      <DependentUpon>dsQATExceptionCode.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATOverride.xsc">
+      <DependentUpon>dsQATOverride.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATOverride.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATOverride.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATOverride.xss">
+      <DependentUpon>dsQATOverride.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSelectPalletTypeResult.xsc">
+      <DependentUpon>dsQATSelectPalletTypeResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSelectPalletTypeResult.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATSelectPalletTypeResult.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsQATSelectPalletTypeResult.xss">
+      <DependentUpon>dsQATSelectPalletTypeResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSpec.xsc">
+      <DependentUpon>dsQATSpec.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSpec.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATSpec.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATSpec.xss">
+      <DependentUpon>dsQATSpec.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATStatus.xsc">
+      <DependentUpon>dsQATStatus.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATStatus.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATStatus.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATStatus.xss">
+      <DependentUpon>dsQATStatus.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTask.xsc">
+      <DependentUpon>dsQATTask.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTask.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATTask.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATTask.xss">
+      <DependentUpon>dsQATTask.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTCPConn.xsc">
+      <DependentUpon>dsQATTCPConn.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTCPConn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATTCPConn.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATTCPConn.xss">
+      <DependentUpon>dsQATTCPConn.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTesters.xsc">
+      <DependentUpon>dsQATTesters.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATTesters.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATTesters.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATTesters.xss">
+      <DependentUpon>dsQATTesters.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATWeightResult.xsc">
+      <DependentUpon>dsQATWeightResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATWeightResult.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATWeightResult.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATWeightResult.xss">
+      <DependentUpon>dsQATWeightResult.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATWorkFlow.xsc">
+      <DependentUpon>dsQATWorkFlow.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATWorkFlow.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATWorkFlow.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATWorkFlow.xss">
+      <DependentUpon>dsQATWorkFlow.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSerialConn.xsc">
+      <DependentUpon>dsQATSerialConn.xsd</DependentUpon>
+    </None>
+    <None Include="dsQATSerialConn.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsQATSerialConn.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsQATSerialConn.xss">
+      <DependentUpon>dsQATSerialConn.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControlHst.xsc">
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControlHst.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessionControlHst.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessionControlHst.xss">
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </None>
+    <None Include="dsUnitCountInbound.xsc">
+      <DependentUpon>dsUnitCountInbound.xsd</DependentUpon>
+    </None>
+    <None Include="dsUnitCountInbound.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUnitCountInbound.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsUnitCountInbound.xss">
+      <DependentUpon>dsUnitCountInbound.xsd</DependentUpon>
+    </None>
+    <None Include="dsUnitCountOutbound.xsc">
+      <DependentUpon>dsUnitCountOutbound.xsd</DependentUpon>
+    </None>
+    <None Include="dsUnitCountOutbound.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUnitCountOutbound1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsUnitCountOutbound.xss">
+      <DependentUpon>dsUnitCountOutbound.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Models\PowerPlantModels.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PowerPlantModels.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="Models\PowerPlantLocalModels.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>PowerPlantLocalModels.Designer.vb</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\PowerPlantLocalModels.edmx.diagram">
+      <DependentUpon>PowerPlantLocalModels.edmx</DependentUpon>
+    </None>
+    <None Include="Models\PowerPlantModels.edmx.diagram">
+      <DependentUpon>PowerPlantModels.edmx</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\tick.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="dsComputerConfig.xsc">
+      <DependentUpon>dsComputerConfig.xsd</DependentUpon>
+    </None>
+    <None Include="dsComputerConfig.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComputerConfig.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsComputerConfig.xss">
+      <DependentUpon>dsComputerConfig.xsd</DependentUpon>
+    </None>
+    <None Include="dsOperationStaffing.xsc">
+      <DependentUpon>dsOperationStaffing.xsd</DependentUpon>
+    </None>
+    <None Include="dsOperationStaffing.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOperationStaffing.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOperationStaffing.xss">
+      <DependentUpon>dsOperationStaffing.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlantStaffing.xsc">
+      <DependentUpon>dsPlantStaffing.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlantStaffing.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlantStaffing.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPlantStaffing.xss">
+      <DependentUpon>dsPlantStaffing.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControl.xsc">
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessionControl.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessionControl.xss">
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsShift.xsc">
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </None>
+    <None Include="dsShift.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShift.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsShift.xss">
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Tick.PNG" />
+    <None Include="dsPalletWithAdjustment.xsc">
+      <DependentUpon>dsPalletWithAdjustment.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletWithAdjustment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPalletWithAdjustment.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPalletWithAdjustment.xss">
+      <DependentUpon>dsPalletWithAdjustment.xsd</DependentUpon>
+    </None>
+    <None Include="PowerPlant_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Tick1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\BackSpace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsBillOfMaterials.xsc">
+      <DependentUpon>dsBillOfMaterials.xsd</DependentUpon>
+    </None>
+    <None Include="dsBillOfMaterials.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBillOfMaterials.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsBillOfMaterials.xss">
+      <DependentUpon>dsBillOfMaterials.xsd</DependentUpon>
+    </None>
+    <None Include="dsComponentScrap.xsc">
+      <DependentUpon>dsComponentScrap.xsd</DependentUpon>
+    </None>
+    <None Include="dsComponentScrap.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComponentScrap.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsComponentScrap.xss">
+      <DependentUpon>dsComponentScrap.xsd</DependentUpon>
+    </None>
+    <None Include="dsEquipment.xsc">
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsEquipment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEquipment.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsEquipment.xss">
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsItemMaster.xsc">
+      <DependentUpon>dsItemMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dsItemMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsItemMaster.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsItemMaster.xss">
+      <DependentUpon>dsItemMaster.xsd</DependentUpon>
+    </None>
+    <None Include="dsItemNotes.xsc">
+      <DependentUpon>dsItemNotes.xsd</DependentUpon>
+    </None>
+    <None Include="dsItemNotes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsItemNotes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsItemNotes.xss">
+      <DependentUpon>dsItemNotes.xsd</DependentUpon>
+    </None>
+    <None Include="dsPallet.xsc">
+      <DependentUpon>dsPallet.xsd</DependentUpon>
+    </None>
+    <None Include="dsPallet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPallet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPallet.xss">
+      <DependentUpon>dsPallet.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletHst.xsc">
+      <DependentUpon>dsPalletHst.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletHst.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPalletHst.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPalletHst.xss">
+      <DependentUpon>dsPalletHst.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessCtlHstSrv.xsc">
+      <DependentUpon>dsSessCtlHstSrv.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessCtlHstSrv.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessCtlHstSrv.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessCtlHstSrv.xss">
+      <DependentUpon>dsSessCtlHstSrv.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Delete.png" />
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mp_logo_l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsControlTable.xsc">
+      <DependentUpon>dsControlTable.xsd</DependentUpon>
+    </None>
+    <None Include="dsControlTable.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsControlTable.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsControlTable.xss">
+      <DependentUpon>dsControlTable.xsd</DependentUpon>
+    </None>
+    <None Include="dsDclWghtTolerance.xsc">
+      <DependentUpon>dsDclWghtTolerance.xsd</DependentUpon>
+    </None>
+    <None Include="dsDclWghtTolerance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDclWghtTolerance.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsDclWghtTolerance.xss">
+      <DependentUpon>dsDclWghtTolerance.xsd</DependentUpon>
+    </None>
+    <None Include="dsOverFill.xsc">
+      <DependentUpon>dsOverFill.xsd</DependentUpon>
+    </None>
+    <None Include="dsOverFill.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOverFill.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsOverFill.xss">
+      <DependentUpon>dsOverFill.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletsOnServer.xsc">
+      <DependentUpon>dsPalletsOnServer.xsd</DependentUpon>
+    </None>
+    <None Include="dsPalletsOnServer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPalletsOnServer.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPalletsOnServer.xss">
+      <DependentUpon>dsPalletsOnServer.xsd</DependentUpon>
+    </None>
+    <None Include="dsShopOrder.xsc">
+      <DependentUpon>dsShopOrder.xsd</DependentUpon>
+    </None>
+    <None Include="dsShopOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShopOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsShopOrder.xss">
+      <DependentUpon>dsShopOrder.xsd</DependentUpon>
+    </None>
+    <None Include="dsStrMchEffRate.xsc">
+      <DependentUpon>dsStrMchEffRate.xsd</DependentUpon>
+    </None>
+    <None Include="dsStrMchEffRate.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStrMchEffRate.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsStrMchEffRate.xss">
+      <DependentUpon>dsStrMchEffRate.xsd</DependentUpon>
+    </None>
+    <None Include="dsToBeClosedShopOrder.xsc">
+      <DependentUpon>dsToBeClosedShopOrder.xsd</DependentUpon>
+    </None>
+    <None Include="dsToBeClosedShopOrder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsToBeClosedShopOrder.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsToBeClosedShopOrder.xss">
+      <DependentUpon>dsToBeClosedShopOrder.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\mp_logo_r.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsDownLoadTableList.xsc">
+      <DependentUpon>dsDownLoadTableList.xsd</DependentUpon>
+    </None>
+    <None Include="dsDownLoadTableList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDownLoadTableList.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsDownLoadTableList.xss">
+      <DependentUpon>dsDownLoadTableList.xsd</DependentUpon>
+    </None>
+    <None Include="dsIsDataReadyForRefresh.xsc">
+      <DependentUpon>dsIsDataReadyForRefresh.xsd</DependentUpon>
+    </None>
+    <None Include="dsIsDataReadyForRefresh.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsIsDataReadyForRefresh.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsIsDataReadyForRefresh.xss">
+      <DependentUpon>dsIsDataReadyForRefresh.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrinterDevice.xsc">
+      <DependentUpon>dsPrinterDevice.xsd</DependentUpon>
+    </None>
+    <None Include="dsPrinterDevice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPrinterDevice.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPrinterDevice.xss">
+      <DependentUpon>dsPrinterDevice.xsd</DependentUpon>
+    </None>
+    <None Include="Images\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\BackSpace_Small.jpg" />
+    <None Include="Resources\BackSpace.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

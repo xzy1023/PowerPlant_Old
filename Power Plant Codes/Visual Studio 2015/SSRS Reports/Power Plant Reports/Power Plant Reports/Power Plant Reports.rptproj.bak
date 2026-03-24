@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ToolsVersion="2.0">
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <DataSources>
+    <ProjectItem>
+      <Name>DynamicsAX.rds</Name>
+      <FullPath>DynamicsAX.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PowerPlant.rds</Name>
+      <FullPath>PowerPlant.rds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>PowerPlant_UA.rds</Name>
+      <FullPath>PowerPlant_UA.rds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSets>
+    <ProjectItem>
+      <Name>dsDftFacility.rsd</Name>
+      <FullPath>dsDftFacility.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dsFacility.rsd</Name>
+      <FullPath>dsFacility.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dsMachine.rsd</Name>
+      <FullPath>dsMachine.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>dsWorkCenter.rsd</Name>
+      <FullPath>dsWorkCenter.rsd</FullPath>
+    </ProjectItem>
+  </DataSets>
+  <Reports>
+    <ProjectItem>
+      <Name>Actual Machine Efficiency Chart V0.0.rdl</Name>
+      <FullPath>Actual Machine Efficiency Chart V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Actual Machine Efficiency Chart with Trend line V0.0.rdl</Name>
+      <FullPath>Actual Machine Efficiency Chart with Trend line V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Actual Machine Efficiency Chart with Trend line.rdl</Name>
+      <FullPath>Actual Machine Efficiency Chart with Trend line.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Actual Machine Efficiency Chart.rdl</Name>
+      <FullPath>Actual Machine Efficiency Chart.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>AX Interface Error Summary.rdl</Name>
+      <FullPath>AX Interface Error Summary.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy (2) of Work Center Efficiency Report New.rdl</Name>
+      <FullPath>Copy (2) of Work Center Efficiency Report New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Item Efficiency Report New.rdl</Name>
+      <FullPath>Copy of Item Efficiency Report New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Labor and Machine Efficiency New.rdl</Name>
+      <FullPath>Copy of Labor and Machine Efficiency New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Labor Efficiency New.rdl</Name>
+      <FullPath>Copy of Labor Efficiency New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Line Efficiency New.rdl</Name>
+      <FullPath>Copy of Line Efficiency New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of QA Main Menu.rdl</Name>
+      <FullPath>Copy of QA Main Menu.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Work Center Efficiency Report New.rdl</Name>
+      <FullPath>Copy of Work Center Efficiency Report New.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Copy of Work Center Efficiency Summary Report.rdl</Name>
+      <FullPath>Copy of Work Center Efficiency Summary Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Daily Production.rdl</Name>
+      <FullPath>Daily Production.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Down Time Chart.rdl</Name>
+      <FullPath>Down Time Chart.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Down Time Details.rdl</Name>
+      <FullPath>Down Time Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Down Time Reason Code Inquiry.rdl</Name>
+      <FullPath>Down Time Reason Code Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Give Away Report.rdl</Name>
+      <FullPath>Give Away Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item Efficiency Report V0.0.rdl</Name>
+      <FullPath>Item Efficiency Report V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item Efficiency Report.rdl</Name>
+      <FullPath>Item Efficiency Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Item Master Inquiry.rdl</Name>
+      <FullPath>Item Master Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Label Print Queue.rdl</Name>
+      <FullPath>Label Print Queue.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency New v0.0.rdl</Name>
+      <FullPath>Labor and Machine Efficiency New v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency New V0.1.rdl</Name>
+      <FullPath>Labor and Machine Efficiency New V0.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency New v0.2.rdl</Name>
+      <FullPath>Labor and Machine Efficiency New v0.2.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency v0.0.rdl</Name>
+      <FullPath>Labor and Machine Efficiency v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency v0.2.rdl</Name>
+      <FullPath>Labor and Machine Efficiency v0.2.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency v0.3.rdl</Name>
+      <FullPath>Labor and Machine Efficiency v0.3.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor and Machine Efficiency.rdl</Name>
+      <FullPath>Labor and Machine Efficiency.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor Efficiency v0.0 bfr WO227470.rdl</Name>
+      <FullPath>Labor Efficiency v0.0 bfr WO227470.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor Efficiency v0.0.rdl</Name>
+      <FullPath>Labor Efficiency v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor Efficiency.rdl</Name>
+      <FullPath>Labor Efficiency.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor Hour Detail v0.0.rdl</Name>
+      <FullPath>Labor Hour Detail v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Labor Hour Detail.rdl</Name>
+      <FullPath>Labor Hour Detail.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Line Efficiency v0.0.rdl</Name>
+      <FullPath>Line Efficiency v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Line Efficiency v0.1.rdl</Name>
+      <FullPath>Line Efficiency v0.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Line Efficiency.rdl</Name>
+      <FullPath>Line Efficiency.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Main Menu.rdl</Name>
+      <FullPath>Main Menu.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MonthlyDFChart - Not Use.rdl</Name>
+      <FullPath>MonthlyDFChart - Not Use.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Operator Efficiency Report v0.0.rdl</Name>
+      <FullPath>Operator Efficiency Report v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Operator Efficiency Report.rdl</Name>
+      <FullPath>Operator Efficiency Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Other Reports Menu.rdl</Name>
+      <FullPath>Other Reports Menu.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Packaging Log Inquiry V0.0.rdl</Name>
+      <FullPath>Packaging Log Inquiry V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Packaging Log Inquiry v0.1.rdl</Name>
+      <FullPath>Packaging Log Inquiry v0.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Packaging Log Inquiry.rdl</Name>
+      <FullPath>Packaging Log Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pallet Inquiry V0.0.rdl</Name>
+      <FullPath>Pallet Inquiry V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pallet Inquiry.rdl</Name>
+      <FullPath>Pallet Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pallet Print Log.rdl</Name>
+      <FullPath>Pallet Print Log.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Pallet Station Status - Not Use.rdl</Name>
+      <FullPath>Pallet Station Status - Not Use.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>QA Main Menu.rdl</Name>
+      <FullPath>QA Main Menu.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reconcile Cases Produced By Date .rdl</Name>
+      <FullPath>Reconcile Cases Produced By Date .rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reconcile Cases Produced.rdl</Name>
+      <FullPath>Reconcile Cases Produced.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Rework.rdl</Name>
+      <FullPath>Rework.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Scrapped Components by Shop Order.rdl</Name>
+      <FullPath>Scrapped Components by Shop Order.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Scrapped Components Inventory Adjustment.rdl</Name>
+      <FullPath>Scrapped Components Inventory Adjustment.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Scrapped Components.rdl</Name>
+      <FullPath>Scrapped Components.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shop Order Adherence Report.rdl</Name>
+      <FullPath>Shop Order Adherence Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shop Order Cases Produced Variance.rdl</Name>
+      <FullPath>Shop Order Cases Produced Variance.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Shop Order Changeover Adherence.rdl</Name>
+      <FullPath>Shop Order Changeover Adherence.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Std Machine Efficiency Rate Inquiry Embed v0.3.rdl</Name>
+      <FullPath>Std Machine Efficiency Rate Inquiry Embed v0.3.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Std Machine Efficiency Rate Inquiry V0.0.rdl</Name>
+      <FullPath>Std Machine Efficiency Rate Inquiry V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Std Machine Efficiency Rate Inquiry.rdl</Name>
+      <FullPath>Std Machine Efficiency Rate Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Top 10 Down Time v0.0.rdl</Name>
+      <FullPath>Top 10 Down Time v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Top 10 Down Time.rdl</Name>
+      <FullPath>Top 10 Down Time.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Utility Tech Efficiency Report V0.0.rdl</Name>
+      <FullPath>Utility Tech Efficiency Report V0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Utility Tech Efficiency Report.rdl</Name>
+      <FullPath>Utility Tech Efficiency Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Weight Log Details.rdl</Name>
+      <FullPath>Weight Log Details.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Weight Log Inquiry.rdl</Name>
+      <FullPath>Weight Log Inquiry.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Report v0.0.rdl</Name>
+      <FullPath>Work Center Efficiency Report v0.0.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Report v0.1.rdl</Name>
+      <FullPath>Work Center Efficiency Report v0.1.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Report.rdl</Name>
+      <FullPath>Work Center Efficiency Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Summary Report bfr multi WC.rdl</Name>
+      <FullPath>Work Center Efficiency Summary Report bfr multi WC.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Summary Report.rdl</Name>
+      <FullPath>Work Center Efficiency Summary Report.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Work Center Efficiency Summary Test Report.rdl</Name>
+      <FullPath>Work Center Efficiency Summary Test Report.rdl</FullPath>
+    </ProjectItem>
+  </Reports>
+  <Configurations>
+    <Configuration>
+      <Name>Debug</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Debug</OutputPath>
+        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerURL>http://mpajpp01/reportserver</TargetServerURL>
+        <TargetFolder>Power Plant Reports UA</TargetFolder>
+        <TargetMobileReportFolder>Mobile Reports</TargetMobileReportFolder>
+        <TargetDataSourceFolder>Power Plant Data Sources UA</TargetDataSourceFolder>
+        <TargetDatasetFolder>Power Plant Data Sets UA</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>DebugLocal</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\DebugLocal</OutputPath>
+        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+        <TargetFolder>Power Plant Reports</TargetFolder>
+        <TargetMobileReportFolder>Mobile Reports</TargetMobileReportFolder>
+        <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
+        <TargetDatasetFolder>Datasets</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Release</Name>
+      <Platform>Win32</Platform>
+      <Options>
+        <OutputPath>bin\Release</OutputPath>
+        <TargetServerVersion>SSRS2016</TargetServerVersion>
+        <TargetServerURL>http://mpsppp02/reportserver</TargetServerURL>
+        <TargetFolder>Power Plant Reports</TargetFolder>
+        <TargetMobileReportFolder>Mobile Reports</TargetMobileReportFolder>
+        <TargetDataSourceFolder>Power Plant Data Sources</TargetDataSourceFolder>
+        <TargetDatasetFolder>Power Plant Data Sets</TargetDatasetFolder>
+        <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

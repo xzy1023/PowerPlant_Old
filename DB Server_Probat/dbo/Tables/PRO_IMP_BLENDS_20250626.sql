@@ -1,0 +1,42 @@
+CREATE TABLE [dbo].[PRO_IMP_BLENDS_20250626] (
+    [CUSTOMER_ID]          INT           NOT NULL,
+    [TRANSFERED]           INT           NOT NULL,
+    [TRANSFERED_TIMESTAMP] DATETIME      NULL,
+    [ACTIVITY]             VARCHAR (1)   NOT NULL,
+    [ZONE]                 INT           NOT NULL,
+    [CUSTOMER_CODE]        VARCHAR (20)  NOT NULL,
+    [NAME]                 VARCHAR (20)  NULL,
+    [INFO_TXT]             VARCHAR (200) NULL,
+    [TYPE_COMP_01]         VARCHAR (20)  NULL,
+    [TYPE_COMP_02]         VARCHAR (20)  NULL,
+    [TYPE_COMP_03]         VARCHAR (20)  NULL,
+    [TYPE_COMP_04]         VARCHAR (20)  NULL,
+    [TYPE_COMP_05]         VARCHAR (20)  NULL,
+    [TYPE_COMP_06]         VARCHAR (20)  NULL,
+    [TYPE_COMP_07]         VARCHAR (20)  NULL,
+    [TYPE_COMP_08]         VARCHAR (20)  NULL,
+    [TYPE_COMP_09]         VARCHAR (20)  NULL,
+    [TYPE_COMP_10]         VARCHAR (20)  NULL,
+    [TYPE_COMP_11]         VARCHAR (20)  NULL,
+    [TYPE_COMP_12]         VARCHAR (20)  NULL,
+    [TYPE_COMP_13]         VARCHAR (20)  NULL,
+    [TYPE_COMP_14]         VARCHAR (20)  NULL,
+    [PART_COMP_01]         INT           NULL,
+    [PART_COMP_02]         INT           NULL,
+    [PART_COMP_03]         INT           NULL,
+    [PART_COMP_04]         INT           NULL,
+    [PART_COMP_05]         INT           NULL,
+    [PART_COMP_06]         INT           NULL,
+    [PART_COMP_07]         INT           NULL,
+    [PART_COMP_08]         INT           NULL,
+    [PART_COMP_09]         INT           NULL,
+    [PART_COMP_10]         INT           NULL,
+    [PART_COMP_11]         INT           NULL,
+    [PART_COMP_12]         INT           NULL,
+    [PART_COMP_13]         INT           NULL,
+    [PART_COMP_14]         INT           NULL
+);
+
+
+GO
+

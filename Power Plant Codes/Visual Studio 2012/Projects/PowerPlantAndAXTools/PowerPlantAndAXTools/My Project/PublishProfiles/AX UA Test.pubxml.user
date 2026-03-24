@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Visual Studio 2012\PrecompiledWeb\PPAXTestTool</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>10/05/2013 23:52:42</publishTime>
+    </File>
+    <File Include="bin/AjaxMin.dll">
+      <publishTime>09/26/2013 16:48:00</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>04/14/2016 12:34:45</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>04/14/2016 12:34:45</publishTime>
+    </File>
+    <File Include="bin/ar/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/cs/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/de/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/es/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/fr/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/he/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/hi/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>09/26/2013 16:48:00</publishTime>
+    </File>
+    <File Include="bin/it/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:43</publishTime>
+    </File>
+    <File Include="bin/ja/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/ko/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/nl/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/pl/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/PowerPlantAndAXTools.dll">
+      <publishTime>02/03/2016 18:22:41</publishTime>
+    </File>
+    <File Include="bin/PowerPlantAndAXTools.xml">
+      <publishTime>02/03/2016 18:22:41</publishTime>
+    </File>
+    <File Include="bin/pt/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/ru/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/tr-TR/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/zh-CHS/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:44</publishTime>
+    </File>
+    <File Include="bin/zh-CHT/AjaxControlToolkit.resources.dll">
+      <publishTime>10/05/2013 23:52:45</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>02/03/2016 18:18:25</publishTime>
+    </File>
+    <File Include="dsChangeLine.xsc">
+      <publishTime>02/03/2016 13:09:45</publishTime>
+    </File>
+    <File Include="dsChangeLine.xss">
+      <publishTime>02/03/2016 13:09:45</publishTime>
+    </File>
+    <File Include="dsControl.xsc">
+      <publishTime>09/17/2015 13:41:20</publishTime>
+    </File>
+    <File Include="dsControl.xss">
+      <publishTime>09/17/2015 13:41:20</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>06/23/2015 18:54:57</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>04/14/2016 12:34:41</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>06/23/2015 12:13:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>06/23/2015 12:13:59</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>06/23/2015 12:13:59</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/14/2016 12:34:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsQATForm" targetNamespace="http://tempuri.org/dsQATForm.xsd" xmlns:mstns="http://tempuri.org/dsQATForm.xsd" xmlns="http://tempuri.org/dsQATForm.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="PowerPlantAXSP_DevCnn" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PowerPlantAXSP_DevCnn (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.InvokePPForm.My.MySettings.GlobalReference.Default.PowerPlantAXSP_DevCnn" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblQATFormTableAdapter" GeneratorDataComponentClassName="tblQATFormTableAdapter" Name="tblQATForm" UserDataComponentName="tblQATFormTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PowerPlantAXSP_DevCnn (MySettings)" DbObjectName="PowerPlantAXSP_Dev.dbo.tblQATForm" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT     InterfaceFormID, TestCategory
+FROM            tblQATForm
+WHERE        (Active = 1)
+union
+SELECT     '', ''
+ORDER BY TestCategory</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="InterfaceFormID" DataSetColumn="InterfaceFormID" />
+              <Mapping SourceColumn="TestCategory" DataSetColumn="TestCategory" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsQATForm" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsQATForm" msprop:Generator_UserDSName="dsQATForm">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblQATForm" msprop:Generator_TableClassName="tblQATFormDataTable" msprop:Generator_TableVarName="tabletblQATForm" msprop:Generator_TablePropName="tblQATForm" msprop:Generator_RowDeletingName="tblQATFormRowDeleting" msprop:Generator_RowChangingName="tblQATFormRowChanging" msprop:Generator_RowEvHandlerName="tblQATFormRowChangeEventHandler" msprop:Generator_RowDeletedName="tblQATFormRowDeleted" msprop:Generator_UserTableName="tblQATForm" msprop:Generator_RowChangedName="tblQATFormRowChanged" msprop:Generator_RowEvArgName="tblQATFormRowChangeEvent" msprop:Generator_RowClassName="tblQATFormRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InterfaceFormID" msprop:Generator_ColumnVarNameInTable="columnInterfaceFormID" msprop:Generator_ColumnPropNameInRow="InterfaceFormID" msprop:Generator_ColumnPropNameInTable="InterfaceFormIDColumn" msprop:Generator_UserColumnName="InterfaceFormID" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TestCategory" msprop:Generator_ColumnVarNameInTable="columnTestCategory" msprop:Generator_ColumnPropNameInRow="TestCategory" msprop:Generator_ColumnPropNameInTable="TestCategoryColumn" msprop:Generator_UserColumnName="TestCategory" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

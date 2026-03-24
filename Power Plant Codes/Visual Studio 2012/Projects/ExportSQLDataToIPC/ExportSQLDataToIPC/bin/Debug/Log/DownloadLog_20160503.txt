@@ -1,0 +1,7 @@
+﻿5/3/2016 1:46:05 PM - There will be total 1 tables will be exported
+5/3/2016 1:46:14 PM - Table: tblComputerConfig
+5/3/2016 1:46:32 PM - Export downloaded ERP/SQL Server tables from mphotest05, powerplantAXHO_Dev to IPCs start.
+5/3/2016 1:51:21 PM - Start exporting data to IPC - MPHOIPCV01
+5/3/2016 1:52:56 PM - Exporting table tblComputerConfig to IPC - MPHOIPCV01
+5/3/2016 1:53:24 PM - End exporting data to IPC - MPHOIPCV01
+5/3/2016 1:53:34 PM - Export downloaded ERP/SQL Server tables from mphotest05, powerplantAXHO_Dev to IPCs completed.

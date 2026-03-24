@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{829E9193-5818-419E-9056-AA2B9EB10799}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>IPCInitialPgm.My.MyApplication</StartupObject>
+    <RootNamespace>IPCInitialPgm</RootNamespace>
+    <AssemblyName>IPCInitialPgm</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>IPCInitialPgm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>IPCInitialPgm.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsUtilities.vb" />
+    <Compile Include="frmCfgIPCViewer.Designer.vb">
+      <DependentUpon>frmCfgIPCViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCfgIPCViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsComputerCfg.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComputerCfg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsComputerCfg.vb">
+      <DependentUpon>dsComputerCfg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsFacility.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacility.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessCtl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessCtl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmCfgIPC.Designer.vb">
+      <DependentUpon>frmCfgIPC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCfgIPC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInitialPgm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInitialPgm.Designer.vb">
+      <DependentUpon>frmInitialPgm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShutDown.designer.vb">
+      <DependentUpon>frmShutDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShutDown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ucHeading.designer.vb">
+      <DependentUpon>ucHeading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucHeading.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmCfgIPCViewer.resx">
+      <DependentUpon>frmCfgIPCViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCfgIPC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCfgIPC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInitialPgm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInitialPgm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShutDown.resx">
+      <DependentUpon>frmShutDown.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeading.resx">
+      <DependentUpon>ucHeading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsComputerCfg.xsc">
+      <DependentUpon>dsComputerCfg.xsd</DependentUpon>
+    </None>
+    <None Include="dsComputerCfg.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComputerCfg.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsComputerCfg.xss">
+      <DependentUpon>dsComputerCfg.xsd</DependentUpon>
+    </None>
+    <None Include="dsFacility.xsc">
+      <DependentUpon>dsFacility.xsd</DependentUpon>
+    </None>
+    <None Include="dsFacility.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacility.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsFacility.xss">
+      <DependentUpon>dsFacility.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessCtl.xsc">
+      <DependentUpon>dsSessCtl.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessCtl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessCtl.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessCtl.xss">
+      <DependentUpon>dsSessCtl.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

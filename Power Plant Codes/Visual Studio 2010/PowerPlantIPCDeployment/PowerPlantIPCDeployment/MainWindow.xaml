@@ -1,0 +1,192 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="650" Width="951">
+    <Grid Height="600" Width="935" ForceCursor="False">
+        <TabControl HorizontalAlignment="Left" Name="TabControl1" Width="900" Margin="5,45,0,365">
+            <TabItem Header="IPC DB Bkup/Restore" Name="tabIPCDBBkupRestore" IsSelected="False" ForceCursor="True">
+                <Grid Height="170" Width="890">
+                    <Button Content="IPC DB Backup" Height="23" HorizontalAlignment="Left" Margin="790,0,0,132" Name="btnBackupIPC" VerticalAlignment="Bottom" Width="87" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="141,16,0,0" Name="txtIPCBackupPgm" VerticalAlignment="Top" Width="535" />
+                    <Label Content="IPC Backup Program:" Height="28" HorizontalAlignment="Left" Margin="16,13,0,0" Name="Label10" VerticalAlignment="Top" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,15,122,0" Name="btnIPCBackupPgm" VerticalAlignment="Top" Width="75" />
+                    <Button Content="IPC DB Restore" Height="23" HorizontalAlignment="Left" Margin="790,0,0,62" Name="btnRestoreIPC" VerticalAlignment="Bottom" Width="87" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="141,86,0,0" Name="txtIPCRestorePgm" VerticalAlignment="Top" Width="535" />
+                    <Label Content="IPC Restore Program:" Height="28" HorizontalAlignment="Left" Margin="16,83,0,0" Name="Label22" VerticalAlignment="Top" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,0,122,62" Name="btnIPCRestorePgm" VerticalAlignment="Bottom" Width="75" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="SQL Objects" Name="tabSQL" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="890" />
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Object Type:" Height="28" HorizontalAlignment="Left" Margin="461,11,0,0" Name="Label4" VerticalAlignment="Top" />
+                    <Label Content="Deploy:" Height="28" HorizontalAlignment="Left" Margin="20,14,0,0" Name="Label8" VerticalAlignment="Top" />
+                    <Button Content="Deploy" Height="23" HorizontalAlignment="Left" Margin="793,122,0,0" Name="btnDeploySQL" VerticalAlignment="Top" Width="75" />
+                    <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,14,227,0" Name="cboObjectType" VerticalAlignment="Top" Width="125">
+                        <ComboBoxItem Content="*ALL" />
+                        <ComboBoxItem Content="Others" />
+                        <ComboBoxItem Content="Stored Procedure" />
+                        <ComboBoxItem Content="Table" />
+                    </ComboBox>
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,97,202,0" Name="txtSourceFolderSQL" VerticalAlignment="Top" Width="580" />
+                    <Label Content="Source Folder:" Height="28" HorizontalAlignment="Left" Margin="20,94,0,0" Name="Label9" VerticalAlignment="Top" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,94,110,0" Name="btnSourceFolderSQL" VerticalAlignment="Top" Width="75" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="76,16,0,0" Name="cboDeployProject" VerticalAlignment="Top" Width="377" ItemsSource="{Binding}" />
+                    <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,14,10,0" Name="cboDataBase" VerticalAlignment="Top" Width="140" />
+                    <Label Content="Data Base:" Height="28" HorizontalAlignment="Left" Margin="675,11,0,0" Name="Label1" VerticalAlignment="Top" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="105,59,0,0" Name="cbxDeployItems" VerticalAlignment="Top" Width="330" ItemsSource="{Binding}" />
+                    <Label Content="Deploy items:" Height="28" HorizontalAlignment="Left" Margin="20,54,0,0" Name="Label2" VerticalAlignment="Top" />
+                </Grid>
+        </TabItem>
+        <TabItem Header=".Net Programs" Name="tabDotNetPgm" IsSelected="False">
+            <Grid Height="170" Width="890">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="353" />
+                        <ColumnDefinition Width="537" />
+                    </Grid.ColumnDefinitions>
+        <Button Content="Deploy" Height="23" HorizontalAlignment="Left" Margin="454,17,0,0" Name="btnDeploy" VerticalAlignment="Top" Width="75" Grid.Column="1" />
+        <CheckBox Content="Power Plant" Height="16" HorizontalAlignment="Left" Margin="23,60,0,0" Name="chkPowerPlant" VerticalAlignment="Top" />
+        <CheckBox Content="Down Time" Height="16" HorizontalAlignment="Left" Margin="23,93,0,0" Name="chkDownTime" VerticalAlignment="Top" />
+        <CheckBox Content="Initial Pgm" Height="16" HorizontalAlignment="Left" Margin="23,123,0,0" Name="chkInitialPgm" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,58,513,0" Name="txtPowerPlantFolder" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" />
+        <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="110,0,0,87" Name="lblPowerPlantFolder" VerticalAlignment="Bottom" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="194,91,0,0" Name="txtDownTimeFolder" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" />
+        <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="110,0,0,54" Name="lblDownTimeFolder" VerticalAlignment="Bottom"/>
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,122,513,0" Name="txtInitialPgmFolder" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" />
+        <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="109,118,0,0" Name="lblInitialPgmFolder" VerticalAlignment="Top" Width="Auto"/>
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,58,142,0" Name="txtPowerPlantFiles" VerticalAlignment="Top" Width="276" Grid.Column="1" />
+        <Label Content="File" Height="28" HorizontalAlignment="Left" Margin="88,55,0,0" Name="lblPowerPlantFiles" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,89,142,0" Name="txtDownTimeFiles" VerticalAlignment="Top" Width="276" Grid.Column="1" />
+        <Label Content="File" Height="28" HorizontalAlignment="Left" Margin="88,86,0,0" Name="lblDownTimeFiles" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Right" Margin="0,123,142,0" Name="txtInitialPgmFiles" VerticalAlignment="Top" Width="276" Grid.Column="1" />
+        <Label Content="File" Height="28" HorizontalAlignment="Left" Margin="88,119,0,0" Name="lblInitialPgmFiles" VerticalAlignment="Top" Grid.Column="1" />
+        <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="408,55,0,0" Name="lblPowerPlantCurVer" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,57,0,0" Name="txtPowerPlantCurVer" VerticalAlignment="Top" Width="46" Grid.Column="1" />
+        <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="408,89,0,0" Name="lblDownTimeCurVer" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,91,0,0" Name="txtDownTimeCurVer" VerticalAlignment="Top" Width="46" Grid.Column="1" />
+        <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="408,122,0,0" Name="lblInitialPgmCurVer" VerticalAlignment="Top" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,124,0,0" Name="txtInitialPgmCurVer" VerticalAlignment="Top" Width="46" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="107,19,0,0" Name="txtSourceFolder" VerticalAlignment="Top" Width="371" Grid.ColumnSpan="2" />
+        <Label Content="Source Folder:" Height="28" HorizontalAlignment="Left" Margin="20,17,0,0" Name="lblSourceFolder" VerticalAlignment="Top"/>
+        <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,17,347,0" Name="btnSourceFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+        <Button Content="Browse" Height="23" HorizontalAlignment="Left" Margin="33,58,0,0" Name="btnPowerPlantFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+        <Button Content="Browse" Height="23" HorizontalAlignment="Left" Margin="33,91,0,0" Name="btnDownTimeFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+        <Button Content="Browse" Height="23" HorizontalAlignment="Left" Margin="33,124,0,0" Name="btnInitialPgmFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+        
+                    <Label Content="Restart IPC at end?" Height="28" HorizontalAlignment="Left" Margin="221,16,0,0" Name="Label5" VerticalAlignment="Top" Grid.Column="1" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="327,17,0,0" Name="cboRestartIPC" VerticalAlignment="Top" Width="65" Grid.Column="1">
+                        <ComboBoxItem Content="Yes" />
+                        <ComboBoxItem Content="No" />
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="WCF/TCP" Name="tabWCFTCP" IsSelected="False">
+                <Grid Height="170" Width="890">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="353" />
+                        <ColumnDefinition Width="537" />
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Deploy" Height="23" HorizontalAlignment="Left" Margin="454,17,0,0" Name="btnDeployWCFTCP" VerticalAlignment="Top" Width="75" Grid.Column="1" />
+                    <CheckBox Content="WCF Srv" Height="16" HorizontalAlignment="Left" Margin="23,62,0,0" Name="chkWCF" VerticalAlignment="Top" />
+                    <CheckBox Content="TCP Server" Height="16" HorizontalAlignment="Left" Margin="23,93,0,0" Name="chkTCP" VerticalAlignment="Top" />
+                    
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="194,58,0,0" Name="txtWCFFolder" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" />
+                    <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="110,0,0,87" Name="lblWCFFolder" VerticalAlignment="Bottom" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="194,91,0,0" Name="txtTCPFolder" VerticalAlignment="Top" Width="183" Grid.ColumnSpan="2" />
+                    <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="110,0,0,54" Name="lblTCPFolder" VerticalAlignment="Bottom"/>
+                    
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,58,142,0" Name="txtWCFFiles" VerticalAlignment="Top" Width="276" Grid.Column="1" />
+                    <Label Content="File" Height="28" HorizontalAlignment="Left" Margin="88,55,0,0" Name="lblWCFFiles" VerticalAlignment="Top" Grid.Column="1" />
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,89,142,0" Name="txtTCPFiles" VerticalAlignment="Top" Width="276" Grid.Column="1" />
+                    <Label Content="File" Height="28" HorizontalAlignment="Left" Margin="88,86,0,0" Name="lblTCPFiles" VerticalAlignment="Top" Grid.Column="1" />
+
+                    <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="408,55,0,0" Name="lblWCFCurVer" VerticalAlignment="Top" Grid.Column="1" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="483,57,0,0" Name="txtWCFCurVer" VerticalAlignment="Top" Width="46" Grid.Column="1" />
+                    <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="408,89,0,0" Name="lblTCPCurVer" VerticalAlignment="Top" Grid.Column="1" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="483,91,0,0" Name="txtTCPCurVer" VerticalAlignment="Top" Width="46" Grid.Column="1" />
+
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="107,19,0,0" Name="txtWCFTCPSourceFolder" VerticalAlignment="Top" Width="371" Grid.ColumnSpan="2" />
+                    <Label Content="Source Folder:" Height="28" HorizontalAlignment="Left" Margin="20,17,0,0" Name="lblWCFTCPSourceFolder" VerticalAlignment="Top"/>
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,17,347,0" Name="btnWCFTCPSourceFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Left" Margin="33,58,0,0" Name="btnWCFFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Left" Margin="33,91,0,0" Name="btnTCPFolder" VerticalAlignment="Top" Width="49" Grid.Column="1" />
+                    
+                    <Label Content="Restart IPC at end?" Height="28" HorizontalAlignment="Left" Margin="221,16,0,0" Name="lblRestartIPC" VerticalAlignment="Top" Grid.Column="1" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="327,17,0,0" Name="cboWCFTCPRestartIPC" VerticalAlignment="Top" Width="65" Grid.Column="1">
+                        <ComboBoxItem Content="Yes" />
+                        <ComboBoxItem Content="No" />
+                    </ComboBox>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Registry" Name="tabRegistry">
+                <Grid>
+                    <Label Content="Registry Hive:" Height="27" HorizontalAlignment="Left" Margin="10,16,0,0" Name="Label13" VerticalAlignment="Top" Width="80" />
+                    <ComboBox Height="23" HorizontalAlignment="Left" Margin="96,16,0,0" Name="cboRegHive" VerticalAlignment="Top" Width="148" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="96,49,0,0" Name="txtRegSubkey" VerticalAlignment="Top" Width="696" />
+                    <Label Content="Subkey:" Height="28" HorizontalAlignment="Left" Margin="10,49,0,0" Name="Label14" VerticalAlignment="Top" />
+                    <Label Content="New Value:" Height="28" HorizontalAlignment="Left" Margin="12,112,0,0" Name="Label15" VerticalAlignment="Top" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="96,112,0,0" Name="txtNewRegValue" VerticalAlignment="Top" Width="156" />
+                    <Button Content="Update" Height="23" HorizontalAlignment="Left" Margin="341,111,0,0" Name="btnUpdateRegistry" VerticalAlignment="Top" Width="75" />
+                    <Label Content="Key Name:" Height="28" HorizontalAlignment="Left" Margin="11,79,0,0" Name="Label16" VerticalAlignment="Top" />
+                    <TextBox Height="23" Margin="96,80,638,0" Name="txtRegKeyName" VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Probat Client" Name="tblProbatClient">
+                <Grid>
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="97,12,0,0" Name="txtProbatSourceFolder" VerticalAlignment="Top" Width="371" />
+                    <Label Content="Source Folder:" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="Label17" VerticalAlignment="Top" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,10,357,0" Name="btnBrwProbatSourceFolder" VerticalAlignment="Top" Width="49" />
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,42,422,0" Name="txtProbatTargetFolder" VerticalAlignment="Top" Width="371" />
+                    <Label Content="Target Folder:" Height="28" HorizontalAlignment="Left" Margin="10,0,0,91" Name="Label18" VerticalAlignment="Bottom" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,0,357,91" Name="btnBrwProbatTargetFolder" VerticalAlignment="Bottom" Width="49" />
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,76,422,0" Name="txtProbatClientFiles" VerticalAlignment="Top" Width="371" />
+                    <Label Content="Files" Height="28" HorizontalAlignment="Left" Margin="11,73,0,0" Name="Label19" VerticalAlignment="Top" />
+                    <Label Content="Cur. Version" Height="28" HorizontalAlignment="Left" Margin="483,73,0,0" Name="Label21" VerticalAlignment="Top" />
+                    <TextBox Height="23" HorizontalAlignment="Right" Margin="0,75,286,0" Name="txtProbatClientVersion" VerticalAlignment="Top" Width="46" />
+                    <Button Content="Deploy" Height="23" HorizontalAlignment="Left" Margin="796,12,0,0" Name="btnDeployProbatClient" VerticalAlignment="Top" Width="75" />
+                    <Button Content="Cfg. Registry" Height="23" HorizontalAlignment="Left" Margin="796,118,0,0" Name="btnRunRegistry" VerticalAlignment="Top" Width="75" />
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="97,119,0,0" Name="txtCfgProbatClientRegistryBatchFile" VerticalAlignment="Top" Width="371" />
+                    <Label Content="Batch File:" Height="28" HorizontalAlignment="Left" Margin="10,0,0,17" Name="Label20" VerticalAlignment="Bottom" />
+                    <Button Content="Browse" Height="23" HorizontalAlignment="Right" Margin="0,0,357,17" Name="btnBrwProbatClientRegistryFile" VerticalAlignment="Bottom" Width="49" />
+                    <CheckBox Content="Delete First" Height="23" HorizontalAlignment="Left" Margin="578,15,0,0" Name="chkDelProbatClient" VerticalAlignment="Top" Width="84" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label Content="Plant:" Height="28" HorizontalAlignment="Left" Margin="10,10,0,0" Name="Label11" VerticalAlignment="Top" Width="40" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="54,13,0,0" MaxDropDownHeight="266" Name="cboPlant" VerticalAlignment="Top" Width="60">
+            <ComboBoxItem Content="AJ" Tag="MPAJPP01" />
+            <ComboBoxItem Content="FW" Tag="MPFWPP01" />
+            <ComboBoxItem Content="HO" Tag="MPHOPP01" />
+            <ComboBoxItem Content="SP" Tag="MPSPPP01" />
+            <ComboBoxItem Content="AXAJ" Tag="MPHOPP02" />
+            <ComboBoxItem Content="AXFW" Tag="MPHOPP02" />
+            <ComboBoxItem Content="AXHO" Tag="MPHOPP02" />
+            <ComboBoxItem Content="AXSP" Tag="MPHOPP02" />
+            <ComboBoxItem Content="CUAJ" Tag="MPHOPP02" />
+            <ComboBoxItem Content="CUFW" Tag="MPHOPP02" />
+            <ComboBoxItem Content="CUHO" Tag="MPHOPP02" />
+            <ComboBoxItem Content="CUSP" Tag="MPHOPP02" />
+        </ComboBox>
+        <Label Content="Environment:" Height="28" HorizontalAlignment="Left" Margin="133,10,0,0" Name="Label12" VerticalAlignment="Top" Width="80
+               " />
+        <Label Content="Target unit(s):" Height="28" HorizontalAlignment="Left" Margin="577,11,0,0" Name="Label7" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" ItemsSource="{Binding}" Margin="657,13,0,0" Name="cboTargetUnit" SelectedIndex="0" VerticalAlignment="Top" Width="124" />
+        <Button Content="Exit" Height="23" HorizontalAlignment="Left" Margin="827,15,0,0" Name="btnExit" VerticalAlignment="Top" Width="75" />
+        <Label Content="To Sever/IPC:" Height="28" HorizontalAlignment="Left" Margin="383,12,0,0" Name="Label3" VerticalAlignment="Top" Width="80" />
+        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,13,386,0" Name="cboServerOrIPC" VerticalAlignment="Top" Width="80">
+            <ComboBoxItem Content="SvrStaging" Name="SvrStaging" />
+            <ComboBoxItem Content="Server" Name="Server" />
+            <ComboBoxItem Content="IPC" Name="IPC" />
+        </ComboBox>
+        <TextBox Height="321" HorizontalAlignment="Left" Margin="10,253,0,0" Name="txtLog" VerticalAlignment="Top" Width="784" VerticalScrollBarVisibility="Auto" />
+        <Button Content="Clear Log" Height="23" HorizontalAlignment="Left" Margin="819,253,0,0" Name="btnClearLog" VerticalAlignment="Top" Width="75" />
+        <Label Content="Power plant Deployment" Height="28" HorizontalAlignment="Left" Margin="200,-28,0,0" Name="Label6" VerticalAlignment="Top" FontSize="14" />
+        <ComboBox Height="23" Margin="0,13,670,0" Name="cbxEnv" VerticalAlignment="Top" HorizontalAlignment="Right" Width="55">
+            <ComboBoxItem Content="Dev" Name="Dev"/>
+            <ComboBoxItem Content="UA" Name="UA" />
+            <ComboBoxItem Content="Prd" Name="Prd"/>
+        </ComboBox>
+    </Grid>
+</Window>

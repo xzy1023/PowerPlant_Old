@@ -1,0 +1,10 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\PrecompiledWeb\PPWCFService\">
+    <file relUrl="bin/PPWCFService.dll" publishTime="12/20/2018 15:22:14" />
+    <file relUrl="bin/PPWCFService.dll.config" publishTime="09/17/2018 18:38:08" />
+    <file relUrl="bin/PPWCFService.xml" publishTime="12/20/2018 15:22:14" />
+    <file relUrl="Web.config" publishTime="09/17/2018 18:38:08" />
+    <file relUrl="bin/PPWCFService.pdb" publishTime="12/20/2018 15:22:14" />
+    <file relUrl="PPWCFService.PPService.svc" publishTime="12/20/2018 15:22:16" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,16 @@
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClientServer.Resources.resources
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.vbproj.GenerateResource.Cache
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClientServer.exe
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClientServer.pdb
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClientServer.xml
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClientServer.exe
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClientServer.xml
+c:\users\leebong\documents\visual studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClientServer.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClient.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClient.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\bin\Debug\PPTCPClient.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPTCPClientServer\PPTCPClientServer\obj\Debug\PPTCPClient.pdb

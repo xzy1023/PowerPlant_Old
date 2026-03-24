@@ -1,0 +1,20 @@
+﻿4/25/2017 12:00:15 PM - There will be total 1 tables will be exported
+4/25/2017 12:00:21 PM - Table: tblComputerConfig
+4/25/2017 12:00:28 PM - Exporting downloaded tables from mpfwpp02, powerplant_UA to IPCs started.
+4/25/2017 12:00:29 PM - Start exporting data to IPC - MPFWIPCV01
+4/25/2017 12:01:01 PM - Exporting table tblComputerConfig to IPC - MPFWIPCV01
+4/25/2017 12:01:07 PM - End exporting data to IPC - MPFWIPCV01
+4/25/2017 12:01:08 PM - Start exporting data to IPC - MPLTPC07YYVM
+4/25/2017 12:01:13 PM - Exporting table tblComputerConfig to IPC - MPLTPC07YYVM
+4/25/2017 12:01:14 PM - End exporting data to IPC - MPLTPC07YYVM
+4/25/2017 12:01:14 PM - Exporting downloaded tables from mpfwpp02, powerplant_UA to IPCs completed.
+4/25/2017 12:42:07 PM - There will be total 1 tables will be exported
+4/25/2017 12:42:08 PM - Table: tblComputerConfig
+4/25/2017 12:42:26 PM - Exporting downloaded tables from mpfwpp02, powerplant_UA to IPCs started.
+4/25/2017 12:42:51 PM - Start exporting data to IPC - MPFWIPCV01
+4/25/2017 12:44:03 PM - Exporting table tblComputerConfig to IPC - MPFWIPCV01
+4/25/2017 12:44:06 PM - End exporting data to IPC - MPFWIPCV01
+4/25/2017 12:44:07 PM - Start exporting data to IPC - MPLTPC07YYVM
+4/25/2017 12:45:13 PM - Exporting table tblComputerConfig to IPC - MPLTPC07YYVM
+4/25/2017 12:45:28 PM - End exporting data to IPC - MPLTPC07YYVM
+4/25/2017 12:45:29 PM - Exporting downloaded tables from mpfwpp02, powerplant_UA to IPCs completed.

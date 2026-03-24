@@ -1,0 +1,5 @@
+CREATE USER [ExportDataToIPCDB_AC] WITHOUT LOGIN;
+
+
+GO
+

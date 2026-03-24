@@ -1,0 +1,21 @@
+CREATE ROLE [PPUserDBGrp]
+    AUTHORIZATION [dbo];
+
+
+GO
+
+ALTER ROLE [PPUserDBGrp] ADD MEMBER [MPHO\PP_IPC_User];
+
+
+GO
+
+ALTER ROLE [PPUserDBGrp] ADD MEMBER [ppuser];
+
+
+GO
+
+ALTER ROLE [PPUserDBGrp] ADD MEMBER [dataImporter];
+
+
+GO
+

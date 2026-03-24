@@ -1,0 +1,21 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "sqlproj: Build DatabaseProjectPowerPlant_Prd",
+			"type": "process",
+			"command": "dotnet",
+			"args": [
+				"build",
+				"c:/Users/Xiao/source/repos/PowerPlant WS/DatabaseProjectPowerPlant_Prd/DatabaseProjectPowerPlant_Prd.sqlproj"
+			],
+			"problemMatcher": "$sqlproj-problem-matcher",
+			"isBackground": true,
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Builds the DatabaseProjectPowerPlant_Prd SQL project"
+		}
+	]
+}

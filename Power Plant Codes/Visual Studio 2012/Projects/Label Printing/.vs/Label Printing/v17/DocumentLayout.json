@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|d:\\power plant resources\\visual studio 2012\\projects\\label printing\\label printing\\srvlabelprinting.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|solutionrelative:label printing\\srvlabelprinting.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\label printing\\sharedfunctions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|solutionrelative:label printing\\sharedfunctions.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\label printing\\clstcpclient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|solutionrelative:label printing\\clstcpclient.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\label printing\\clscoloscli.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2B6E8742-42B6-4CB6-A909-90D8ECB08516}|Label Printing\\Label Printing.vbproj|solutionrelative:label printing\\clscoloscli.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "srvLabelPrinting.vb",
+              "DocumentMoniker": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\srvLabelPrinting.vb",
+              "RelativeDocumentMoniker": "Label Printing\\srvLabelPrinting.vb",
+              "ToolTip": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\srvLabelPrinting.vb",
+              "RelativeToolTip": "Label Printing\\srvLabelPrinting.vb",
+              "ViewState": "AQIAABoBAAAAAAAAAAAWwCoBAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T18:50:00.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "clsTCPClient.vb",
+              "DocumentMoniker": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\clsTCPClient.vb",
+              "RelativeDocumentMoniker": "Label Printing\\clsTCPClient.vb",
+              "ToolTip": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\clsTCPClient.vb",
+              "RelativeToolTip": "Label Printing\\clsTCPClient.vb",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T18:49:35.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsCoLOSCLI.vb",
+              "DocumentMoniker": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\clsCoLOSCLI.vb",
+              "RelativeDocumentMoniker": "Label Printing\\clsCoLOSCLI.vb",
+              "ToolTip": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\clsCoLOSCLI.vb",
+              "RelativeToolTip": "Label Printing\\clsCoLOSCLI.vb",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T18:49:28.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedFunctions.vb",
+              "DocumentMoniker": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\SharedFunctions.vb",
+              "RelativeDocumentMoniker": "Label Printing\\SharedFunctions.vb",
+              "ToolTip": "D:\\Power Plant Resources\\Visual Studio 2012\\Projects\\Label Printing\\Label Printing\\SharedFunctions.vb",
+              "RelativeToolTip": "Label Printing\\SharedFunctions.vb",
+              "ViewState": "AQIAABMAAAAAAAAAAAAswAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-03-07T18:49:18.873Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

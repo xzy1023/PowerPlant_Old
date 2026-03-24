@@ -1,0 +1,280 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DownTime
+</name>
+</assembly>
+<members>
+<member name="T:DownTime.dsDownTimeLog.CPPsp_DownTimeLog_SelDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsDownTimeLog.CPPsp_DownTimeLog_SelRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsDownTimeLog.CPPsp_DownTimeLog_SelRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsDownTimeLog">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsDownTimeLogTableAdapters.CPPsp_DownTimeLog_SelTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsShift.CPPsp_ShiftIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsShift.CPPsp_ShiftIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsShift.CPPsp_ShiftIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsShift">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsShiftTableAdapters.CPPsp_ShiftIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DownTime.dsShiftTableAdapters.TableAdapterManager.UpdateUpdatedRows(DownTime.dsShift,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DownTime.dsShiftTableAdapters.TableAdapterManager.UpdateInsertedRows(DownTime.dsShift,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DownTime.dsShiftTableAdapters.TableAdapterManager.UpdateDeletedRows(DownTime.dsShift,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DownTime.dsShiftTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DownTime.dsShiftTableAdapters.TableAdapterManager.UpdateAll(DownTime.dsShift)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DownTime.dsShiftTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DownTime.dsShiftTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DownTime.dsShiftTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DownTime.dsSessionControl.CPPsp_SessionControlIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsSessionControl.CPPsp_SessionControlIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsSessionControl.CPPsp_SessionControlIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsSessionControl">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsSessionControlTableAdapters.CPPsp_SessionControlIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsControl.CPPsp_ControlIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsControl.CPPsp_ControlIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsControl.CPPsp_ControlIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsControl">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsControlTableAdapters.CPPsp_ControlIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsDTReasonCode.tblDTReasonCodeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsDTReasonCode.tblDTReasonCodeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsDTReasonCode.tblDTReasonCodeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsDTReasonCode">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsDTReasonCodeTableAdapters.tblDTReasonCodeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsSessionControlHst.CPPsp_SessionControlHstIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsSessionControlHst.CPPsp_SessionControlHstIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsSessionControlHst.CPPsp_SessionControlHstIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsSessionControlHst">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsSessionControlHstTableAdapters.CPPsp_SessionControlHstIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsPlantStaff.CPPsp_PlantStaffingIODataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsPlantStaff.CPPsp_PlantStaffingIORow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsPlantStaff.CPPsp_PlantStaffingIORowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsPlantStaff">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsPlantStaffTableAdapters.CPPsp_PlantStaffingIOTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:DownTime.dsEquipment.dtEquipmentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsEquipment.dtEquipmentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsEquipment.dtEquipmentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsEquipment">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsEquipmentTableAdapters.taEquipment">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:DownTime.dsEquipmentTableAdapters.TableAdapterManager.UpdateUpdatedRows(DownTime.dsEquipment,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:DownTime.dsEquipmentTableAdapters.TableAdapterManager.UpdateInsertedRows(DownTime.dsEquipment,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:DownTime.dsEquipmentTableAdapters.TableAdapterManager.UpdateDeletedRows(DownTime.dsEquipment,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:DownTime.dsEquipmentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:DownTime.dsEquipmentTableAdapters.TableAdapterManager.UpdateAll(DownTime.dsEquipment)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:DownTime.dsEquipmentTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:DownTime.dsEquipmentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:DownTime.dsEquipmentTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:DownTime.dsDTReasonType.tblDTReasonTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:DownTime.dsDTReasonType.tblDTReasonTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:DownTime.dsDTReasonType.tblDTReasonTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:DownTime.dsDTReasonType">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:DownTime.dsDTReasonTypeTableAdapters.tblDTReasonTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="P:DownTime.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:DownTime.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:DownTime.My.Resources.Resources.BackSpace">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DownTime.My.Resources.Resources.Delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:DownTime.My.Resources.Resources.Tick">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:DownTime.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

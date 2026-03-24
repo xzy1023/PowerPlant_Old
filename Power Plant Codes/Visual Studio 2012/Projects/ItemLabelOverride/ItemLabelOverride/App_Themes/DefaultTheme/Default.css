@@ -1,0 +1,187 @@
+﻿/* Sets element margins, padding, and border to 0 to even out browser differences when adding desired values later. */
+html, body, div, p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, li, dl, dt, dd, td, form, fieldset, a, img, button {
+     margin: 0;
+     padding: 0;
+     border: 0;
+}
+body
+{
+    /*text-align: center;*/
+    background-color: transparent;
+    background-image: none;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.78em;
+    margin-left: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {color:#444444;}
+
+/*Typographics styles adapted from http://www.thenoodleincident.com/tutorials/typography/ */
+h1 {
+	margin-top:1em;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+h2 {
+	margin-top:1em;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+h3 {
+	margin: 0.5em 0;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+h4 {
+	margin: 0.5em 0;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h5 {
+	margin: 0.5em 0;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+h6 {
+	margin: 0.5em 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+p  {margin: 1em 0;}
+
+a {text-decoration:underline;}
+
+a:hover {text-decoration:none;}
+
+/*.txtBox {border:1px solid #666666;}*/
+
+/* Class selector*/
+.button
+{
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    border-color: #C0C0C0 #666666 #666666 #C0C0C0;
+    color: black;
+    background-color: #ffff99;
+    font-size: 1em;
+}
+
+.RadioButtonList
+{
+     Height: 15px;
+      Width: 95px
+}
+
+.txtBox_20
+{
+    width: 150px;
+}
+
+.txtBox_25
+{
+    width: 190px;
+}
+
+/* WO#6430 ADD Start */
+.txtBox_30
+{
+    width: 220px;
+}
+/* WO#6430 ADD Stop*/
+
+.txtBox_50
+{
+  
+    width: 360px;
+}
+
+.label_35
+{
+    width: 200px;
+}
+
+/*
+td
+{
+    border-style: solid;
+    border-width: thin;
+    border-color: inherit;
+}
+    */
+
+        
+.Prompt-Facility
+{
+    width: 60px;
+}
+
+.Prompt-ItemNumber
+{
+    width: 109px;
+}
+.auto-style3
+{
+    width: 80px;
+}
+
+.ActionMode
+{
+    font-size: medium;
+    font-weight: normal;
+    font-family: 'Bell MT';
+    color: #0000FF;
+    text-align: Left;
+}
+
+.ColumnTitle
+{
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Bell MT';
+    color: #0000FF;
+    text-align: Left;
+}
+
+.FieldDesc_Column
+{
+    width: 170px;
+}
+
+.Override_YesOrNO_heading
+{
+    color: #FF0000;
+    text-align: left; 
+    width: 110px;
+}
+
+.Override_YesOrNo
+{
+    width: 110px;
+    background-color: #FEF7E7;
+}
+
+
+/* Item label Overide textbox Column*/
+.Override_DataEntryHeading
+{
+    width: 390px;
+}
+
+.Override_DataEntry
+{
+    width: 390px;
+    background-color: #FEF7E7;
+}
+
+/* Item label Overide textbox Column*/
+.ERP_Column
+{
+    width: 390px;
+}
+
+/* Error Message*/
+.Err_Message
+{
+    color: #FF0000;
+}

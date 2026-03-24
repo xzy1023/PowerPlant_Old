@@ -1,0 +1,26 @@
+
+
+
+CREATE VIEW [dbo].[PRO_EXP_PALLET_FB_VIEW] AS
+
+SELECT
+[TRANSFERED]
+      ,[TRANSFERED_TIMESTAMP]
+      ,[RECORDING_DATE]
+      ,[DESTINATION]
+      ,[ORDER_NAME]
+      ,[ORDER_TYP]
+      ,[PALLET_ID]
+      ,[MASTER_ID]
+      ,[CUSTOMER_CODE]
+      ,[S_PRODUCT_ID]
+      ,[S_CUSTOMER_CODE]
+      ,[WEIGHT]
+      ,[START_FLAG]
+      ,[END_FLAG]
+      ,[PRO_EXPORT_GENERAL_ID]    ID
+      ,[LOCATION]
+  FROM [dbo].[PRO_EXP_PALLET_FB]
+
+GO
+

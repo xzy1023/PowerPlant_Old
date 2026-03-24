@@ -1,0 +1,9 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\bin\Release\KronosETL.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\bin\Release\KronosETL.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\bin\Release\KronosETL.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\bin\Release\KronosETL.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\obj\Release\KronosETL.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\obj\Release\KronosETL.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\obj\Release\KronosETL.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\obj\Release\KronosETL.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\KronosETL\KronosETL\KronosETL\obj\Release\KronosETL.pdb

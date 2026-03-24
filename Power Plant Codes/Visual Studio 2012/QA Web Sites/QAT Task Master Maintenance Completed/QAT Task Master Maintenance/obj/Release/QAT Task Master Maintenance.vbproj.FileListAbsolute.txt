@@ -1,0 +1,8 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\bin\QAT Task Master Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\bin\QAT Task Master Maintenance.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\bin\QAT Task Master Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\obj\Release\QATTaskMasterMaintenance.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\obj\Release\QAT Task Master Maintenance.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\obj\Release\QAT Task Master Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\obj\Release\QAT Task Master Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Task Master Maintenance Completed V4\QAT Task Master Maintenance\obj\Release\QAT Task Master Maintenance.pdb

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DynamicsAX">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=AX-PRD01-01-VIP;Initial Catalog=AX2012R3_PRD01</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>fde58ed1-674c-4b4a-8aa0-c195ea380d9a</DataSourceID>
+</RptDataSource>

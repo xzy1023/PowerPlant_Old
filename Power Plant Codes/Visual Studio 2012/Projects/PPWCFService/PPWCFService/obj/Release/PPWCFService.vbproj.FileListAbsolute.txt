@@ -1,0 +1,9 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\bin\Release\PPWCFService.dll.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\bin\Release\PPWCFService.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\bin\Release\PPWCFService.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\bin\Release\PPWCFService.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\obj\Release\PPWCFService.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\obj\Release\PPWCFService.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\obj\Release\PPWCFService.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\obj\Release\PPWCFService.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\PPWCFService\PPWCFService\obj\Release\PPWCFService.pdb

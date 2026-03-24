@@ -1,0 +1,484 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+QATWorkflowMaintenance
+</name>
+</assembly>
+<members>
+<member name="P:QAT_Workflow_Maintenance.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:QAT_Workflow_Maintenance.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:QAT_Workflow_Maintenance.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:QAT_Workflow_Maintenance.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:QAT_Workflow_Maintenance.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:QAT_Workflow_Maintenance.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblUserName">
+	<summary>
+lblUserName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblFacilitySearch">
+	<summary>
+lblFacilitySearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlFacilitySearch">
+	<summary>
+ddlFacilitySearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lbllPackagingLineSearch">
+	<summary>
+lbllPackagingLineSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlPackagingLineSearch">
+	<summary>
+ddlPackagingLineSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblEntryPointDesc5">
+	<summary>
+lblEntryPointDesc5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlEntryPointSearch">
+	<summary>
+ddlEntryPointSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.txtSearch">
+	<summary>
+txtSearch control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.txtSearch1">
+	<summary>
+txtSearch1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblQATEntryPoint1">
+	<summary>
+lblQATEntryPoint1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.gvForm">
+	<summary>
+gvForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblActive">
+	<summary>
+lblActive control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.chkActive1">
+	<summary>
+chkActive1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblFacility">
+	<summary>
+lblFacility control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlFacility">
+	<summary>
+ddlFacility control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblFacility1">
+	<summary>
+lblFacility1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLine">
+	<summary>
+lblPackagingLine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlPackagingLine">
+	<summary>
+ddlPackagingLine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLine1">
+	<summary>
+lblPackagingLine1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblQATDefnID">
+	<summary>
+lblQATDefnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlQATDefnID">
+	<summary>
+ddlQATDefnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblQATDefnID1">
+	<summary>
+lblQATDefnID1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblTestSeq">
+	<summary>
+lblTestSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlTestSeq">
+	<summary>
+ddlTestSeq control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblTestSeq1">
+	<summary>
+lblTestSeq1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblSerialConnID">
+	<summary>
+lblSerialConnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlSerialConnID">
+	<summary>
+ddlSerialConnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblSerialConnID1">
+	<summary>
+lblSerialConnID1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblTCPConnID">
+	<summary>
+lblTCPConnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlTCPConnID">
+	<summary>
+ddlTCPConnID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblTCPConnID1">
+	<summary>
+lblTCPConnID1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblExceptionCode">
+	<summary>
+lblExceptionCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlExceptionCode">
+	<summary>
+ddlExceptionCode control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblExceptionCode1">
+	<summary>
+lblExceptionCode1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblCopyRecord">
+	<summary>
+lblCopyRecord control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.chkCopyRecord1">
+	<summary>
+chkCopyRecord1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineFrom">
+	<summary>
+lblPackagingLineFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlPackagingLineFrom">
+	<summary>
+ddlPackagingLineFrom control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineFrom1">
+	<summary>
+lblPackagingLineFrom1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineTo">
+	<summary>
+lblPackagingLineTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlPackagingLineTo">
+	<summary>
+ddlPackagingLineTo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineTo1">
+	<summary>
+lblPackagingLineTo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblDeleteRecord">
+	<summary>
+lblDeleteRecord control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.chkDeleteRecord1">
+	<summary>
+chkDeleteRecord1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineDelete">
+	<summary>
+lblPackagingLineDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.ddlPackagingLineDelete">
+	<summary>
+ddlPackagingLineDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLineDelete1">
+	<summary>
+lblPackagingLineDelete1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblQATDefnID9">
+	<summary>
+lblQATDefnID9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblPackagingLine9">
+	<summary>
+lblPackagingLine9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblFacility9">
+	<summary>
+lblFacility9 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.btnCancel">
+	<summary>
+btnCancel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.btnDelete">
+	<summary>
+btnDelete control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.btnSave">
+	<summary>
+btnSave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:QAT_Workflow_Maintenance._Default.lblErrMsg">
+	<summary>
+lblErrMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PowerPlantLocalModels" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+  <EntityType Name="tblQATCameraResult">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchID" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ConfirmedBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Facility" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="InterfaceID" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PackagingLine" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QAConfirmed" Type="Boolean" />
+    <Property Name="ShopOrder" Type="Int32" Nullable="false" />
+    <Property Name="SOStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestEndTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestResult" Type="Boolean" Nullable="false" />
+    <Property Name="LightDensityResult" Type="Boolean" Nullable="false" />
+    <Property Name="MinWidthReuslt" Type="Boolean" Nullable="false" />
+    <Property Name="TestStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TesterID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="QATEntryPoint" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchID" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LaneNo" Type="Int32" />
+    <Property Name="RetestNo" Type="Byte" Nullable="false" />
+    <Property Name="SampleNo" Type="Int32" />
+    <Property Name="TestResult" Type="Boolean" Nullable="false" />
+    <Property Name="TestTime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchID" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ConfirmedBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Facility" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="InterfaceID" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OverrideID" Type="DateTime" Precision="3" />
+    <Property Name="PackagingLine" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QAConfirmed" Type="Boolean" />
+    <Property Name="RetestNo" Type="Byte" Nullable="false" />
+    <Property Name="ShopOrder" Type="Int32" Nullable="false" />
+    <Property Name="SOStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestEndTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestResult" Type="Boolean" Nullable="false" />
+    <Property Name="TestStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TesterID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="QATEntryPoint" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchID" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LaneNo" Type="Int32" />
+    <Property Name="RetestNo" Type="Byte" Nullable="false" />
+    <Property Name="SampleNo" Type="Int32" />
+    <Property Name="TestResult" Type="Boolean" Nullable="false" />
+    <Property Name="TestTime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BatchID" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ConfirmedBy" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Facility" Type="String" MaxLength="3" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="InterfaceID" Type="String" MaxLength="24" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="OverrideID" Type="DateTime" Precision="3" />
+    <Property Name="PackagingLine" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="QAConfirmed" Type="Boolean" />
+    <Property Name="RetestNo" Type="Byte" Nullable="false" />
+    <Property Name="ShopOrder" Type="Int32" Nullable="false" />
+    <Property Name="SOStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestEndTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TestResult" Type="Boolean" Nullable="false" />
+    <Property Name="TestStartTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="TesterID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="QATEntryPoint" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="PowerPlantLocalEntities">
+    <EntitySet Name="tblQATCameraResult" EntityType="Self.tblQATCameraResult" />
+    <EntitySet Name="tblQATLidPeelResultDetail" EntityType="Self.tblQATLidPeelResultDetail" />
+    <EntitySet Name="tblQATLidPeelResultHeader" EntityType="Self.tblQATLidPeelResultHeader" />
+    <EntitySet Name="tblQATShakeShineResultDetail" EntityType="Self.tblQATShakeShineResultDetail" />
+    <EntitySet Name="tblQATShakeShineResultHeader" EntityType="Self.tblQATShakeShineResultHeader" />
+    <EntitySet Name="tblPalletExt" EntityType="PowerPlantLocalModels.tblPalletExt" />
+    <EntitySet Name="tblPlantStaff" EntityType="PowerPlantLocalModels.tblPlantStaff" />
+    <EntitySet Name="tblComputerConfig" EntityType="PowerPlantLocalModels.tblComputerConfig" />
+  </EntityContainer>
+  <EntityType Name="tblPalletExt">
+    <Key>
+      <PropertyRef Name="CreationDateTime" />
+    </Key>
+    <Property Name="Creator" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreationDateTime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="tblPlantStaff">
+    <Key>
+      <PropertyRef Name="Facility" />
+      <PropertyRef Name="WorkGroup" />
+      <PropertyRef Name="StaffID" />
+    </Key>
+    <Property Name="ActiveRecord" Type="Boolean" Nullable="false" />
+    <Property Name="Facility" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="WorkGroup" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="StaffID" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="FirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StaffClass" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ResetPassword" Type="Boolean" Nullable="false" />
+    <Property Name="DateLastChange" Type="DateTime" Precision="3" />
+    <Property Name="WorkSubGroup" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PrintAccessLevel" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblComputerConfig">
+    <Key>
+      <PropertyRef Name="ComputerName" />
+    </Key>
+    <Property Name="Facility" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+    <Property Name="RecordStatus" Type="Boolean" Nullable="false" />
+    <Property Name="ComputerName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="AttachedPLC" Type="Boolean" Nullable="false" />
+    <Property Name="PkgLineType" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="PalletStation" Type="Boolean" Nullable="false" />
+    <Property Name="PrintPalletLabel" Type="Boolean" Nullable="false" />
+    <Property Name="ScaleBrand" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Model" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RunMode" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="CommPort" Type="Byte" />
+    <Property Name="PackagingLine" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="SamplingType" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="SampleBlockTimeInterval" Type="Byte" />
+    <Property Name="NoOfSamplesInABlock" Type="Byte" />
+    <Property Name="SamplingTime" Type="Int16" />
+    <Property Name="NoOfDials" Type="Byte" />
+    <Property Name="Dial1DecPlace" Type="Byte" />
+    <Property Name="QATWorkFlowInitiation" Type="Byte" />
+    <Property Name="InterfaceType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EnableOutputLocation" Type="Boolean" Nullable="false" />
+    <Property Name="AutoCountUnit" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Enable2SOIn1Line" Type="Boolean" Nullable="false" />
+    <Property Name="EnableOvrExpDate" Type="Boolean" Nullable="false" />
+    <Property Name="EnableDownLoad" Type="Boolean" Nullable="false" />
+    <Property Name="ProbatEnabled" Type="Boolean" Nullable="false" />
+    <Property Name="ProcessType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SaveTareWgt" Type="Boolean" Nullable="false" />
+    <Property Name="ReadyForDownLoad" Type="Boolean" Nullable="false" />
+    <Property Name="NoOfLabels" Type="Int32" Nullable="false" />
+    <Property Name="IndusoftPgmName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="WorkShiftType" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ShowEfficiency" Type="Boolean" Nullable="false" />
+    <Property Name="CreatePallet" Type="Boolean" Nullable="false" />
+    <Property Name="VirtualIPC" Type="Boolean" Nullable="false" />
+    <Property Name="EnableCaseLabelMidnightRefresh" Type="Boolean" Nullable="false" />
+  </EntityType>
+</Schema>

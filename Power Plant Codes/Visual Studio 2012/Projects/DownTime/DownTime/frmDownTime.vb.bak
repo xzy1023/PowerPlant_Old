@@ -1,0 +1,785 @@
+Public Class frmDownTime
+    Public gtblDTReasonType As New dsDTReasonType.tblDTReasonTypeDataTable
+    Public gtblDTReasonCode As New dsDTReasonCode.tblDTReasonCodeDataTable
+    Public gtblPlantStaff As New dsPlantStaff.CPPsp_PlantStaffingIODataTable
+    Public gintSize As Short
+    Public gblnDropDownIsClicked As Boolean
+    Public gfntdefaultFont As New Font("Arial", 18, System.Drawing.FontStyle.Regular)
+    Dim gstrReasonType As String
+    Dim strComment As String = Nothing							'WO#3282
+    Const cstIntReasonCodeWidth As Short = 105                  'WO#3282
+
+    Private Sub frmDownTime_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        If Not String.IsNullOrEmpty(gstrLocalCnnStr) Then
+            SharedFunctions.UpdateSessionControlDownTime(False)
+        End If
+    End Sub
+
+    Private Sub frmDownTime_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Dim dtEQ As dsEquipment.dtEquipmentDataTable
+        Try
+            Windows.Forms.Cursor.Current = Cursors.WaitCursor
+            UcHeading1.ScreenTitle = "Down Time"
+            SharedFunctions.ClearInputFields(Me)
+            lblOperator.Visible = False
+            lblTechnician.Visible = False
+            lblComment.Visible = False
+            RTBComment.Visible = False
+            lblReasonCodeDesc.Visible = False
+            txtTechnician.Text = ""
+            txtBeginDate.Text = Format(Now, "yyyyMMdd")
+            txtBeginTime.Text = Format(Now, "HHmm")
+            If Not IsDBNull(gintShopOrder) AndAlso gintShopOrder > 0 Then
+                lblShopOrderNo.Text = gintShopOrder
+                If gstrMachineType = "P" Then
+                    lblShopOrder.Text = "Shop Order:"
+                End If
+                lblShopOrder.Visible = True
+                lblShopOrderNo.Visible = True
+            Else
+                lblShopOrderNo.Text = 0
+                lblShopOrder.Visible = False
+                lblShopOrderNo.Visible = False
+            End If
+            If Not IsDBNull(gintShift) Then
+                txtShift.Text = gintShift
+            End If
+            If Not IsDBNull(gstrOperator) Then
+                txtOperator.Text = gstrOperator
+            End If
+
+            'WO#648 ADD Start
+            dtEQ = SharedFunctions.GetSharedEquiptmentList(gstrFacility, gstrMachineID, gstrMachineType, gstrMachineSubType, "ActiveSharedGroup")
+            With cboMachine
+                .DataSource = dtEQ
+                .DisplayMember = "EquipmentID"
+                .ValueMember = "EquipmentID"
+                .SelectedValue = gstrMachineID
+            End With
+
+            'WO#648 ADD Stop
+
+            gtaDTReasonType.Fill(gtblDTReasonType, gstrFacility, gstrMachineType, gstrMachineSubType)
+            With cboReasonType
+                .DataSource = gtblDTReasonType
+                .DisplayMember = "Description"
+                .ValueMember = "ReasonType"
+                .SelectedValue = 0
+            End With
+            If gblnConnectUp = True Then
+                SharedFunctions.RmvMessageLineFromForm(Me)
+            Else
+                SharedFunctions.AddMessageLineToForm(Me, gcstSvrCnnFailure)
+            End If
+
+            If Not String.IsNullOrEmpty(gstrLocalCnnStr) Then
+                SharedFunctions.UpdateSessionControlDownTime(True)
+            End If
+
+            dgvDTLog.Visible = False
+
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in frmDownTime_Load" & vbCrLf & ex.Message)
+        Finally
+            Windows.Forms.Cursor.Current = Cursors.Default
+        End Try
+    End Sub
+
+    Private Sub popupNumKeyPad(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles txtOperator.MouseDown, _
+                       txtBeginDate.MouseDown, txtBeginTime.MouseDown, txtTechnician.MouseDown, txtDuration.MouseDown, txtShift.MouseDown
+        Dim dgrKeyPad As DialogResult
+        Try
+            If TypeOf sender Is TextBox Then
+                dgrKeyPad = SharedFunctions.PopNumKeyPad(Me, sender)
+                If dgrKeyPad = Windows.Forms.DialogResult.OK Then
+                    If Not IsNothing(gstrNumPadValue) AndAlso gstrNumPadValue <> "" Then
+                        sender.text = Microsoft.VisualBasic.Left(gstrNumPadValue, sender.maxLength)
+                    Else
+                        sender.text = ""
+                    End If
+                End If
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message & vbCrLf & ex.StackTrace, "** Unexpected Application Error - Contact Supervisor", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+
+    Private Sub cboReasonCode_DropDownClosed(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonCode.DropDownClosed
+        cboReasonCode.Font = gfntdefaultFont
+    End Sub
+
+    Private Sub popupAlphaNumKB(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles cboReasonCode.MouseDown
+        Dim dgrKeyPad As DialogResult
+        Try
+            'WO#3282    If TypeOf sender Is TextBox Or (sender.name = "cboReasonCode" AndAlso cboReasonType.SelectedValue = 0 And gblnDropDownIsClicked = False) Then
+            If cboReasonType.SelectedValue = 0 And gblnDropDownIsClicked = False Then   'WO#3282  
+                gblnCancelComment = False             'WO#3282
+                dgrKeyPad = SharedFunctions.PopAlphaNumKB(Me, sender)
+                If dgrKeyPad = Windows.Forms.DialogResult.OK Then
+                    If Not IsNothing(gstrNumPadValue) AndAlso gstrNumPadValue <> "" Then
+                        sender.text = Microsoft.VisualBasic.Left(gstrNumPadValue, sender.maxLength)
+                    Else
+                        If Not IsNothing(cboReasonCode.SelectedValue) Then          'WO#3282
+                            cboReasonCode.SelectedValue = 0							'WO#3282
+                        Else														'WO#3282
+                            sender.text = ""
+                        End If														'WO#3282
+
+                    End If
+                End If
+            End If
+            If TypeOf sender Is ComboBox Then
+                gblnDropDownIsClicked = False
+            End If
+        Catch ex As Exception
+            MessageBox.Show(ex.Message & vbCrLf & ex.StackTrace, "** Unexpected Application Error - Contact Supervisor", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End Try
+    End Sub
+    Private Sub cboReasonType_DropDown(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonType.DropDown
+        cboReasonType.Font = New Font("Arial", 30, System.Drawing.FontStyle.Regular)
+    End Sub
+    Private Sub cboReasonType_DropDownClosed(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonType.DropDownClosed
+        cboReasonType.Font = gfntdefaultFont
+    End Sub
+
+    Private Sub btnPrvScn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnPrvScn.Click
+        Me.Close()
+    End Sub
+
+    Private Sub txtBeginDate_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtBeginDate.TextChanged
+        Try
+            gstrErrMsg = Nothing
+            If txtBeginDate.Text <> "" Then
+                If Not IsDate(txtBeginDate.Text.Insert(4, "/").Insert(7, "/")) Then
+                    gstrErrMsg = "Please Enter a valid date in Year/Month/Day format."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in txtBeginDate_TextChanged" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtBeginDate_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtBeginDate.Validating
+        If (ActiveControl.Name = "btnPrvScn") Then
+            Me.Close()
+        Else
+            If Not IsNothing(gstrErrMsg) Then
+                MessageBox.Show(gstrErrMsg, "Invalid information")
+                e.Cancel = True
+            End If
+        End If
+    End Sub
+
+    Private Sub txtBeginTime_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtBeginTime.TextChanged
+        Try
+            gstrErrMsg = Nothing
+            If txtBeginTime.Text <> "" Then
+                If txtBeginTime.Text.Length <> 4 Then
+                    gstrErrMsg = "Time must be 4 digits long in 24Hour/Minute format."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                    txtBeginTime.Focus()
+                ElseIf txtBeginTime.Text.Substring(0, 2) > 23 Then
+                    gstrErrMsg = "Hour must be between 0 to 23."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                    txtBeginTime.Focus()
+                ElseIf txtBeginTime.Text.Substring(2, 2) > 59 Then
+                    gstrErrMsg = "Minute must be between 0 to 59."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                    txtBeginTime.Focus()
+                Else
+                    RefreshDTLog(StartTime)
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in txtBeginTime_TextChanged" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtBeginTime_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtBeginTime.Validating
+        Try
+
+            If (ActiveControl.Name = "btnPrvScn") Then
+                Me.Close()
+            Else
+                If Not IsNothing(gstrErrMsg) Then
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    e.Cancel = True
+                End If
+            End If
+
+        Catch ex As Exception
+            Throw New Exception("Error in txtBeginTime_Validating" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub cboReasonType_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonType.TextChanged
+        Try
+            cboReasonType.Font = New Font("Arial", 18, System.Drawing.FontStyle.Regular)
+            cboReasonCode.Text = ""
+            lblReasonCodeDesc.Visible = False
+            If Not TypeOf (cboReasonType.SelectedValue) Is DataRowView AndAlso cboReasonType.SelectedValue = 0 Then 'Reason type = All'
+                'WO#3282 cboReasonCode.Width = 80
+                cboReasonCode.Width = cstIntReasonCodeWidth                 'WO#3282 
+            End If
+        Catch ex As Exception
+            Throw New Exception("Error in txtBeginTime_TextChanged" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtOperator_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtOperator.TextChanged
+        Try
+            gstrErrMsg = Nothing
+            If txtOperator.Text <> "" Then
+                lblOperator.Visible = False
+                gtaPlantStaff.Fill(gtblPlantStaff, "SelectAllFields", txtOperator.Text, gstrMachineType)
+                If gtblPlantStaff.Rows.Count > 0 Then
+                    lblOperator.Visible = True
+                    lblOperator.Text = gtblPlantStaff.Rows(0)("FullName")
+
+                Else
+                    gstrErrMsg = "Invalid Opeartor ID, Please entry again."
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    sender.focus()
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in txtOperator_TextChanged" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtOperator_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtOperator.Validating
+        Try
+            If (ActiveControl.Name = "btnPrvScn") Then
+                Me.Close()
+            Else
+                If Not IsNothing(gstrErrMsg) Then
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    e.Cancel = True
+                End If
+            End If
+        Catch ex As Exception
+            Throw New Exception("Error in txtOperator_Validating" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtTechnician_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtTechnician.TextChanged
+        Try
+            gstrErrMsg = Nothing
+            If txtTechnician.Text <> "" Then
+                lblTechnician.Visible = False
+                gtaPlantStaff.Fill(gtblPlantStaff, "SelectAllFields", txtTechnician.Text, "T")
+                If gtblPlantStaff.Rows.Count > 0 Then
+                    lblTechnician.Visible = True
+                    lblTechnician.Text = gtblPlantStaff.Rows(0)("FullName")
+                Else
+                    gstrErrMsg = "Invalid Technician ID, Please entry again."
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    sender.focus()
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in txtTechnician_TextChanged" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtTechnician_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtTechnician.Validating
+        Try
+            If (ActiveControl.Name = "btnPrvScn") Then
+                Me.Close()
+            Else
+                If Not IsNothing(gstrErrMsg) Then
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    e.Cancel = True
+                End If
+            End If
+        Catch ex As Exception
+            Throw New Exception("Error in txtTechnician_Validating" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub btnAccept_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnAccept.Click
+        Try
+            Dim dteDTBegin As DateTime
+            Dim dteDTEnd As DateTime
+            Dim strReasonType = "", intReasonCode As Int16
+            Dim dteGivenDateTime As DateTime
+            Dim dteShiftProductionDate As DateTime
+            Dim tblDTReasonCode As New dsDTReasonCode.tblDTReasonCodeDataTable
+            Dim intShift As Int16
+
+            If Me.txtShift.Text = "" Then
+                MessageBox.Show("Please enter a Shift No.", "Missing information")
+                Me.txtShift.Focus()
+            ElseIf Me.txtOperator.Text = "" Then
+                MessageBox.Show("Please enter a Operator ID.", "Missing information")
+                Me.txtOperator.Focus()
+                'ElseIf Me.txtTechnician.Text = "" Then
+                '    MessageBox.Show("Please enter a Technician ID.", "Missing information")
+                '    Me.txtTechnician.Focus()
+            ElseIf Me.txtBeginDate.Text = "" Then
+                MessageBox.Show("Please enter the Date Begin.", "Missing information")
+                Me.txtBeginDate.Focus()
+            ElseIf Me.txtBeginTime.Text = "" Then
+                MessageBox.Show("Please enter the Time Begin.", "Missing information")
+                Me.txtBeginTime.Focus()
+            ElseIf Me.txtDuration.Text = "" Then
+                MessageBox.Show("Please enter Down Time Duration.", "Missing information")
+                Me.txtDuration.Focus()
+            ElseIf Me.cboReasonCode.Text = "" Then
+                MessageBox.Show("Please enter Reason Code.", "Missing information")
+                Me.cboReasonCode.Focus()
+            ElseIf gblnCommentRequired = True And gstrComment = "" Then                     'WO#3282
+                MessageBox.Show("Comment is mandatory for this reason code.")               'WO#3282
+                cboReasonCode.Focus()                                                       'WO#3282
+            Else
+                dteDTBegin = CType(txtBeginDate.Text.Insert(4, "/").Insert(7, "/") & " " & txtBeginTime.Text.Insert(2, ":") & ":00", DateTime)
+                If dteDTBegin > Now() Then
+                    MessageBox.Show("The begin Date/time can not be in future.", "Invalid information")
+                    Me.cboReasonCode.Focus()
+                Else
+                    dteDTEnd = DateAdd(DateInterval.Minute, CType(txtDuration.Text, Integer), dteDTBegin)
+                    If cboReasonCode.SelectedValue Is Nothing Then
+                        intReasonCode = CType(cboReasonCode.Text, Int16)
+                    Else
+                        intReasonCode = CType(cboReasonCode.SelectedValue, Int16)
+                    End If
+                    strReasonType = cboReasonType.SelectedValue
+                    Dim sb As New System.Text.StringBuilder
+                    With sb
+                        Dim strGivenDateTime As String = txtBeginDate.Text & txtBeginTime.Text
+                        .Append(strGivenDateTime)
+                        .Insert(4, "-", 1)  'insert "-" after Year
+                        .Insert(7, "-", 1) 'insert "-" after Month
+                        .Insert(10, " ", 1) 'insert a blank after Day
+                        .Insert(13, ":", 1) 'insert a ":" after Hour
+                        .Insert(16, ":00", 1) 'insert a ":00" after minute
+                        dteGivenDateTime = CType(.ToString, DateTime)
+                    End With
+
+                    'If selected Reason type is 0 (i.e. ALL), use the reason type from the entered reason code.
+                    If strReasonType = 0 Then
+                        gtaDTReasonCode.FillByReasonCode(tblDTReasonCode, gstrMachineType, gstrMachineSubType, intReasonCode, gstrFacility)
+                        If tblDTReasonCode.Rows.Count > 0 Then
+                            strReasonType = tblDTReasonCode.Rows(0).Item("ReasonType")
+                        End If
+                    End If
+
+                    'If the down time is from packaging line, use the ShiftProductionDate and shift from the Session Control table 
+                    Dim drSC As dsSessionControl.CPPsp_SessionControlIORow = Nothing
+                    Dim drSCH As dsSessionControlHst.CPPsp_SessionControlHstIORow = Nothing
+                    Dim blnGetShiftFromInput As Boolean = True
+
+                    If gstrMachineType = "P" AndAlso gintShopOrder > 0 AndAlso Not String.IsNullOrEmpty(gstrLocalCnnStr) Then
+                        drSC = SharedFunctions.GetSessionControl()
+                        If Not drSC Is Nothing Then
+                            If dteGivenDateTime >= drSC.StartTime Then
+                                blnGetShiftFromInput = False
+                                dteShiftProductionDate = drSC.ShiftProductionDate
+                                intShift = drSC.OverrideShiftNo
+                            Else
+                                drSCH = SharedFunctions.GetSessionControlHst(gstrFacility, gstrMachineID, gintShopOrder, dteGivenDateTime)
+                                If Not drSCH Is Nothing Then
+                                    blnGetShiftFromInput = False
+                                    dteShiftProductionDate = drSCH.ShiftProductionDate
+                                    intShift = drSCH.OverrideShiftNo
+                                End If
+                            End If
+                        End If
+                    End If
+
+                    'If blnGetShiftFromInput = False Then
+                    '    dteShiftProductionDate = drSC.ShiftProductionDate
+                    '    intShift = drSC.OverrideShiftNo
+                    'Else
+                    If blnGetShiftFromInput = True Then
+                        dteShiftProductionDate = SharedFunctions.GetProductionDateByShift(gstrFacility, CType(txtShift.Text, Short), dteGivenDateTime, gstrMachineID, gstrMachineType)
+                        intShift = CType(txtShift.Text, Int16)
+                    End If
+
+                    Try
+                        'WO648 gtaDownTimeLog.Insert(False, gstrFacility, CType(lblShopOrderNo.Text, Integer), gstrMachineType, gstrMachineSubType, gstrMachineID, txtOperator.Text, _
+                        'WO648 txtTechnician.Text, dteDTBegin, dteDTEnd, intShift, strReasonType, _
+                        'WO648 intReasonCode, RTBComment.Text, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                        'WO648 ADD Start
+                        gtaDownTimeLog.Insert(False, gstrFacility, CType(lblShopOrderNo.Text, Integer), gstrMachineType, gstrMachineSubType, cboMachine.SelectedValue, _
+                                              txtOperator.Text, txtTechnician.Text, dteDTBegin, dteDTEnd, intShift, strReasonType, _
+                                              intReasonCode, strComment, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                        'WO#3282              intReasonCode, RTBComment.Text, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                        'WO648 ADD Stop
+                    Catch ex As SqlClient.SqlException
+                        If ex.ErrorCode = -2146232060 AndAlso (ex.Number = 64 Or ex.Number = 1231 Or ex.Number = 11001 Or ex.Number = 10054) AndAlso Not String.IsNullOrEmpty(gstrLocalCnnStr) Then
+                            gtaDownTimeLog.Connection.ConnectionString = gstrLocalCnnStr
+                            'WO648 DEL Start
+                            'gtaDownTimeLog.Insert(False, gstrFacility, CType(lblShopOrderNo.Text, Integer), gstrMachineType, gstrMachineSubType, gstrMachineID, txtOperator.Text, _
+                            '                  txtTechnician.Text, dteDTBegin, dteDTEnd, txtShift.Text, strReasonType, _
+                            '                  intReasonCode, RTBComment.Text, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                            'WO648 DEL Start
+                            'WO648 ADD Start
+                            gtaDownTimeLog.Insert(False, gstrFacility, CType(lblShopOrderNo.Text, Integer), gstrMachineType, gstrMachineSubType, cboMachine.SelectedValue, _
+                                                  txtOperator.Text, txtTechnician.Text, dteDTBegin, dteDTEnd, intShift, strReasonType, _
+                                                 intReasonCode, strComment, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                            'WO#3282             intReasonCode, RTBComment.Text, txtOperator.Text, Now, txtOperator.Text, Now, dteShiftProductionDate, gstrEventID)
+                            'WO648 ADD Stop
+                            gblnConnectUp = False
+                            SharedFunctions.AddMessageLineToForm(Me, gcstSvrCnnFailure)
+                        Else
+                            Throw ex
+                        End If
+                    End Try
+                    lblComment.Visible = False
+                    RTBComment.Visible = False
+                    RTBComment.Text = ""
+                    gstrComment = "" 					                'WO#3282 
+                    lblReasonCodeDesc.Visible = False
+                    txtTechnician.Text = ""
+                    lblTechnician.Visible = False
+                    'txtBeginDate.Text = Format(Now, "yyyyMMdd")
+                    'txtBeginTime.Text = Format(Now, "HHmm")
+                    txtDuration.Text = ""
+                    'WO#3282 cboReasonCode.Text = ""
+                    cboReasonCode.SelectedValue = 0                     'WO#3282 
+                    lblReasonCodeDesc.Visible = False
+                    RefreshDTLog(dteDTBegin)
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in btnAccept_Click" & vbCrLf & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub btnEndNow_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnEndNow.Click
+        Try
+            If Trim(txtBeginDate.Text) = "" Then
+                MessageBox.Show("Please enter the Date Begin.", "Missing information")
+                Me.txtBeginDate.Focus()
+            ElseIf Me.txtBeginTime.Text = "" Then
+                MessageBox.Show("Please enter the Time Begin.", "Missing information")
+                Me.txtBeginTime.Focus()
+            Else
+                txtDuration.Text = DateDiff(DateInterval.Minute, CType(txtBeginDate.Text.Insert(4, "/").Insert(7, "/") & " " & txtBeginTime.Text.Insert(2, ":") & ":00", DateTime), _
+                                                Now)
+            End If
+
+        Catch ex As Exception
+            Throw New Exception("Error in btnEndNow_Click" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtDuration_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtDuration.TextChanged
+        Try
+            gstrErrMsg = Nothing
+            If RTrim(txtDuration.Text) <> "" Then
+                If txtDuration.Text <= 0 Then
+                    gstrErrMsg = "The Duration must be greater than zero."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                    txtDuration.Focus()
+                End If
+            End If
+        Catch ex As Exception
+            Throw New Exception("Error in txtDuration_TextChanged" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtDuration_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtDuration.Validating
+        Try
+            If (ActiveControl.Name = "btnPrvScn") Then
+                Me.Close()
+            Else
+                If Not IsNothing(gstrErrMsg) Then
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    e.Cancel = True
+                End If
+            End If
+        Catch ex As Exception
+            Throw New Exception("Error in txtDuration_Validating" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+    Private Sub cboReasonCode_DropDown(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonCode.DropDown
+        Try
+            With cboReasonCode
+                lblReasonCodeDesc.Visible = False
+                'If the reason type is ALL, sort the list by reason code 
+                If cboReasonType.SelectedValue = 0 Then
+                    gtaDTReasonCode.Fill(gtblDTReasonCode, gstrMachineType, gstrFacility, gstrMachineSubType)
+                Else
+                    gtaDTReasonCode.FillByDescription(gtblDTReasonCode, gstrMachineType, cboReasonType.SelectedValue, gstrFacility, gstrMachineSubType)
+                End If
+                .DataSource = gtblDTReasonCode
+                .DisplayMember = "Description"
+                .ValueMember = "ReasonCode"
+                .Font = New Font("Arial", 30, System.Drawing.FontStyle.Regular)
+                .Width = 550
+                gblnDropDownIsClicked = True
+                gblnCancelComment = False             			'WO#3282
+            End With
+        Catch ex As System.Data.SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in cboReasonCode_DropDown" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+    Private Sub cboReasonCode_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles cboReasonCode.TextChanged
+        Dim intReasonCode As Short
+        Dim tblDTReasonCode As New dsDTReasonCode.tblDTReasonCodeDataTable
+        ' Dim strReasonCodeSave As String
+        Dim strDisplayMemberSave As String                      'WO#3282
+        Dim strSelectedValueSave As String                      'WO#3282
+        Dim strSelectedTextSave As String                       'WO#3282
+        Const cstDescription As String = "Description"          'WO#3282
+        Const cstReasonCode As String = "ReasonCode"            'WO#3282
+
+        Try
+            gstrErrMsg = Nothing
+    'WO#3282    If cboReasonCode.Text <> "" AndAlso IsNumeric(cboReasonCode.Text) _
+    'WO#3282         AndAlso Not TypeOf (cboReasonCode.SelectedValue) Is DataRowView Then
+            If (cboReasonCode.Text <> "" Or Not IsNothing(cboReasonCode.SelectedValue)) _
+                AndAlso Not TypeOf (cboReasonCode.SelectedValue) Is DataRowView AndAlso gblnCancelComment = False Then
+
+                If Not IsNumeric(cboReasonCode.Text) And Not IsNumeric(cboReasonCode.SelectedValue) Then
+                    gstrErrMsg = "The Reason Code must be numeric."
+                    MessageBox.Show(gstrErrMsg, "Invalid Information")
+                    cboReasonCode.Focus()
+                Else
+
+                    If IsNumeric(cboReasonCode.Text) Then                   'WO#3282  
+                        intReasonCode = cboReasonCode.Text                  'WO#3282
+                        If cboReasonCode.DisplayMember <> cstReasonCode Then
+                            strDisplayMemberSave = cstReasonCode			'WO#3282
+                            strSelectedTextSave = cboReasonCode.Text
+ 							'WO#3282 cboReasonCode.DisplayMember = "ReasonCode"
+                            cboReasonCode.DisplayMember = cstReasonCode		'WO#3282
+                            cboReasonCode.Text = strSelectedTextSave		'WO#3282
+                            If gblnCancelComment = True Then				'WO#3282
+                                lblReasonCodeDesc.Text = ""					'WO#3282
+                                cboReasonCode.Text = ""						'WO#3282
+                                Exit Sub									'WO#3282
+                            End If											'WO#3282
+                        End If
+					'WO#3282 ADD Start
+                    Else        
+                        intReasonCode = cboReasonCode.SelectedValue
+                        If cboReasonCode.DisplayMember <> cstDescription Then
+                            strDisplayMemberSave = cstDescription
+                            strSelectedValueSave = cboReasonCode.SelectedValue
+                            cboReasonCode.DisplayMember = cstDescription
+                            If cboReasonCode.Text = "" And IsNothing(cboReasonCode.SelectedValue) Then
+                                Exit Sub
+                            End If
+                            cboReasonCode.SelectedValue = strSelectedValueSave
+                        End If
+                    End If      
+					'WO#3282 ADD Stop
+
+                    'WO#3282    intReasonCode = cboReasonCode.Text
+
+                    gtaDTReasonCode.FillByReasonCode(tblDTReasonCode, gstrMachineType, gstrMachineSubType, intReasonCode, gstrFacility)
+                    If tblDTReasonCode.Rows.Count = 0 Then
+                        lblReasonCodeDesc.Text = String.Empty
+                        gstrErrMsg = "The Reason Code is not a valid code."
+                        MessageBox.Show(gstrErrMsg, "Invalid Information")
+                        cboReasonCode.Focus()
+                    Else
+                        lblReasonCodeDesc.Text = tblDTReasonCode.Rows(0)("Description")					'WO#3282
+                        If cboReasonCode.DisplayMember = cstReasonCode Then              				'WO#3282
+                            'WO#3282 cboReasonCode.Width = 80
+                            cboReasonCode.Width = cstIntReasonCodeWidth                					'WO#3282
+                            cboReasonCode.Font = New Font("Arial", 18, System.Drawing.FontStyle.Regular)
+                            lblReasonCodeDesc.Visible = True
+                            'lblReasonCodeDesc.Text = tblDTReasonCode.Rows(0)("Description")
+                        End If                                                          				'WO#3282
+                        'WO#3282 ADD Start
+                        gblnCommentRequired = tblDTReasonCode.Rows(0)("CommentRequired")
+                        If gblnCommentRequired = True Then
+                            If gstrComment = "" Then
+                                frmComment.ShowDialog()
+                                If gstrComment = "" Then
+                                    gstrErrMsg = "Comment is mandatory for this reason code. "
+                                    If cboReasonCode.DisplayMember = cstReasonCode Then
+                                        lblReasonCodeDesc.Text = ""
+                                        cboReasonCode.Text = ""
+                                    Else
+                                        cboReasonCode.SelectedValue = 0
+                                        lblReasonCodeDesc.Text = ""
+                                        cboReasonCode.Text = ""
+                                    End If
+                                    cboReasonCode.Focus()
+                                End If
+                            End If
+                        Else
+                            gstrComment = ""
+                        End If
+                        'WO#3282 ADD Stop
+                    End If
+                End If
+
+                If Not IsNothing(gstrErrMsg) Then
+                    If gblnCommentRequired = True And gstrComment = "" Then
+                        lblReasonCodeDesc.Visible = True
+                    Else
+                        lblReasonCodeDesc.Visible = False
+                    End If
+                End If
+
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in cboReasonCode_TextChanged" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub cboReasonCode_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles cboReasonCode.Validating
+        If (ActiveControl.Name = "btnPrvScn") Then
+            Me.Close()
+        Else
+            If Not IsNothing(gstrErrMsg) Then
+                MessageBox.Show(gstrErrMsg, "Invalid information")
+                e.Cancel = True
+            End If
+        End If
+    End Sub
+
+    Private Sub btnDTInquiry_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnDTInquiry.Click
+        Try
+            frmViewDTLog.ShowDialog()
+        Catch ex As Exception
+            Throw New Exception("Error in btnDtInquiry_Click" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtShift_TextChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtShift.TextChanged
+        Dim daShift As New dsShiftTableAdapters.CPPsp_ShiftIOTableAdapter
+        Dim dtShift As New dsShift.CPPsp_ShiftIODataTable
+        Try
+            gstrErrMsg = Nothing
+            If txtShift.Text <> "" Then
+                'WO#2645    If txtShift.Text < "1" Or txtShift.Text > 3 Then
+                'WO#2645 Add Start
+                daShift.Fill(dtShift, "AllShifts", gstrFacility, gstrMachineType, Now(), Nothing, 1)
+                If dtShift.Rows.Count = 0 Then
+                    gstrErrMsg = "The pre-defined shift information is missing, please contact supervisor."
+                    MessageBox.Show(gstrErrMsg, "Missing Information", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                    txtShift.Focus()
+                ElseIf CType(txtShift.Text, Integer) < 1 Or CType(txtShift.Text, Integer) > dtShift.Rows.Count Then
+                    gstrErrMsg = "Please entered a valid shift no. from 1 to " & CType(dtShift.Rows.Count, String) & "."
+                    'WO#2645 Add Stop
+                    'WO#2645    gstrErrMsg = "Shift only allows 1, 2 or 3."
+                    MessageBox.Show(gstrErrMsg, "Invalid information")
+                    txtShift.Focus()
+                End If
+            End If
+        Catch ex As SqlClient.SqlException
+            ChkErr(ex)
+        Catch ex As Exception
+            Throw New Exception("Error in txtshift_TextChanged" & Environment.NewLine & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub txtShift_Validating(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles txtShift.Validating
+        If (ActiveControl.Name = "btnPrvScn") Then
+            Me.Close()
+        Else
+            If Not IsNothing(gstrErrMsg) Then
+                MessageBox.Show(gstrErrMsg, "Invalid information")
+                e.Cancel = True
+            End If
+        End If
+    End Sub
+
+    Private Sub RefreshDTLog(ByVal dteBeginTime As DateTime)
+
+        Try
+            If gblnConnectUp = False Then
+                SharedFunctions.AddMessageLineToForm(Me, gcstSvrCnnFailure)
+            Else
+                SharedFunctions.RmvMessageLineFromForm(Me)
+            End If
+            'WO#648 gtaDownTimeLog.FillByStartTime(Me.DsDownTimeLog.tblDownTimeLog, gstrFacility, gstrMachineType, gstrMachineID, dteBeginTime, txtOperator.Text)
+            gtaDownTimeLog.FillByStartTime(DsDownTimeLog.CPPsp_DownTimeLog_Sel, "FilterByStartTime", gstrFacility, gstrMachineType, dteBeginTime, gstrMachineID, txtOperator.Text, False)
+            If DsDownTimeLog.CPPsp_DownTimeLog_Sel.Rows.Count > 0 Then
+                dgvDTLog.Visible = True
+            Else
+                dgvDTLog.Visible = False
+            End If
+        Catch ex As SqlClient.SqlException
+            If ex.ErrorCode = -2146232060 And (ex.Number = 64 Or ex.Number = 1231 Or ex.Number = 11001) Then
+                If String.IsNullOrEmpty(gstrLocalCnnStr) Then
+                    Throw ex
+                Else
+                    If gblnConnectUp = True Then
+                        gtaDownTimeLog.Connection.ConnectionString = gstrLocalCnnStr
+                        SharedFunctions.AddMessageLineToForm(Me, gcstSvrCnnFailure)
+                        gblnConnectUp = False
+
+                        gtaDownTimeLog.FillByStartTime(DsDownTimeLog.CPPsp_DownTimeLog_Sel, "FilterByStartTime", gstrFacility, gstrMachineType, dteBeginTime, gstrMachineID, txtOperator.Text, False)   'WO#648
+                    Else
+                        Throw ex
+                    End If
+                End If
+            Else
+                Throw ex
+                'Throw New Exception("Error inRefreshDTLog" & Environment.NewLine & ex.Message)
+            End If
+        Catch ex As System.Exception
+            Throw ex
+        End Try
+    End Sub
+
+    Public ReadOnly Property StartTime() As DateTime
+
+        Get
+            DateTime.TryParse(txtBeginDate.Text.Insert(4, "/").Insert(7, "/") & " " & txtBeginTime.Text.Insert(2, ":") & ":00", StartTime)
+        End Get
+
+    End Property
+
+    Private Sub ChkErr(ByVal ex As SqlClient.SqlException)
+        'If the computer does not has local data base for the down time and you try to throw the SQL exception, an unhandle
+        'execption is treated. That is why this subroutine for.
+        Static blnError As Boolean = False
+        If Not String.IsNullOrEmpty(gstrLocalCnnStr) Then
+            Throw ex
+        Else
+            If ex.ErrorCode = -2146232060 AndAlso (ex.Number = 64 Or ex.Number = 1231 Or ex.Number = 11001 Or ex.Number = 10054) Then
+                If blnError = False Then
+                    MessageBox.Show("Data base server connection failed. Please contact supervisor and try again later.")
+                    blnError = True
+                End If
+            Else
+                MessageBox.Show(ex.Message & vbCrLf & ex.StackTrace, "** Unexpected Application Error - Contact Supervisor")
+            End If
+            Me.Close()
+        End If
+    End Sub
+
+    Private Sub btnHybernate_Click(sender As Object, e As System.EventArgs) Handles btnHybernate.Click
+        Me.SendToBack()
+    End Sub
+
+    Private Sub dgvDTLog_CellFormatting(sender As Object, e As DataGridViewCellFormattingEventArgs) Handles dgvDTLog.CellFormatting
+        If e.ColumnIndex = dgvDTLog.Columns("Description").Index _
+        AndAlso (e.Value IsNot Nothing) Then
+
+            With dgvDTLog.Rows(e.RowIndex).Cells(e.ColumnIndex)
+                If Not IsDBNull(dgvDTLog.Rows(e.RowIndex).Cells(e.ColumnIndex + 1).Value) Then
+                    .ToolTipText = "Comment: " & Me.dgvDTLog.Rows(e.RowIndex).Cells(e.ColumnIndex + 1).Value
+                End If
+            End With
+
+        End If
+
+    End Sub
+End Class

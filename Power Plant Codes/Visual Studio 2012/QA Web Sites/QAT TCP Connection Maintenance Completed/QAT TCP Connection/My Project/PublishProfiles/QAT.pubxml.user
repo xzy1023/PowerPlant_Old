@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Themes/PP/Default.css">
+      <publishTime>11/21/2018 14:11:41</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/bg_tile.gif">
+      <publishTime>10/14/2005 20:51:06</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/collapse.gif">
+      <publishTime>02/13/2009 18:34:30</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/company_logo.jpg">
+      <publishTime>03/09/2012 18:14:56</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/Copy of company_logo.jpg">
+      <publishTime>02/07/2006 18:49:42</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/expand.gif">
+      <publishTime>02/13/2009 18:34:30</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/go.png">
+      <publishTime>08/29/2008 15:26:02</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/header_bg.png">
+      <publishTime>10/14/2005 20:58:24</publishTime>
+    </File>
+    <File Include="App_Themes/PP/Images/main_bg.png">
+      <publishTime>10/10/2005 21:05:26</publishTime>
+    </File>
+    <File Include="bin/QAT TCP Connection.dll">
+      <publishTime>11/29/2018 12:26:21</publishTime>
+    </File>
+    <File Include="bin/QAT TCP Connection.xml">
+      <publishTime>11/29/2018 12:26:21</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>11/29/2018 12:48:48</publishTime>
+    </File>
+    <File Include="FileNotFound.html">
+      <publishTime>10/11/2018 10:50:30</publishTime>
+    </File>
+    <File Include="GenericErrorPage.html">
+      <publishTime>10/11/2018 10:51:39</publishTime>
+    </File>
+    <File Include="NoAccess.html">
+      <publishTime>10/11/2018 10:51:39</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.intellisense.js">
+      <publishTime>10/22/2018 13:32:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.js">
+      <publishTime>10/22/2018 13:32:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.1.min.js">
+      <publishTime>10/22/2018 13:32:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/29/2018 12:48:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

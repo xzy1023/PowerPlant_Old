@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="PowerPlantModelsStoreContainer" CdmEntityContainer="PowerPlantEntities">
+    <EntitySetMapping Name="tblQATCameraResult">
+      <EntityTypeMapping TypeName="ServerModels.tblQATCameraResult">
+        <MappingFragment StoreEntitySet="tblQATCameraResult">
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="ConfirmedBy" ColumnName="ConfirmedBy" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="InterfaceID" ColumnName="InterfaceID" />
+          <ScalarProperty Name="PackagingLine" ColumnName="PackagingLine" />
+          <ScalarProperty Name="QAConfirmed" ColumnName="QAConfirmed" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="SOStartTime" ColumnName="SOStartTime" />
+          <ScalarProperty Name="TestEndTime" ColumnName="TestEndTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="LightDensityResult" ColumnName="LightDensityResult" />
+          <ScalarProperty Name="MinWidthReuslt" ColumnName="MinWidthReuslt" />
+          <ScalarProperty Name="TestStartTime" ColumnName="TestStartTime" />
+          <ScalarProperty Name="TesterID" ColumnName="TesterID" />
+          <ScalarProperty Name="QATEntryPoint" ColumnName="QATEntryPoint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATLidPeelResultDetail">
+      <EntityTypeMapping TypeName="ServerModels.tblQATLidPeelResultDetail">
+        <MappingFragment StoreEntitySet="tblQATLidPeelResultDetail">
+          <ScalarProperty Name="TestTime" ColumnName="TestTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="SampleNo" ColumnName="SampleNo" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="LaneNo" ColumnName="LaneNo" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATLidPeelResultHeader">
+      <EntityTypeMapping TypeName="ServerModels.tblQATLidPeelResultHeader">
+        <MappingFragment StoreEntitySet="tblQATLidPeelResultHeader">
+          <ScalarProperty Name="QATEntryPoint" ColumnName="QATEntryPoint" />
+          <ScalarProperty Name="TesterID" ColumnName="TesterID" />
+          <ScalarProperty Name="TestStartTime" ColumnName="TestStartTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="TestEndTime" ColumnName="TestEndTime" />
+          <ScalarProperty Name="SOStartTime" ColumnName="SOStartTime" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="QAConfirmed" ColumnName="QAConfirmed" />
+          <ScalarProperty Name="PackagingLine" ColumnName="PackagingLine" />
+          <ScalarProperty Name="OverrideID" ColumnName="OverrideID" />
+          <ScalarProperty Name="InterfaceID" ColumnName="InterfaceID" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="ConfirmedBy" ColumnName="ConfirmedBy" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATShakeShineResultDetail">
+      <EntityTypeMapping TypeName="ServerModels.tblQATShakeShineResultDetail">
+        <MappingFragment StoreEntitySet="tblQATShakeShineResultDetail">
+          <ScalarProperty Name="TestTime" ColumnName="TestTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="SampleNo" ColumnName="SampleNo" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="LaneNo" ColumnName="LaneNo" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATShakeShineResultHeader">
+      <EntityTypeMapping TypeName="ServerModels.tblQATShakeShineResultHeader">
+        <MappingFragment StoreEntitySet="tblQATShakeShineResultHeader">
+          <ScalarProperty Name="QATEntryPoint" ColumnName="QATEntryPoint" />
+          <ScalarProperty Name="TesterID" ColumnName="TesterID" />
+          <ScalarProperty Name="TestStartTime" ColumnName="TestStartTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="TestEndTime" ColumnName="TestEndTime" />
+          <ScalarProperty Name="SOStartTime" ColumnName="SOStartTime" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="QAConfirmed" ColumnName="QAConfirmed" />
+          <ScalarProperty Name="PackagingLine" ColumnName="PackagingLine" />
+          <ScalarProperty Name="OverrideID" ColumnName="OverrideID" />
+          <ScalarProperty Name="InterfaceID" ColumnName="InterfaceID" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="ConfirmedBy" ColumnName="ConfirmedBy" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPalletExt">
+      <EntityTypeMapping TypeName="ServerModels.tblPalletExt">
+        <MappingFragment StoreEntitySet="tblPalletExt">
+          <ScalarProperty Name="Creator" ColumnName="Creator" />
+          <ScalarProperty Name="PalletID" ColumnName="PalletID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPalletHst">
+      <EntityTypeMapping TypeName="ServerModels.tblPalletHst">
+        <MappingFragment StoreEntitySet="tblPalletHst">
+          <ScalarProperty Name="DestinationShopOrder" ColumnName="DestinationShopOrder" />
+          <ScalarProperty Name="OutputLocation" ColumnName="OutputLocation" />
+          <ScalarProperty Name="LastUpdate" ColumnName="LastUpdate" />
+          <ScalarProperty Name="ShiftNo" ColumnName="ShiftNo" />
+          <ScalarProperty Name="ShiftProductionDate" ColumnName="ShiftProductionDate" />
+          <ScalarProperty Name="CreationDateTime" ColumnName="CreationDateTime" />
+          <ScalarProperty Name="PrintStatus" ColumnName="PrintStatus" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ProductionDate" ColumnName="ProductionDate" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="LotID" ColumnName="LotID" />
+          <ScalarProperty Name="OrderComplete" ColumnName="OrderComplete" />
+          <ScalarProperty Name="CreationTime" ColumnName="CreationTime" />
+          <ScalarProperty Name="CreationDate" ColumnName="CreationDate" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="DefaultPkgLine" ColumnName="DefaultPkgLine" />
+          <ScalarProperty Name="ItemNumber" ColumnName="ItemNumber" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="QtyPerPallet" ColumnName="QtyPerPallet" />
+          <ScalarProperty Name="PalletID" ColumnName="PalletID" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEquipment">
+      <EntityTypeMapping TypeName="ServerModels.tblEquipment">
+        <MappingFragment StoreEntitySet="tblEquipment">
+          <ScalarProperty Name="EnableDownTimeDuration" ColumnName="EnableDownTimeDuration" />
+          <ScalarProperty Name="WorkCenter" ColumnName="WorkCenter" />
+          <ScalarProperty Name="IPCSharedGroup" ColumnName="IPCSharedGroup" />
+          <ScalarProperty Name="ProbatID" ColumnName="ProbatID" />
+          <ScalarProperty Name="GroupID" ColumnName="GroupID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="SubType" ColumnName="SubType" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="EquipmentID" ColumnName="EquipmentID" />
+          <ScalarProperty Name="facility" ColumnName="facility" />
+          <ScalarProperty Name="Active" ColumnName="Active" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEquipment_ScrapRejectPoint">
+      <EntityTypeMapping TypeName="ServerModels.tblEquipment_ScrapRejectPoint">
+        <MappingFragment StoreEntitySet="tblEquipment_ScrapRejectPoint">
+          <ScalarProperty Name="VisibleInIPC" ColumnName="VisibleInIPC" />
+          <ScalarProperty Name="RejectPointID" ColumnName="RejectPointID" />
+          <ScalarProperty Name="EquipmentID" ColumnName="EquipmentID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblScrapRejectPoint">
+      <EntityTypeMapping TypeName="ServerModels.tblScrapRejectPoint">
+        <MappingFragment StoreEntitySet="tblScrapRejectPoint">
+          <ScalarProperty Name="Comments" ColumnName="Comments" />
+          <ScalarProperty Name="RejectPoint" ColumnName="RejectPoint" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblScrapRejectPointLog">
+      <EntityTypeMapping TypeName="ServerModels.tblScrapRejectPointLog">
+        <MappingFragment StoreEntitySet="tblScrapRejectPointLog">
+          <ScalarProperty Name="ModifiedDateTime" ColumnName="ModifiedDateTime" />
+          <ScalarProperty Name="ProductionDate" ColumnName="ProductionDate" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="RejectPointID" ColumnName="RejectPointID" />
+          <ScalarProperty Name="Operator" ColumnName="Operator" />
+          <ScalarProperty Name="Equipment" ColumnName="Equipment" />
+          <ScalarProperty Name="ItemNumber" ColumnName="ItemNumber" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="Shift" ColumnName="Shift" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATRejectResultDetail">
+      <EntityTypeMapping TypeName="ServerModels.tblQATRejectResultDetail">
+        <MappingFragment StoreEntitySet="tblQATRejectResultDetail">
+          <ScalarProperty Name="TestTime" ColumnName="TestTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblQATRejectResultHeader">
+      <EntityTypeMapping TypeName="ServerModels.tblQATRejectResultHeader">
+        <MappingFragment StoreEntitySet="tblQATRejectResultHeader">
+          <ScalarProperty Name="QATEntryPoint" ColumnName="QATEntryPoint" />
+          <ScalarProperty Name="TesterID" ColumnName="TesterID" />
+          <ScalarProperty Name="TestStartTime" ColumnName="TestStartTime" />
+          <ScalarProperty Name="TestResult" ColumnName="TestResult" />
+          <ScalarProperty Name="TestEndTime" ColumnName="TestEndTime" />
+          <ScalarProperty Name="SOStartTime" ColumnName="SOStartTime" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="RetestNo" ColumnName="RetestNo" />
+          <ScalarProperty Name="QAConfirmed" ColumnName="QAConfirmed" />
+          <ScalarProperty Name="PackagingLine" ColumnName="PackagingLine" />
+          <ScalarProperty Name="InterfaceID" ColumnName="InterfaceID" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+          <ScalarProperty Name="ConfirmedBy" ColumnName="ConfirmedBy" />
+          <ScalarProperty Name="BatchID" ColumnName="BatchID" />
+          <ScalarProperty Name="RRN" ColumnName="RRN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

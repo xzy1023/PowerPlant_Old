@@ -1,0 +1,19 @@
+CREATE TABLE [dbo].[PRO_IMP_PALLET_20250626] (
+    [CUSTOMER_ID]          INT          NOT NULL,
+    [TRANSFERED]           INT          NOT NULL,
+    [TRANSFERED_TIMESTAMP] DATETIME     NULL,
+    [ACTIVITY]             CHAR (1)     NOT NULL,
+    [PALLET_ID]            VARCHAR (20) NOT NULL,
+    [CREATE_TIMESTAMP]     DATETIME     NOT NULL,
+    [RECEIVING_STATION]    VARCHAR (20) NOT NULL,
+    [CUSTOMER_CODE]        VARCHAR (20) NOT NULL,
+    [AMOUNT]               INT          NOT NULL,
+    [ORDER_NAME]           VARCHAR (20) NOT NULL,
+    [ORDER_TYP]            INT          NOT NULL,
+    [START_TIMESTAMP]      DATETIME     NOT NULL,
+    [ORDER_COMPLETE]       CHAR (1)     NOT NULL
+);
+
+
+GO
+

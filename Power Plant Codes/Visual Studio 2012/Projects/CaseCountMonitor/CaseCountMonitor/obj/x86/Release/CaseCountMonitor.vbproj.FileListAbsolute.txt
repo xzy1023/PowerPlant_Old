@@ -1,0 +1,61 @@
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.pdb
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.xml
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\ResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.Resources.resources
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.ProjectInstaller.resources
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.srvCaseCount.resources
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\GenerateResource-ResGen.read.1.tlog
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\GenerateResource-ResGen.write.1.tlog
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.exe
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.xml
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.pdb
+E:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe.config
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\bin\Release\CaseCountMonitor.exe.config
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.exe
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.xml
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.pdb
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\bin\Release\CaseCountMonitor.exe
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\bin\Release\CaseCountMonitor.pdb
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\bin\Release\CaseCountMonitor.xml
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.Resources.resources
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.ProjectInstaller.resources
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.srvCaseCount.resources
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\ResGen.read.1.tlog
+D:\Visual Studio 2010\Projects\CaseCountMonitor - Copy\CaseCountMonitor\obj\x86\Release\ResGen.write.1.tlog
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe.config
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.exe
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.xml
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.pdb
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.pdb
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.xml
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.Resources.resources
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.ProjectInstaller.resources
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.srvCaseCount.resources
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\ResGen.read.1.tlog
+C:\Visual Studio 2010\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\ResGen.write.1.tlog
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe.config
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.exe
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.xml
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.pdb
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.pdb
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.xml
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.Resources.resources
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.ProjectInstaller.resources
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.srvCaseCount.resources
+C:\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\bin\Release\CaseCountMonitor.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.ProjectInstaller.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.srvCaseCount.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\CaseCountMonitor\CaseCountMonitor\obj\x86\Release\CaseCountMonitor.vbproj.GenerateResource.Cache

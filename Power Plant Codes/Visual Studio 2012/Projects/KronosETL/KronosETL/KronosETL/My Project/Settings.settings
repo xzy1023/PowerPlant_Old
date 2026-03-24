@@ -1,0 +1,32 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="gstrLogFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\mphoshprsql01\d$\Kronos\DataDownload\Log\ETL_{0}.txt</Value>
+    </Setting>
+    <Setting Name="gstrPPServerCnnStr" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=MPHOSHPRSQL01;Initial Catalog=Kronos;Persist Security Info=True;User ID=KUserDB;Password=KU53rD6@&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=MPHOSHPRSQL01;Initial Catalog=Kronos;Persist Security Info=True;User ID=KUserDB;Password=KU53rD6@</Value>
+    </Setting>
+    <Setting Name="gstrUID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">APIACCESS</Value>
+    </Setting>
+    <Setting Name="gstrPID" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Kronos#1234!</Value>
+    </Setting>
+    <Setting Name="gstrInboundPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\mphoshprsql01\d$\Kronos\DataDownload\Inbound</Value>
+    </Setting>
+    <Setting Name="gstAPIScriptFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\mphoshprsql01\d$\Kronos\DataDownload\APIScripts\</Value>
+    </Setting>
+    <Setting Name="gstrKronosPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\mphopp02\d$\PowerPlantAXFW_Dev\KronosDataDownload</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

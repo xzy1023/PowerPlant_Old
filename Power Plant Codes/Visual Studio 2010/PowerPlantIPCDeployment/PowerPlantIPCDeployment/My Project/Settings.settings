@@ -1,0 +1,74 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="strPowerPlantFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\PowerPlant\PowerPlant</Value>
+    </Setting>
+    <Setting Name="strPowerPlantFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Palletizer.exe,PowerPlant.exe</Value>
+    </Setting>
+    <Setting Name="strDownTimeFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\PowerPlant\DownTime</Value>
+    </Setting>
+    <Setting Name="strIPCInitialPgmFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\PowerPlant\IPCInitialPgm</Value>
+    </Setting>
+    <Setting Name="strIPCInitialPgmFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IPCInitialPgm.exe.config</Value>
+    </Setting>
+    <Setting Name="strLogFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\DeploymentLog\</Value>
+    </Setting>
+    <Setting Name="strConn" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=MPHOPP01;Initial Catalog=PowerPlant_Deployment;Persist Security Info=True;User ID=mpo;Password=mpopwd$1&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=MPHOPP01;Initial Catalog=PowerPlant_Deployment;Persist Security Info=True;User ID=mpo;Password=mpopwd$1</Value>
+    </Setting>
+    <Setting Name="strDftRegSubKeyPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Software\ODBC\ODBC.INI\ServerPowerPlant</Value>
+    </Setting>
+    <Setting Name="strDftRegKeyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server</Value>
+    </Setting>
+    <Setting Name="strDftNewRegValue" Type="System.String" Scope="User">
+      <Value Profile="(Default)">MPSPPP01</Value>
+    </Setting>
+    <Setting Name="strDftProbatClientSourceFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ProbatClient</Value>
+    </Setting>
+    <Setting Name="strDftProbatClientTargetFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\ProbatClient</Value>
+    </Setting>
+    <Setting Name="strDftProbatFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="strDftCfgProbatRegistryBatchFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\ProbatClient\ConfigureProbatClientRegistry.bat</Value>
+    </Setting>
+    <Setting Name="strDownTimeFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DownTime.exe</Value>
+    </Setting>
+    <Setting Name="strSourceFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.40 OLSOV\DeploymentObjects</Value>
+    </Setting>
+    <Setting Name="strSourceFolderSQL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\PowerPlant Archives\Power Plant\V6.40 OLSOV\Changes on Server</Value>
+    </Setting>
+    <Setting Name="strWCFFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\PowerPlant\PPWCFService</Value>
+    </Setting>
+    <Setting Name="strWCFFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PPWCFService.dll</Value>
+    </Setting>
+    <Setting Name="strTCPFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C$\PowerPlant\PPTCPServer</Value>
+    </Setting>
+    <Setting Name="strTCPFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PPTCPServer.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

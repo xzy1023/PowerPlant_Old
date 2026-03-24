@@ -1,0 +1,42 @@
+CREATE TABLE [dbo].[tblCaseWeightLog] (
+    [RRN]                INT             IDENTITY (1, 1) NOT NULL,
+    [Facility]           CHAR (3)        NOT NULL,
+    [RecordNumber]       INT             NOT NULL,
+    [ShopOrder]          INT             NOT NULL,
+    [ShopOrderStartTIme] DATETIME        NOT NULL,
+    [ItemNumber]         VARCHAR (35)    NOT NULL,
+    [TimeTest]           DATETIME        NOT NULL,
+    [PackagingLine]      CHAR (10)       NOT NULL,
+    [ShiftNo]            TINYINT         NOT NULL,
+    [WeightSource]       TINYINT         NOT NULL,
+    [LabelWeight]        DECIMAL (6, 1)  NULL,
+    [TargetWeight]       DECIMAL (6, 1)  NOT NULL,
+    [MinWeight]          DECIMAL (6, 1)  NULL,
+    [MaxWeight]          DECIMAL (6, 1)  NULL,
+    [ActualWeight]       DECIMAL (6, 1)  NOT NULL,
+    [Bags_box_SP]        SMALLINT        NOT NULL,
+    [Bags_box_PV]        SMALLINT        NOT NULL,
+    [Empty_Box_Weight]   DECIMAL (7, 2)  NOT NULL,
+    [Filled_Box_Weight]  DECIMAL (8, 2)  NOT NULL,
+    [Net_Box_Weight]     DECIMAL (8, 2)  NOT NULL,
+    [Total_Weight]       DECIMAL (11, 2) NOT NULL,
+    [BoxNumber]          INT             NOT NULL,
+    [TareWeight]         DECIMAL (8, 4)  NOT NULL,
+    [Blend]              VARCHAR (11)    NULL,
+    [Grind]              VARCHAR (6)     NULL,
+    [BinOrTote]          VARCHAR (1)     NULL,
+    [BinToteNo]          VARCHAR (10)    NULL,
+    [LowerControlLimit]  DECIMAL (6, 1)  NULL,
+    [DialSetting]        DECIMAL (10, 4) NULL,
+    [DialNo]             SMALLINT        NULL,
+    [QCInitial]          VARCHAR (10)    NULL,
+    [BlockId]            DATETIME        NULL,
+    [ErrorCode]          SMALLINT        NULL,
+    [Inactive]           BIT             NULL,
+    [BatchStartTime]     DATETIME        NULL,
+    CONSTRAINT [PK_tblCaseWeightLog] PRIMARY KEY CLUSTERED ([RRN] ASC)
+);
+
+
+GO
+

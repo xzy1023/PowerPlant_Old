@@ -1,0 +1,102 @@
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.exe.config
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.exe
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.xml
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.pdb
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.exe
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.pdb
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.xml
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\ResolveAssemblyReference.cache
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmProcessMonitor.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmMainMenu.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogOn_NoPLC.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmInquiry.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogScraps.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmRePrtPalletLabels.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmShopOrderNotes.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmAlphaNumKB.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmBillOfMaterials.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCreatePallet_PS.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCreatePallet.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmNumKeyPad.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtPalletLabels.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtCaseLabelNoSO.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtLabelsAndControl.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogOn.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmStopShopOrder.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmStartShopOrder.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.Resources.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.ucHeading.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.vbproj.GenerateResource.Cache
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmMsgBox.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Release\PowerPlant.exe.config
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.exe
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.xml
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.pdb
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Release\PowerPlant.exe
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Release\PowerPlant.pdb
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Release\PowerPlant.xml
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\ResolveAssemblyReference.cache
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmMsgBox.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmProcessMonitor.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmMainMenu.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmLogOn_NoPLC.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmInquiry.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmLogScraps.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmRePrtPalletLabels.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmShopOrderNotes.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmAlphaNumKB.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmBillOfMaterials.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmCreatePallet_PS.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmCreatePallet.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmNumKeyPad.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmPrtPalletLabels.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmPrtCaseLabelNoSO.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmPrtLabelsAndControl.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmLogOn.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmStopShopOrder.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmStartShopOrder.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.Resources.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.ucHeading.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.vbproj.GenerateResource.Cache
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmShopOrderSchedule.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmShopOrderSchedule.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmPrtCaseLabelWithSO.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtCaseLabelWithSO.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPalletInquiry.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Release\PowerPlant.frmPalletInquiry.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.exe.config
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.xml
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.pdb
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.exe
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.pdb
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\bin\Debug\PowerPlant.xml
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\ResolveAssemblyReference.cache
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPalletInquiry.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtCaseLabelWithSO.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmShopOrderSchedule.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmMsgBox.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmProcessMonitor.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmMainMenu.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogOn_NoPLC.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmInquiry.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogScraps.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmRePrtPalletLabels.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmShopOrderNotes.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmAlphaNumKB.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmBillOfMaterials.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCreatePallet_PS.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCreatePallet.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmNumKeyPad.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtPalletLabels.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtCaseLabelNoSO.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmPrtLabelsAndControl.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmLogOn.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmStopShopOrder.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmStartShopOrder.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.Resources.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.ucHeading.resources
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.vbproj.GenerateResource.Cache
+C:\iFolder\leebong\Home\Old Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.exe
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCalculator.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmSplash.resources
+C:\iFolder\leebong\Home\Visual Studio 2005\projects\PowerPlant\PowerPlant\obj\Debug\PowerPlant.frmCheckConnection.resources

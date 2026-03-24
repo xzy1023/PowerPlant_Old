@@ -1,0 +1,10 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\bin\Release\Label Printing.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\bin\Release\Label Printing.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\bin\Release\Label Printing.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\bin\Release\Label Printing.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label_Printing.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label_Printing.LabelPrinting.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label Printing.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label Printing.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label Printing.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\Projects\Label Printing\Label Printing\obj\Release\Label Printing.pdb

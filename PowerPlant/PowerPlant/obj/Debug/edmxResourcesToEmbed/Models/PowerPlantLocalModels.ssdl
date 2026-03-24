@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PowerPlantLocalModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityType Name="tblComputerConfig">
+    <Key>
+      <PropertyRef Name="ComputerName" />
+    </Key>
+    <Property Name="Facility" Type="char" MaxLength="3" />
+    <Property Name="RecordStatus" Type="bit" Nullable="false" />
+    <Property Name="ComputerName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="varchar" MaxLength="50" />
+    <Property Name="AttachedPLC" Type="bit" Nullable="false" />
+    <Property Name="PkgLineType" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PalletStation" Type="bit" Nullable="false" />
+    <Property Name="PrintPalletLabel" Type="bit" Nullable="false" />
+    <Property Name="ScaleBrand" Type="varchar" MaxLength="50" />
+    <Property Name="Model" Type="varchar" MaxLength="50" />
+    <Property Name="RunMode" Type="char" MaxLength="1" />
+    <Property Name="CommPort" Type="tinyint" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" />
+    <Property Name="SamplingType" Type="char" MaxLength="1" />
+    <Property Name="SampleBlockTimeInterval" Type="tinyint" />
+    <Property Name="NoOfSamplesInABlock" Type="tinyint" />
+    <Property Name="SamplingTime" Type="smallint" />
+    <Property Name="NoOfDials" Type="tinyint" />
+    <Property Name="Dial1DecPlace" Type="tinyint" />
+    <Property Name="QATWorkFlowInitiation" Type="tinyint" />
+    <Property Name="InterfaceType" Type="varchar" MaxLength="20" />
+    <Property Name="EnableOutputLocation" Type="bit" Nullable="false" />
+    <Property Name="AutoCountUnit" Type="varchar" MaxLength="10" />
+    <Property Name="Enable2SOIn1Line" Type="bit" Nullable="false" />
+    <Property Name="EnableOvrExpDate" Type="bit" Nullable="false" />
+    <Property Name="EnableDownLoad" Type="bit" Nullable="false" />
+    <Property Name="ProbatEnabled" Type="bit" Nullable="false" />
+    <Property Name="ProcessType" Type="varchar" MaxLength="20" />
+    <Property Name="SaveTareWgt" Type="bit" Nullable="false" />
+    <Property Name="ReadyForDownLoad" Type="bit" Nullable="false" />
+    <Property Name="NoOfLabels" Type="int" Nullable="false" />
+    <Property Name="IndusoftPgmName" Type="varchar" MaxLength="100" />
+    <Property Name="WorkShiftType" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="ShowEfficiency" Type="bit" Nullable="false" />
+    <Property Name="CreatePallet" Type="bit" Nullable="false" />
+    <Property Name="VirtualIPC" Type="bit" Nullable="false" />
+    <Property Name="EnableCaseLabelMidnightRefresh" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblPalletExt">
+    <Key>
+      <PropertyRef Name="CreationDateTime" />
+    </Key>
+    <Property Name="CreationDateTime" Type="datetime" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblPlantStaff">
+    <Key>
+      <PropertyRef Name="Facility" />
+      <PropertyRef Name="WorkGroup" />
+      <PropertyRef Name="StaffID" />
+    </Key>
+    <Property Name="ActiveRecord" Type="bit" Nullable="false" />
+    <Property Name="Facility" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="WorkGroup" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="StaffID" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StaffClass" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="ResetPassword" Type="bit" Nullable="false" />
+    <Property Name="DateLastChange" Type="datetime" />
+    <Property Name="WorkSubGroup" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="PrintAccessLevel" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATCameraResult">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="LightDensityResult" Type="bit" Nullable="false" />
+    <Property Name="MinWidthReuslt" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="LaneNo" Type="int" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="SampleNo" Type="int" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="OverrideID" Type="datetime" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="LaneNo" Type="int" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="SampleNo" Type="int" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="OverrideID" Type="datetime" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityContainer Name="PowerPlantLocalModelsStoreContainer">
+    <EntitySet Name="tblComputerConfig" EntityType="Self.tblComputerConfig" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPalletExt" EntityType="Self.tblPalletExt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPlantStaff" EntityType="Self.tblPlantStaff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATCameraResult" EntityType="Self.tblQATCameraResult" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATLidPeelResultDetail" EntityType="Self.tblQATLidPeelResultDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATLidPeelResultHeader" EntityType="Self.tblQATLidPeelResultHeader" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATShakeShineResultDetail" EntityType="Self.tblQATShakeShineResultDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATShakeShineResultHeader" EntityType="Self.tblQATShakeShineResultHeader" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

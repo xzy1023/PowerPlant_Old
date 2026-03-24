@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsComputerConfig" targetNamespace="http://tempuri.org/dsComputerConfig.xsd" xmlns:mstns="http://tempuri.org/dsComputerConfig.xsd" xmlns="http://tempuri.org/dsComputerConfig.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="strConn" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="strConn (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.CheckIPCPfmCounter.My.MySettings.GlobalReference.Default.strConn" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblComputerConfigTableAdapter" GeneratorDataComponentClassName="tblComputerConfigTableAdapter" Name="tblComputerConfig" UserDataComponentName="tblComputerConfigTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="strConn (MySettings)" DbObjectName="PowerPlant_Prd.dbo.tblComputerConfig" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT       *
+FROM            tblComputerConfig
+WHERE        (RecordStatus = 1)</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Facility" DataSetColumn="Facility" />
+              <Mapping SourceColumn="RecordStatus" DataSetColumn="RecordStatus" />
+              <Mapping SourceColumn="ComputerName" DataSetColumn="ComputerName" />
+              <Mapping SourceColumn="Description" DataSetColumn="Description" />
+              <Mapping SourceColumn="AttachedPLC" DataSetColumn="AttachedPLC" />
+              <Mapping SourceColumn="PkgLineType" DataSetColumn="PkgLineType" />
+              <Mapping SourceColumn="PalletStation" DataSetColumn="PalletStation" />
+              <Mapping SourceColumn="PrintPalletLabel" DataSetColumn="PrintPalletLabel" />
+              <Mapping SourceColumn="ScaleBrand" DataSetColumn="ScaleBrand" />
+              <Mapping SourceColumn="Model" DataSetColumn="Model" />
+              <Mapping SourceColumn="RunMode" DataSetColumn="RunMode" />
+              <Mapping SourceColumn="CommPort" DataSetColumn="CommPort" />
+              <Mapping SourceColumn="PackagingLine" DataSetColumn="PackagingLine" />
+              <Mapping SourceColumn="SamplingType" DataSetColumn="SamplingType" />
+              <Mapping SourceColumn="SampleBlockTimeInterval" DataSetColumn="SampleBlockTimeInterval" />
+              <Mapping SourceColumn="NoOfSamplesInABlock" DataSetColumn="NoOfSamplesInABlock" />
+              <Mapping SourceColumn="SamplingTime" DataSetColumn="SamplingTime" />
+              <Mapping SourceColumn="NoOfDials" DataSetColumn="NoOfDials" />
+              <Mapping SourceColumn="Dial1DecPlace" DataSetColumn="Dial1DecPlace" />
+              <Mapping SourceColumn="Dial2DecPlace" DataSetColumn="Dial2DecPlace" />
+              <Mapping SourceColumn="InterfaceType" DataSetColumn="InterfaceType" />
+              <Mapping SourceColumn="EnableOutputLocation" DataSetColumn="EnableOutputLocation" />
+              <Mapping SourceColumn="AutoCountUnit" DataSetColumn="AutoCountUnit" />
+              <Mapping SourceColumn="Enable2SOIn1Line" DataSetColumn="Enable2SOIn1Line" />
+              <Mapping SourceColumn="EnableOvrExpDate" DataSetColumn="EnableOvrExpDate" />
+              <Mapping SourceColumn="EnableDownLoad" DataSetColumn="EnableDownLoad" />
+              <Mapping SourceColumn="ProbatEnabled" DataSetColumn="ProbatEnabled" />
+              <Mapping SourceColumn="ProcessType" DataSetColumn="ProcessType" />
+              <Mapping SourceColumn="SaveTareWgt" DataSetColumn="SaveTareWgt" />
+              <Mapping SourceColumn="ReadyForDownLoad" DataSetColumn="ReadyForDownLoad" />
+              <Mapping SourceColumn="NoOfLabels" DataSetColumn="NoOfLabels" />
+              <Mapping SourceColumn="IndusoftPgmName" DataSetColumn="IndusoftPgmName" />
+              <Mapping SourceColumn="WorkShiftType" DataSetColumn="WorkShiftType" />
+              <Mapping SourceColumn="ShowEfficiency" DataSetColumn="ShowEfficiency" />
+              <Mapping SourceColumn="CreatePallet" DataSetColumn="CreatePallet" />
+              <Mapping SourceColumn="VirtualIPC" DataSetColumn="VirtualIPC" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsComputerConfig" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsComputerConfig" msprop:Generator_UserDSName="dsComputerConfig">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblComputerConfig" msprop:Generator_TableClassName="tblComputerConfigDataTable" msprop:Generator_TableVarName="tabletblComputerConfig" msprop:Generator_TablePropName="tblComputerConfig" msprop:Generator_RowDeletingName="tblComputerConfigRowDeleting" msprop:Generator_RowChangingName="tblComputerConfigRowChanging" msprop:Generator_RowEvHandlerName="tblComputerConfigRowChangeEventHandler" msprop:Generator_RowDeletedName="tblComputerConfigRowDeleted" msprop:Generator_UserTableName="tblComputerConfig" msprop:Generator_RowChangedName="tblComputerConfigRowChanged" msprop:Generator_RowEvArgName="tblComputerConfigRowChangeEvent" msprop:Generator_RowClassName="tblComputerConfigRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Facility" msprop:Generator_ColumnVarNameInTable="columnFacility" msprop:Generator_ColumnPropNameInRow="Facility" msprop:Generator_ColumnPropNameInTable="FacilityColumn" msprop:Generator_UserColumnName="Facility">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RecordStatus" msprop:Generator_ColumnVarNameInTable="columnRecordStatus" msprop:Generator_ColumnPropNameInRow="RecordStatus" msprop:Generator_ColumnPropNameInTable="RecordStatusColumn" msprop:Generator_UserColumnName="RecordStatus" type="xs:boolean" />
+              <xs:element name="ComputerName" msprop:Generator_ColumnVarNameInTable="columnComputerName" msprop:Generator_ColumnPropNameInRow="ComputerName" msprop:Generator_ColumnPropNameInTable="ComputerNameColumn" msprop:Generator_UserColumnName="ComputerName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" msprop:Generator_UserColumnName="Description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AttachedPLC" msprop:Generator_ColumnVarNameInTable="columnAttachedPLC" msprop:Generator_ColumnPropNameInRow="AttachedPLC" msprop:Generator_ColumnPropNameInTable="AttachedPLCColumn" msprop:Generator_UserColumnName="AttachedPLC" type="xs:boolean" />
+              <xs:element name="PkgLineType" msprop:Generator_ColumnVarNameInTable="columnPkgLineType" msprop:Generator_ColumnPropNameInRow="PkgLineType" msprop:Generator_ColumnPropNameInTable="PkgLineTypeColumn" msprop:Generator_UserColumnName="PkgLineType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PalletStation" msprop:Generator_ColumnVarNameInTable="columnPalletStation" msprop:Generator_ColumnPropNameInRow="PalletStation" msprop:Generator_ColumnPropNameInTable="PalletStationColumn" msprop:Generator_UserColumnName="PalletStation" type="xs:boolean" />
+              <xs:element name="PrintPalletLabel" msprop:Generator_ColumnVarNameInTable="columnPrintPalletLabel" msprop:Generator_ColumnPropNameInRow="PrintPalletLabel" msprop:Generator_ColumnPropNameInTable="PrintPalletLabelColumn" msprop:Generator_UserColumnName="PrintPalletLabel" type="xs:boolean" />
+              <xs:element name="ScaleBrand" msprop:Generator_ColumnVarNameInTable="columnScaleBrand" msprop:Generator_ColumnPropNameInRow="ScaleBrand" msprop:Generator_ColumnPropNameInTable="ScaleBrandColumn" msprop:Generator_UserColumnName="ScaleBrand" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Model" msprop:Generator_ColumnVarNameInTable="columnModel" msprop:Generator_ColumnPropNameInRow="Model" msprop:Generator_ColumnPropNameInTable="ModelColumn" msprop:Generator_UserColumnName="Model" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RunMode" msprop:Generator_ColumnVarNameInTable="columnRunMode" msprop:Generator_ColumnPropNameInRow="RunMode" msprop:Generator_ColumnPropNameInTable="RunModeColumn" msprop:Generator_UserColumnName="RunMode" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CommPort" msprop:Generator_ColumnVarNameInTable="columnCommPort" msprop:Generator_ColumnPropNameInRow="CommPort" msprop:Generator_ColumnPropNameInTable="CommPortColumn" msprop:Generator_UserColumnName="CommPort" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="PackagingLine" msprop:Generator_ColumnVarNameInTable="columnPackagingLine" msprop:Generator_ColumnPropNameInRow="PackagingLine" msprop:Generator_ColumnPropNameInTable="PackagingLineColumn" msprop:Generator_UserColumnName="PackagingLine">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SamplingType" msprop:Generator_ColumnVarNameInTable="columnSamplingType" msprop:Generator_ColumnPropNameInRow="SamplingType" msprop:Generator_ColumnPropNameInTable="SamplingTypeColumn" msprop:Generator_UserColumnName="SamplingType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SampleBlockTimeInterval" msprop:Generator_ColumnVarNameInTable="columnSampleBlockTimeInterval" msprop:Generator_ColumnPropNameInRow="SampleBlockTimeInterval" msprop:Generator_ColumnPropNameInTable="SampleBlockTimeIntervalColumn" msprop:Generator_UserColumnName="SampleBlockTimeInterval" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="NoOfSamplesInABlock" msprop:Generator_ColumnVarNameInTable="columnNoOfSamplesInABlock" msprop:Generator_ColumnPropNameInRow="NoOfSamplesInABlock" msprop:Generator_ColumnPropNameInTable="NoOfSamplesInABlockColumn" msprop:Generator_UserColumnName="NoOfSamplesInABlock" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="SamplingTime" msprop:Generator_ColumnVarNameInTable="columnSamplingTime" msprop:Generator_ColumnPropNameInRow="SamplingTime" msprop:Generator_ColumnPropNameInTable="SamplingTimeColumn" msprop:Generator_UserColumnName="SamplingTime" type="xs:short" minOccurs="0" />
+              <xs:element name="NoOfDials" msprop:Generator_ColumnVarNameInTable="columnNoOfDials" msprop:Generator_ColumnPropNameInRow="NoOfDials" msprop:Generator_ColumnPropNameInTable="NoOfDialsColumn" msprop:Generator_UserColumnName="NoOfDials" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Dial1DecPlace" msprop:Generator_ColumnVarNameInTable="columnDial1DecPlace" msprop:Generator_ColumnPropNameInRow="Dial1DecPlace" msprop:Generator_ColumnPropNameInTable="Dial1DecPlaceColumn" msprop:Generator_UserColumnName="Dial1DecPlace" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="Dial2DecPlace" msprop:Generator_ColumnVarNameInTable="columnDial2DecPlace" msprop:Generator_ColumnPropNameInRow="Dial2DecPlace" msprop:Generator_ColumnPropNameInTable="Dial2DecPlaceColumn" msprop:Generator_UserColumnName="Dial2DecPlace" type="xs:unsignedByte" minOccurs="0" />
+              <xs:element name="InterfaceType" msprop:Generator_ColumnVarNameInTable="columnInterfaceType" msprop:Generator_ColumnPropNameInRow="InterfaceType" msprop:Generator_ColumnPropNameInTable="InterfaceTypeColumn" msprop:Generator_UserColumnName="InterfaceType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EnableOutputLocation" msprop:Generator_ColumnVarNameInTable="columnEnableOutputLocation" msprop:Generator_ColumnPropNameInRow="EnableOutputLocation" msprop:Generator_ColumnPropNameInTable="EnableOutputLocationColumn" msprop:Generator_UserColumnName="EnableOutputLocation" type="xs:boolean" />
+              <xs:element name="AutoCountUnit" msprop:Generator_ColumnVarNameInTable="columnAutoCountUnit" msprop:Generator_ColumnPropNameInRow="AutoCountUnit" msprop:Generator_ColumnPropNameInTable="AutoCountUnitColumn" msprop:Generator_UserColumnName="AutoCountUnit" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Enable2SOIn1Line" msprop:Generator_ColumnVarNameInTable="columnEnable2SOIn1Line" msprop:Generator_ColumnPropNameInRow="Enable2SOIn1Line" msprop:Generator_ColumnPropNameInTable="Enable2SOIn1LineColumn" msprop:Generator_UserColumnName="Enable2SOIn1Line" type="xs:boolean" />
+              <xs:element name="EnableOvrExpDate" msprop:Generator_ColumnVarNameInTable="columnEnableOvrExpDate" msprop:Generator_ColumnPropNameInRow="EnableOvrExpDate" msprop:Generator_ColumnPropNameInTable="EnableOvrExpDateColumn" msprop:Generator_UserColumnName="EnableOvrExpDate" type="xs:boolean" />
+              <xs:element name="EnableDownLoad" msprop:Generator_ColumnVarNameInTable="columnEnableDownLoad" msprop:Generator_ColumnPropNameInRow="EnableDownLoad" msprop:Generator_ColumnPropNameInTable="EnableDownLoadColumn" msprop:Generator_UserColumnName="EnableDownLoad" type="xs:boolean" />
+              <xs:element name="ProbatEnabled" msprop:Generator_ColumnVarNameInTable="columnProbatEnabled" msprop:Generator_ColumnPropNameInRow="ProbatEnabled" msprop:Generator_ColumnPropNameInTable="ProbatEnabledColumn" msprop:Generator_UserColumnName="ProbatEnabled" type="xs:boolean" />
+              <xs:element name="ProcessType" msprop:Generator_ColumnVarNameInTable="columnProcessType" msprop:Generator_ColumnPropNameInRow="ProcessType" msprop:Generator_ColumnPropNameInTable="ProcessTypeColumn" msprop:Generator_UserColumnName="ProcessType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SaveTareWgt" msprop:Generator_ColumnVarNameInTable="columnSaveTareWgt" msprop:Generator_ColumnPropNameInRow="SaveTareWgt" msprop:Generator_ColumnPropNameInTable="SaveTareWgtColumn" msprop:Generator_UserColumnName="SaveTareWgt" type="xs:boolean" />
+              <xs:element name="ReadyForDownLoad" msprop:Generator_ColumnVarNameInTable="columnReadyForDownLoad" msprop:Generator_ColumnPropNameInRow="ReadyForDownLoad" msprop:Generator_ColumnPropNameInTable="ReadyForDownLoadColumn" msprop:Generator_UserColumnName="ReadyForDownLoad" type="xs:boolean" />
+              <xs:element name="NoOfLabels" msprop:Generator_ColumnVarNameInTable="columnNoOfLabels" msprop:Generator_ColumnPropNameInRow="NoOfLabels" msprop:Generator_ColumnPropNameInTable="NoOfLabelsColumn" msprop:Generator_UserColumnName="NoOfLabels" type="xs:int" />
+              <xs:element name="IndusoftPgmName" msprop:Generator_ColumnVarNameInTable="columnIndusoftPgmName" msprop:Generator_ColumnPropNameInRow="IndusoftPgmName" msprop:Generator_ColumnPropNameInTable="IndusoftPgmNameColumn" msprop:Generator_UserColumnName="IndusoftPgmName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WorkShiftType" msprop:Generator_ColumnVarNameInTable="columnWorkShiftType" msprop:Generator_ColumnPropNameInRow="WorkShiftType" msprop:Generator_ColumnPropNameInTable="WorkShiftTypeColumn" msprop:Generator_UserColumnName="WorkShiftType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ShowEfficiency" msprop:Generator_ColumnVarNameInTable="columnShowEfficiency" msprop:Generator_ColumnPropNameInRow="ShowEfficiency" msprop:Generator_ColumnPropNameInTable="ShowEfficiencyColumn" msprop:Generator_UserColumnName="ShowEfficiency" type="xs:boolean" />
+              <xs:element name="CreatePallet" msprop:Generator_ColumnVarNameInTable="columnCreatePallet" msprop:Generator_ColumnPropNameInRow="CreatePallet" msprop:Generator_ColumnPropNameInTable="CreatePalletColumn" msprop:Generator_UserColumnName="CreatePallet" type="xs:boolean" />
+              <xs:element name="VirtualIPC" msprop:Generator_ColumnVarNameInTable="columnVirtualIPC" msprop:Generator_ColumnPropNameInRow="VirtualIPC" msprop:Generator_ColumnPropNameInTable="VirtualIPCColumn" msprop:Generator_UserColumnName="VirtualIPC" type="xs:boolean" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblComputerConfig" />
+      <xs:field xpath="mstns:ComputerName" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2af153ba8dd4407484b1653ac22843c5" Name="Diagram1">
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblQATCameraResult" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblQATLidPeelResultDetail" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblQATLidPeelResultHeader" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblQATShakeShineResultDetail" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblQATShakeShineResultHeader" Width="1.5" PointX="2.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblPalletExt" Width="1.5" PointX="5.375" PointY="5.75" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblPlantStaff" Width="1.5" PointX="7.375" PointY="0.75" />
+        <EntityTypeShape EntityType="PowerPlantLocalModels.tblComputerConfig" Width="1.5" PointX="7.375" PointY="5.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

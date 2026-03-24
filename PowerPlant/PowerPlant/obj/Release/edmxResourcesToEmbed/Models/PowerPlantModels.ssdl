@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PowerPlantModels.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityType Name="tblEquipment">
+    <Key>
+      <PropertyRef Name="facility" />
+      <PropertyRef Name="EquipmentID" />
+      <PropertyRef Name="Type" />
+    </Key>
+    <Property Name="Active" Type="bit" Nullable="false" />
+    <Property Name="facility" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="EquipmentID" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Type" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="SubType" Type="char" MaxLength="1" />
+    <Property Name="Description" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="GroupID" Type="varchar" MaxLength="10" />
+    <Property Name="ProbatID" Type="varchar" MaxLength="10" />
+    <Property Name="IPCSharedGroup" Type="tinyint" />
+    <Property Name="WorkCenter" Type="varchar" MaxLength="10" />
+    <Property Name="EnableDownTimeDuration" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblEquipment_ScrapRejectPoint">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EquipmentID" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="RejectPointID" Type="int" Nullable="false" />
+    <Property Name="VisibleInIPC" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblPalletExt">
+    <Key>
+      <PropertyRef Name="PalletID" />
+    </Key>
+    <Property Name="PalletID" Type="int" Nullable="false" />
+    <Property Name="Creator" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tblPalletHst">
+    <Key>
+      <PropertyRef Name="Facility" />
+      <PropertyRef Name="PalletID" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Facility" Type="char" MaxLength="3" Nullable="false" />
+    <Property Name="PalletID" Type="int" Nullable="false" />
+    <Property Name="QtyPerPallet" Type="int" Nullable="false" />
+    <Property Name="Quantity" Type="int" Nullable="false" />
+    <Property Name="ItemNumber" Type="varchar" MaxLength="35" Nullable="false" />
+    <Property Name="DefaultPkgLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="Operator" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="CreationDate" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="CreationTime" Type="char" MaxLength="6" Nullable="false" />
+    <Property Name="OrderComplete" Type="char" MaxLength="1" Nullable="false" />
+    <Property Name="LotID" Type="varchar" MaxLength="25" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="StartTime" Type="datetime" Nullable="false" />
+    <Property Name="ProductionDate" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="ExpiryDate" Type="char" MaxLength="8" Nullable="false" />
+    <Property Name="PrintStatus" Type="smallint" Nullable="false" />
+    <Property Name="CreationDateTime" Type="datetime" Nullable="false" />
+    <Property Name="ShiftProductionDate" Type="datetime" />
+    <Property Name="ShiftNo" Type="tinyint" />
+    <Property Name="LastUpdate" Type="datetime" />
+    <Property Name="OutputLocation" Type="varchar" MaxLength="10" />
+    <Property Name="DestinationShopOrder" Type="int" />
+  </EntityType>
+  <EntityType Name="tblQATCameraResult">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="LightDensityResult" Type="bit" Nullable="false" />
+    <Property Name="MinWidthReuslt" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="LaneNo" Type="int" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="SampleNo" Type="int" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATLidPeelResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="OverrideID" Type="datetime" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblQATRejectResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="TestResult" Type="tinyint" />
+    <Property Name="TestTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATRejectResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="RetestNo" Type="int" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="tinyint" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultDetail">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="LaneNo" Type="int" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="SampleNo" Type="int" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblQATShakeShineResultHeader">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BatchID" Type="datetime" Nullable="false" />
+    <Property Name="ConfirmedBy" Type="varchar" MaxLength="10" />
+    <Property Name="Facility" Type="varchar" MaxLength="3" Nullable="false" />
+    <Property Name="InterfaceID" Type="varchar" MaxLength="24" Nullable="false" />
+    <Property Name="OverrideID" Type="datetime" />
+    <Property Name="PackagingLine" Type="char" MaxLength="10" Nullable="false" />
+    <Property Name="QAConfirmed" Type="bit" />
+    <Property Name="RetestNo" Type="tinyint" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="SOStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TestEndTime" Type="datetime" Nullable="false" />
+    <Property Name="TestResult" Type="bit" Nullable="false" />
+    <Property Name="TestStartTime" Type="datetime" Nullable="false" />
+    <Property Name="TesterID" Type="varchar" MaxLength="10" />
+    <Property Name="QATEntryPoint" Type="char" MaxLength="1" />
+  </EntityType>
+  <EntityType Name="tblScrapRejectPoint">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RejectPoint" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Comments" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tblScrapRejectPointLog">
+    <Key>
+      <PropertyRef Name="RRN" />
+    </Key>
+    <Property Name="RRN" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ProductionDate" Type="date" Nullable="false" />
+    <Property Name="Shift" Type="int" Nullable="false" />
+    <Property Name="ShopOrder" Type="int" Nullable="false" />
+    <Property Name="ItemNumber" Type="nvarchar" MaxLength="35" Nullable="false" />
+    <Property Name="Equipment" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Operator" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="RejectPointID" Type="int" Nullable="false" />
+    <Property Name="Qty" Type="int" Nullable="false" />
+    <Property Name="ModifiedDateTime" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="PowerPlantModelsStoreContainer">
+    <EntitySet Name="tblEquipment" EntityType="Self.tblEquipment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblEquipment_ScrapRejectPoint" EntityType="Self.tblEquipment_ScrapRejectPoint" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPalletExt" EntityType="Self.tblPalletExt" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblPalletHst" EntityType="Self.tblPalletHst" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATCameraResult" EntityType="Self.tblQATCameraResult" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATLidPeelResultDetail" EntityType="Self.tblQATLidPeelResultDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATLidPeelResultHeader" EntityType="Self.tblQATLidPeelResultHeader" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATRejectResultDetail" EntityType="Self.tblQATRejectResultDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATRejectResultHeader" EntityType="Self.tblQATRejectResultHeader" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATShakeShineResultDetail" EntityType="Self.tblQATShakeShineResultDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblQATShakeShineResultHeader" EntityType="Self.tblQATShakeShineResultHeader" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblScrapRejectPoint" EntityType="Self.tblScrapRejectPoint" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblScrapRejectPointLog" EntityType="Self.tblScrapRejectPointLog" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

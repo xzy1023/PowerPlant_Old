@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsQATEntryPoint" targetNamespace="http://tempuri.org/dsQATEntryPoint.xsd" xmlns:mstns="http://tempuri.org/dsQATEntryPoint.xsd" xmlns="http://tempuri.org/dsQATEntryPoint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="PowerPlantCnnStr" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="PowerPlantCnnStr (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.PowerPlantCnnStr.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblQATEntryPointTableAdapter" GeneratorDataComponentClassName="tblQATEntryPointTableAdapter" Name="tblQATEntryPoint" UserDataComponentName="tblQATEntryPointTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="PowerPlantCnnStr (Web.config)" DbObjectName="PowerPlantAXSP_Dev.dbo.tblQATEntryPoint" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Fill" GenerateShortCommands="false" GeneratorSourceName="Fill" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        QATEntryPoint, EntryPointDescription
+FROM            tblQATEntryPoint
+ORDER BY EntryPointDescription</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="QATEntryPoint" DataSetColumn="QATEntryPoint" />
+              <Mapping SourceColumn="EntryPointDescription" DataSetColumn="EntryPointDescription" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsQATEntryPoint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsQATEntryPoint" msprop:Generator_UserDSName="dsQATEntryPoint">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblQATEntryPoint" msprop:Generator_TableClassName="tblQATEntryPointDataTable" msprop:Generator_TableVarName="tabletblQATEntryPoint" msprop:Generator_TablePropName="tblQATEntryPoint" msprop:Generator_RowDeletingName="tblQATEntryPointRowDeleting" msprop:Generator_RowChangingName="tblQATEntryPointRowChanging" msprop:Generator_RowEvHandlerName="tblQATEntryPointRowChangeEventHandler" msprop:Generator_RowDeletedName="tblQATEntryPointRowDeleted" msprop:Generator_UserTableName="tblQATEntryPoint" msprop:Generator_RowChangedName="tblQATEntryPointRowChanged" msprop:Generator_RowEvArgName="tblQATEntryPointRowChangeEvent" msprop:Generator_RowClassName="tblQATEntryPointRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="QATEntryPoint" msprop:Generator_ColumnVarNameInTable="columnQATEntryPoint" msprop:Generator_ColumnPropNameInRow="QATEntryPoint" msprop:Generator_ColumnPropNameInTable="QATEntryPointColumn" msprop:Generator_UserColumnName="QATEntryPoint">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EntryPointDescription" msprop:Generator_ColumnVarNameInTable="columnEntryPointDescription" msprop:Generator_ColumnPropNameInRow="EntryPointDescription" msprop:Generator_ColumnPropNameInTable="EntryPointDescriptionColumn" msprop:Generator_UserColumnName="EntryPointDescription">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblQATEntryPoint" />
+      <xs:field xpath="mstns:QATEntryPoint" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

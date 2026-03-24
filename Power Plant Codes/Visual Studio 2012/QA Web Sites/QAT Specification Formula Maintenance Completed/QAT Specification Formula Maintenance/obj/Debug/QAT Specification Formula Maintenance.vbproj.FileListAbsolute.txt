@@ -1,0 +1,8 @@
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\bin\QAT Specification Formula Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\bin\QAT Specification Formula Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\bin\QAT Specification Formula Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\obj\Debug\QAT_Specification_Formula_Maintenance.Resources.resources
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\obj\Debug\QAT Specification Formula Maintenance.vbproj.GenerateResource.Cache
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\obj\Debug\QAT Specification Formula Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\obj\Debug\QAT Specification Formula Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Formula Maintenance\QAT Specification Formula Maintenance\obj\Debug\QAT Specification Formula Maintenance.pdb

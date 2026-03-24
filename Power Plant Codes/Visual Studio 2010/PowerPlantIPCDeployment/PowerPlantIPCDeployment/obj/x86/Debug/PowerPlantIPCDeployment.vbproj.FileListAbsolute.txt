@@ -1,0 +1,96 @@
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+E:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResolveAssemblyReference.cache
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+E:\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResGen.read.1.tlog
+U:\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResGen.write.1.tlog
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResGen.read.1.tlog
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\ResGen.write.1.tlog
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe.config
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.baml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\MainWindow.g.vb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\Application.g.vb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment_MarkupCompile.cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.g.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\obj\x86\Debug\PowerPlantIPCDeployment.vbproj.GenerateResource.Cache

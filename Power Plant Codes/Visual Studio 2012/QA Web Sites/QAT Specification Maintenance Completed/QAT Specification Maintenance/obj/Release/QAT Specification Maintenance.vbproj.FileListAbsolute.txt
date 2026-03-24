@@ -1,0 +1,40 @@
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QATSpecificationMaintenance.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web sites\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\bin\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\bin\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\bin\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\obj\Release\QATSpecificationMaintenance.Resources.resources
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.vbproj.GenerateResource.Cache
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance_Completed\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\bin\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\bin\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\bin\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\obj\Release\QATSpecificationMaintenance.Resources.resources
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.vbproj.GenerateResource.Cache
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance Completed V5\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.pdb
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\bin\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QATSpecificationMaintenance.Resources.resources
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.vbproj.GenerateResource.Cache
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.dll
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.xml
+C:\Visual Studio 2012\Projects\QAT Specification Maintenance\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\bin\QAT Specification Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\bin\QAT Specification Maintenance.pdb
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\bin\QAT Specification Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\obj\Release\QATSpecificationMaintenance.Resources.resources
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.vbproj.GenerateResource.Cache
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.dll
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.xml
+C:\Users\leebong\OneDrive - Mother Parkers Tea and Coffee\Home\Visual Studio 2012\QAT Web Sites\QAT Specification Maintenance Completed V6\QAT Specification Maintenance\obj\Release\QAT Specification Maintenance.pdb

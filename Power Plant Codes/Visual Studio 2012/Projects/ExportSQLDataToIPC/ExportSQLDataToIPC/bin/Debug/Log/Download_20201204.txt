@@ -1,0 +1,4 @@
+﻿12/4/2020 5:12:46 PM - There will be total 1 tables will be exported
+12/4/2020 5:12:47 PM - Table: tblComputerConfig
+12/4/2020 5:12:53 PM - Exporting downloaded tables from mpsppp01, powerplant_UA to IPCs started.
+12/4/2020 5:13:01 PM - Start exporting data to IPC - MPLTPF1SSP26

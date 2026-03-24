@@ -1,0 +1,5 @@
+CREATE USER [SQTracking];
+
+
+GO
+

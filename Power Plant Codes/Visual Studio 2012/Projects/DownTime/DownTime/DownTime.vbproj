@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EA033EC1-E6DC-40BC-A045-4B230C3E78BB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>DownTime.modDownTime</StartupObject>
+    <RootNamespace>DownTime</RootNamespace>
+    <AssemblyName>DownTime</AssemblyName>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DownTime.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DownTime.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsWin32Helper.vb" />
+    <Compile Include="dsControl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDownTimeLog.designer.vb">
+      <DependentUpon>dsDownTimeLog.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="dsDownTimeLog.vb">
+      <DependentUpon>dsDownTimeLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDTReasonCode.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDTReasonCode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDTReasonCode.vb">
+      <DependentUpon>dsDTReasonCode.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDTReasonType.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDTReasonType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsEquipment.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPlantStaff.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPlantStaff.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessionControl.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSessionControlHst.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsShift.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlphaNumKB.designer.vb">
+      <DependentUpon>frmAlphaNumKB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAlphaNumKB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmComment.Designer.vb">
+      <DependentUpon>frmComment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmComment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDownTime.designer.vb">
+      <DependentUpon>frmDownTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDownTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNumKeyPad.designer.vb">
+      <DependentUpon>frmNumKeyPad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmNumKeyPad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewDTLog.Designer.vb">
+      <DependentUpon>frmViewDTLog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewDTLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modDownTime.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SharedFunctions.vb" />
+    <Compile Include="ucHeading.designer.vb">
+      <DependentUpon>ucHeading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ucHeading.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAlphaNumKB.resx">
+      <DependentUpon>frmAlphaNumKB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmComment.resx">
+      <DependentUpon>frmComment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDownTime.resx">
+      <DependentUpon>frmDownTime.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNumKeyPad.resx">
+      <DependentUpon>frmNumKeyPad.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDTLog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmViewDTLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucHeading.resx">
+      <DependentUpon>ucHeading.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDTReasonType.xsc">
+      <DependentUpon>dsDTReasonType.xsd</DependentUpon>
+    </None>
+    <None Include="dsDTReasonType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDTReasonType.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDTReasonType.xss">
+      <DependentUpon>dsDTReasonType.xsd</DependentUpon>
+    </None>
+    <None Include="dsEquipment.xsc">
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsEquipment.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsEquipment.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsEquipment.xss">
+      <DependentUpon>dsEquipment.xsd</DependentUpon>
+    </None>
+    <None Include="dsShift.xsc">
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </None>
+    <None Include="dsShift.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsShift.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsShift.xss">
+      <DependentUpon>dsShift.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tick.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\DownTime.exe.config" />
+    <None Include="bin\Release\Copy of DownTime.exe.config" />
+    <None Include="bin\Release\Copy of DownTime.vshost.exe.config" />
+    <None Include="bin\Release\DownTime.exe.config" />
+    <None Include="bin\Release\DownTime.vshost.exe.config" />
+    <None Include="dsControl.xsc">
+      <DependentUpon>dsControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsControl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsControl.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsControl.xss">
+      <DependentUpon>dsControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsDownTimeLog.xsc">
+      <DependentUpon>dsDownTimeLog.xsd</DependentUpon>
+    </None>
+    <None Include="dsDownTimeLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDownTimeLog.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsDownTimeLog.xss">
+      <DependentUpon>dsDownTimeLog.xsd</DependentUpon>
+    </None>
+    <None Include="dsDTReasonCode.xsc">
+      <DependentUpon>dsDTReasonCode.xsd</DependentUpon>
+    </None>
+    <None Include="dsDTReasonCode.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDTReasonCode.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDTReasonCode.xss">
+      <DependentUpon>dsDTReasonCode.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlantStaff.xsc">
+      <DependentUpon>dsPlantStaff.xsd</DependentUpon>
+    </None>
+    <None Include="dsPlantStaff.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPlantStaff.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsPlantStaff.xss">
+      <DependentUpon>dsPlantStaff.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControl.xsc">
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessionControl.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessionControl.xss">
+      <DependentUpon>dsSessionControl.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControlHst.xsc">
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </None>
+    <None Include="dsSessionControlHst.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSessionControlHst.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsSessionControlHst.xss">
+      <DependentUpon>dsSessionControlHst.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\BackSpace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DownTime.exe" />
+    <Content Include="bin\Debug\DownTime.pdb" />
+    <Content Include="bin\Release\DownTime.exe" />
+    <Content Include="bin\Release\DownTime.pdb" />
+    <Content Include="bin\Release\DownTime.vshost.exe" />
+    <Content Include="bin\Release\DownTime.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

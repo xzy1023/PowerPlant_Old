@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "PowerPlantIPCDeployment", "PowerPlantIPCDeployment.exe", "{9C87EF57-1216-4527-8FED-130D2BD02EE2}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug\PowerPlantIPCDeployment.exe
+		RemoteMachine = MPR964EXM
+		StartingDirectory = C:\Visual Studio 2010\Projects\PowerPlantIPCDeployment\PowerPlantIPCDeployment\bin\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C87EF57-1216-4527-8FED-130D2BD02EE2}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
